@@ -1,0 +1,162 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "1104fc79-556f-45e4-ae48-c4ea576940da",
+  "Name": "CustomDev",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "alialgr.CustomDev.Client",
+  "ClientBaseAssemblyName": "alialgr.CustomDev.ClientBase",
+  "ClientBaseNamespace": "alialgr.CustomDev.ClientBase",
+  "ClientNamespace": "alialgr.CustomDev.Client",
+  "Code": "CustomD",
+  "CompanyCode": "alialgr",
+  "Cover": {
+    "NameGuid": "c0494d44-24fe-491d-8ace-b21f67532d6e",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "384a367c-6b7c-43e2-b7db-1910d2060e55",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "0dae4362-cb8d-4b50-9b85-6a884425af01",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "df83a2ea-8d43-4ec4-a34a-2e61863014df",
+      "MaxVersion": "",
+      "MinVersion": "4.8.39.0"
+    },
+    {
+      "Id": "f9d15b1c-2784-4c84-8348-1e162d70b988",
+      "MaxVersion": "",
+      "MinVersion": "4.8.39.0"
+    }
+  ],
+  "DesktopViews": [],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "0c0aeef3-a69c-467c-8804-2b9e2fb77f23"
+    },
+    {
+      "ItemId": "b85ff93e-2c59-4818-9d07-49f89571e501",
+      "PreviousItemId": "0c0aeef3-a69c-467c-8804-2b9e2fb77f23"
+    },
+    {
+      "ItemId": "ed1bf7c0-0b34-4dfa-8c2a-7e434b0a1411",
+      "PreviousItemId": "b85ff93e-2c59-4818-9d07-49f89571e501"
+    },
+    {
+      "ItemId": "4f2279df-cd0e-4e90-a255-a2702e67cbae",
+      "PreviousItemId": "ed1bf7c0-0b34-4dfa-8c2a-7e434b0a1411"
+    },
+    {
+      "ItemId": "6cf3f16b-117d-4d5f-940e-0d25ad7f84d1",
+      "PreviousItemId": "4f2279df-cd0e-4e90-a255-a2702e67cbae"
+    },
+    {
+      "ItemId": "9d8924c3-6eb0-475f-aabe-5aa81e173cd1",
+      "PreviousItemId": "6cf3f16b-117d-4d5f-940e-0d25ad7f84d1"
+    },
+    {
+      "ItemId": "8509383f-2f01-4d45-86ed-6009aff43720",
+      "PreviousItemId": "9d8924c3-6eb0-475f-aabe-5aa81e173cd1"
+    },
+    {
+      "ItemId": "0fde210a-a71b-4ae5-82b7-d395970dfb6f",
+      "PreviousItemId": "8509383f-2f01-4d45-86ed-6009aff43720"
+    },
+    {
+      "ItemId": "72ef90d9-08ea-4031-8460-2a915804b3db",
+      "PreviousItemId": "0fde210a-a71b-4ae5-82b7-d395970dfb6f"
+    },
+    {
+      "ItemId": "f47cca10-f95f-4af2-9954-0f03a410b90e",
+      "PreviousItemId": "72ef90d9-08ea-4031-8460-2a915804b3db"
+    },
+    {
+      "ItemId": "26222c4a-10a9-4836-bbf9-86ed71b4e82a",
+      "PreviousItemId": "f47cca10-f95f-4af2-9954-0f03a410b90e"
+    },
+    {
+      "ItemId": "894e691a-c07a-452e-9246-07d5ee3388ee",
+      "PreviousItemId": "26222c4a-10a9-4836-bbf9-86ed71b4e82a"
+    },
+    {
+      "ItemId": "e66185a9-6502-4a32-9d10-dd3ad5cdf8ea",
+      "PreviousItemId": "894e691a-c07a-452e-9246-07d5ee3388ee"
+    },
+    {
+      "ItemId": "bbd85acb-a614-418c-80fd-e67843e49d45",
+      "PreviousItemId": "e66185a9-6502-4a32-9d10-dd3ad5cdf8ea"
+    },
+    {
+      "ItemId": "5101916f-351a-4d3f-9607-0c5b7bb3df0b",
+      "PreviousItemId": "bbd85acb-a614-418c-80fd-e67843e49d45"
+    },
+    {
+      "ItemId": "5c3c9cf4-bc68-47c4-80b4-4177cd65e7bb",
+      "PreviousItemId": "5101916f-351a-4d3f-9607-0c5b7bb3df0b"
+    },
+    {
+      "ItemId": "0f550c65-79ff-42fc-99cb-cd664acb8add",
+      "PreviousItemId": "5c3c9cf4-bc68-47c4-80b4-4177cd65e7bb"
+    },
+    {
+      "ItemId": "c06702b9-28f0-4fda-af7e-8b377f52ce06",
+      "PreviousItemId": "0f550c65-79ff-42fc-99cb-cd664acb8add"
+    },
+    {
+      "ItemId": "12c4cc29-c088-4445-86ad-c47cf7886bef",
+      "PreviousItemId": "c06702b9-28f0-4fda-af7e-8b377f52ce06"
+    },
+    {
+      "ItemId": "7d932a16-a9cc-43b2-8699-90bd87b3932c",
+      "PreviousItemId": "12c4cc29-c088-4445-86ad-c47cf7886bef"
+    },
+    {
+      "ItemId": "5b371c65-d98a-4872-a5a4-98143a28b651",
+      "PreviousItemId": "7d932a16-a9cc-43b2-8699-90bd87b3932c"
+    },
+    {
+      "ItemId": "53bbc612-5129-4714-9598-eb67adc90166",
+      "PreviousItemId": "5b371c65-d98a-4872-a5a4-98143a28b651"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "alialgr.CustomDev",
+  "IsolatedAssemblyName": "alialgr.CustomDev.Isolated",
+  "IsolatedNamespace": "alialgr.CustomDev.Isolated",
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "alialgr.CustomDev",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "alialgr.CustomDev.Server",
+  "ServerNamespace": "alialgr.CustomDev.Server",
+  "SharedAssemblyName": "alialgr.CustomDev.Shared",
+  "SharedNamespace": "alialgr.CustomDev.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.23",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

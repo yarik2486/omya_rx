@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_ValidFromReqalialgr" xml:space="preserve">
+    <value>Действует с</value>
+  </data>
+  <data name="Property_ValidTillReqalialgr" xml:space="preserve">
+    <value>Действует по</value>
+  </data>
+  <data name="Property_OurSignatoryReqalialgr" xml:space="preserve">
+    <value>Подписал (наша сторона)</value>
+  </data>
+  <data name="Property_TotalAmountReqalialgr" xml:space="preserve">
+    <value>Общая сумма</value>
+  </data>
+  <data name="Property_CurrencyReqalialgr" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="Property_VatRateReqalialgr" xml:space="preserve">
+    <value>Ставка НДС</value>
+  </data>
+  <data name="Property_InitDocReqalialgr" xml:space="preserve">
+    <value>Инициатор документа</value>
+  </data>
+  <data name="Form_e020c661ce1340cfa63dcb642f9e884c" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="ControlGroup_49d50cc29ffb4a569048f09392bc6183" xml:space="preserve">
+    <value>Карточка</value>
+  </data>
+  <data name="Property_CounterpartySignatoryReqalialgr" xml:space="preserve">
+    <value>Подписал (контрагент)</value>
+  </data>
+  <data name="Property_WithResaleVisalialgr" xml:space="preserve">
+    <value>С перепродажей</value>
+  </data>
+  <data name="ControlGroup_c97fe66f820b4fbab766fbf9276cf9df" xml:space="preserve">
+    <value>Обязательность</value>
+  </data>
+  <data name="Property_IsFrameworkalialgr" xml:space="preserve">
+    <value>Рамочный</value>
+  </data>
+  <data name="Property_RDAreasAppalialgr" xml:space="preserve">
+    <value>Область применения</value>
+  </data>
+  <data name="Property_RDLeadDocValialgr" xml:space="preserve">
+    <value>Ведущий документ</value>
+  </data>
+  <data name="Property_RDFunctionalialgr" xml:space="preserve">
+    <value>Функция</value>
+  </data>
+  <data name="Property_RDConfidentalialgr" xml:space="preserve">
+    <value>Конфиденциальность</value>
+  </data>
+  <data name="Property_RDLanguagealialgr" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="Property_RDVersionalialgr" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="Property_RDSubjectalialgr" xml:space="preserve">
+    <value>Содержание</value>
+  </data>
+  <data name="Property_RDOurSignatoryalialgr" xml:space="preserve">
+    <value>Подписал</value>
+  </data>
+  <data name="Property_RDValidFromalialgr" xml:space="preserve">
+    <value>Действует с</value>
+  </data>
+  <data name="Property_RDValidFromValialgr" xml:space="preserve">
+    <value>Действует с</value>
+  </data>
+  <data name="Property_RDValidTillValialgr" xml:space="preserve">
+    <value>Действует по</value>
+  </data>
+  <data name="Property_RDSendRegalialgr" xml:space="preserve">
+    <value>Проверять при отправке на согласование по регламенту вложение версии</value>
+  </data>
+  <data name="Property_RDRegTempalialgr" xml:space="preserve">
+    <value>Проверять Рег. № при создании версии из шаблона</value>
+  </data>
+  <data name="ControlGroup_99647e14444148269fcba1e6bd0f62b0" xml:space="preserve">
+    <value>Видимость</value>
+  </data>
+  <data name="Property_COCountryalialgr" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="Property_COAreaAppalialgr" xml:space="preserve">
+    <value>Область применения </value>
+  </data>
+  <data name="Property_COProjAmountalialgr" xml:space="preserve">
+    <value>Сумма проекта</value>
+  </data>
+  <data name="Property_COCuralialgr" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="Property_COOurSignalialgr" xml:space="preserve">
+    <value>Финансовый контролер/ Утверждающий</value>
+  </data>
+  <data name="Property_CODepartalialgr" xml:space="preserve">
+    <value>Подразделение</value>
+  </data>
+  <data name="Property_COPrepByalialgr" xml:space="preserve">
+    <value>Подготовил</value>
+  </data>
+  <data name="ControlGroup_e9acc6df01d74c24aead46d18b877c7f" xml:space="preserve">
+    <value>Ограничить редактирование</value>
+  </data>
+  <data name="Property_SelRegOnLDalialgr" xml:space="preserve">
+    <value>Выбирать регламент по ведущему документу</value>
+  </data>
+</root>

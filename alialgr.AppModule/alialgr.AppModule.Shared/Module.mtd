@@ -1,0 +1,228 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "c07bdcbb-e33e-4b2f-bdab-60a96808bf1e",
+  "Name": "AppModule",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "alialgr.AppModule.Client",
+  "ClientBaseAssemblyName": "alialgr.AppModule.ClientBase",
+  "ClientBaseNamespace": "alialgr.AppModule.ClientBase",
+  "ClientNamespace": "alialgr.AppModule.Client",
+  "Code": "AppModu",
+  "CompanyCode": "alialgr",
+  "Cover": {
+    "NameGuid": "f57934e0-6d40-42c8-b879-3316d0ab567a",
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
+        "NameGuid": "055907bb-2a8b-4074-8168-2af7d40fcc51",
+        "Name": "Action1",
+        "FunctionName": "ContractualDocFix",
+        "GroupId": "a22adb67-d918-4fe0-a81e-fa0c9a9a0b4e"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "103bd6c3-22f8-4c61-a28d-38046397b16c",
+        "Name": "Action",
+        "EntityTypeId": "6ad8b3db-bfa8-4fb7-bbe0-7b479f0be43a",
+        "GroupId": "c3539935-b89d-44a3-b985-6e4b18b8b24b"
+      }
+    ],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "2253e596-e8b9-43e5-af6a-8900171bdd9a",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [
+      {
+        "NameGuid": "c3539935-b89d-44a3-b985-6e4b18b8b24b",
+        "Name": "Group",
+        "BackgroundPosition": "Stretch",
+        "TabId": "bfd71b9e-c1b8-47c9-a4c1-794b9e5c9e1f"
+      },
+      {
+        "NameGuid": "a22adb67-d918-4fe0-a81e-fa0c9a9a0b4e",
+        "Name": "Group1",
+        "BackgroundPosition": "Stretch",
+        "PreviousItemGuid": "c3539935-b89d-44a3-b985-6e4b18b8b24b",
+        "TabId": "bfd71b9e-c1b8-47c9-a4c1-794b9e5c9e1f"
+      }
+    ],
+    "Header": {
+      "NameGuid": "db7eefc7-cb73-453a-95af-d822c6be4cfb",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": [
+      {
+        "NameGuid": "bfd71b9e-c1b8-47c9-a4c1-794b9e5c9e1f",
+        "Name": "Tab"
+      }
+    ]
+  },
+  "Dependencies": [
+    {
+      "Id": "1104fc79-556f-45e4-ae48-c4ea576940da",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    },
+    {
+      "Id": "df83a2ea-8d43-4ec4-a34a-2e61863014df",
+      "MaxVersion": "",
+      "MinVersion": "4.8.39.0"
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "6ad8b3db-bfa8-4fb7-bbe0-7b479f0be43a"
+    },
+    {
+      "ItemId": "1dbc64fd-14cf-43c6-a96a-2a8b7c037297",
+      "PreviousItemId": "6ad8b3db-bfa8-4fb7-bbe0-7b479f0be43a"
+    },
+    {
+      "ItemId": "17fd6979-d852-4a1c-bee0-defb50897ebe",
+      "PreviousItemId": "1dbc64fd-14cf-43c6-a96a-2a8b7c037297"
+    },
+    {
+      "ItemId": "1961fbdd-b477-46f9-b9fc-6bdb02865aed",
+      "PreviousItemId": "17fd6979-d852-4a1c-bee0-defb50897ebe"
+    },
+    {
+      "ItemId": "0fc6514e-b074-4c5e-9211-940128bcba17",
+      "PreviousItemId": "1961fbdd-b477-46f9-b9fc-6bdb02865aed"
+    },
+    {
+      "ItemId": "48763951-14da-4c57-9cb5-646cd621d2f7",
+      "PreviousItemId": "0fc6514e-b074-4c5e-9211-940128bcba17"
+    },
+    {
+      "ItemId": "116129f8-bc91-4327-b04f-f36346148666",
+      "PreviousItemId": "48763951-14da-4c57-9cb5-646cd621d2f7"
+    },
+    {
+      "ItemId": "33344524-7745-49b7-8e96-a92e185793e4",
+      "PreviousItemId": "116129f8-bc91-4327-b04f-f36346148666"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer",
+    "VisibilityServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "alialgr.AppModule",
+  "IsolatedAssemblyName": "alialgr.AppModule.Isolated",
+  "IsolatedNamespace": "alialgr.AppModule.Isolated",
+  "Jobs": [
+    {
+      "NameGuid": "d7cc7f05-1418-458f-a18f-fa8a4abc77e3",
+      "Name": "FillCPartybyTIN",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T08:30:00"
+    }
+  ],
+  "Libraries": [
+    {
+      "NameGuid": "746cfb4e-d29b-4481-861f-dc82d8f3e864",
+      "Name": "CompanyData",
+      "Scope": "Both"
+    }
+  ],
+  "Overridden": [
+    "IsLicensed"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "PreSign",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Предварительное подписание\""
+    },
+    {
+      "Name": "PreSignRes",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Предварительное подписание(НецелевыеРес)\""
+    },
+    {
+      "Name": "PreSignSaleKarat",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Предварительное подписание_Продажи_Карат\""
+    },
+    {
+      "Name": "PreSignSaleMramorecs",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Предварительное подписание_Продажи_Мраморэкс\""
+    },
+    {
+      "Name": "PreSignSaleOMIYA",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Предварительное подписание_Продажи_ОМИА УРАЛ\""
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "FillFromServicealialgr",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "currentCompany",
+          "ParameterType": "global::Sungero.Parties.ICompany",
+          "ParameterTypeFullName": "Sungero.Parties.ICompany, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "specifiedPSRN",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.String",
+      "ReturnTypeFullName": "System.String"
+    },
+    {
+      "Name": "GetCompanyForFillJob",
+      "IsRemote": true,
+      "Placement": "Shared",
+      "ReturnType": "global::System.Collections.Generic.List<global::Sungero.Parties.ICompany>",
+      "ReturnTypeFullName": "System.Collections.Generic.List"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "alialgr.AppModule",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "alialgr.AppModule.Server",
+  "ServerNamespace": "alialgr.AppModule.Server",
+  "SharedAssemblyName": "alialgr.AppModule.Shared",
+  "SharedNamespace": "alialgr.AppModule.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.23",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
