@@ -1,7 +1,7 @@
 using System;
 using Sungero.Core;
 
-namespace OMYA.CustomDev.Constants
+namespace OMYA.CounterpartyApproval.Constants
 {
   public static class Module
   {

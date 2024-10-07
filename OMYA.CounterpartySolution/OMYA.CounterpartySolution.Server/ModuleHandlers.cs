@@ -4,10 +4,9 @@ using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
 
-namespace OMYA.CustomDev.Server
+namespace OMYA.CounterpartySolution.Server
 {
-  public class ModuleAsyncHandlers
+  partial class CounterpartySolutionHandlers
   {
-
   }
 }

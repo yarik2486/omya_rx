@@ -4,7 +4,10 @@ using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
 
-namespace OMYA.CustomDev.Server
+namespace OMYA.CounterpartyApproval.Client
 {
+  public class ModuleFunctions
+  {
 
+  }
 }

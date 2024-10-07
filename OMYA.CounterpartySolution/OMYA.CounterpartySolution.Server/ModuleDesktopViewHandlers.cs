@@ -4,7 +4,7 @@ using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
 
-namespace OMYA.CustomDev.Structures.Module
+namespace OMYA.CounterpartySolution.Server
 {
 
 }
