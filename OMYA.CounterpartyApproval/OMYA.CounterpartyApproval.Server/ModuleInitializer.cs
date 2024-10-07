@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
+using Sungero.Domain.Initialization;
 
-namespace OMYA.CustomDev.Server
+namespace OMYA.CounterpartyApproval.Server
 {
-  public class ModuleFunctions
+  public partial class ModuleInitializer
   {
-
   }
 }
