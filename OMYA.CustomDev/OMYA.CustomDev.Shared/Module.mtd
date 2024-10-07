@@ -1,0 +1,62 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "93139816-940f-4204-b672-2562e084fdd9",
+  "Name": "CustomDev",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "OMYA.CustomDev.Client",
+  "ClientBaseAssemblyName": "OMYA.CustomDev.ClientBase",
+  "ClientBaseNamespace": "OMYA.CustomDev.ClientBase",
+  "ClientNamespace": "OMYA.CustomDev.Client",
+  "Code": "CustomD",
+  "CompanyCode": "OMYA",
+  "Cover": {
+    "NameGuid": "490e9d81-12ee-40d5-81ae-63ff9efaa0ee",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "bb6af0b8-5b83-4026-9a38-77b765fc350b",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "e2fb9ece-4973-439a-bc5f-bd88de1a792c",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "OMYA.CustomDev",
+  "IsolatedAssemblyName": "OMYA.CustomDev.Isolated",
+  "IsolatedNamespace": "OMYA.CustomDev.Isolated",
+  "IsVisible": false,
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "OMYA.CustomDev",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "OMYA.CustomDev.Server",
+  "ServerNamespace": "OMYA.CustomDev.Server",
+  "SharedAssemblyName": "OMYA.CustomDev.Shared",
+  "SharedNamespace": "OMYA.CustomDev.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}
