@@ -14,7 +14,7 @@ namespace OMYA.CounterpartyApproval
     {
       if (e.NewValue != null)
       {
-        var setting = SettingDocumentsLists.GetAll(x => x.CounterpartyType == e.NewValue && x.DocumentsForApproval.Any()).FirstOrDefault();
+        var setting = SettingDocumentsLists.GetAll(x => Equals(x.CounterpartyType, e.NewValue) && x.DocumentsForApproval.Any()).FirstOrDefault();
         if (setting != null)
         {
           _obj.DocumentsForApproval.Clear();

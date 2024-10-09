@@ -25,6 +25,7 @@
       "Name": "DocumentName",
       "CanBeSearch": false,
       "Code": "DocumentName",
+      "IsRequired": true,
       "IsSortingAllowed": false,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "a34e2ac7-fd93-440a-a57e-5b84ccccb14a",

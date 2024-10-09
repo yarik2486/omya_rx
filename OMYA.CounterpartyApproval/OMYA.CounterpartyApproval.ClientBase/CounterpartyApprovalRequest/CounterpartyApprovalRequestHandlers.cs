@@ -20,8 +20,6 @@ namespace OMYA.CounterpartyApproval
       prop.CounterpartyType.IsRequired = true;
       prop.CounterpartyKind.IsRequired = true;
       prop.PaymentTerms.IsRequired = true;
-      prop.MacroSegment.IsRequired = true;
-      prop.MarketSegment.IsRequired = true;
       prop.ShortName.IsRequired = true;
       prop.LegalName.IsRequired = true;
       prop.SAPNum.IsRequired = true;

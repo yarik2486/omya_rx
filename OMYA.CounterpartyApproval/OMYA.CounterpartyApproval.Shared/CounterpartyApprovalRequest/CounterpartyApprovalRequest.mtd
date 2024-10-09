@@ -836,19 +836,31 @@
       "PreviousPropertyGuid": "619d7871-0e4a-45e0-9521-5524c4894347"
     },
     {
-      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
       "NameGuid": "69999bf3-abba-4a92-b888-480fee93ecbf",
       "Name": "MacroSegment",
       "Code": "MacroSegment",
-      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "EntityGuid": "39cf6019-f5f0-40c7-9cf5-8ce6ea80277d",
+      "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "LookupServer"
+      ],
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "NeedPassEntityToLookupEvent": true,
       "PreviousPropertyGuid": "7e27412c-230a-4ec4-9704-007d30052d13"
     },
     {
-      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
       "NameGuid": "72bd5c0e-afb7-4820-b0ab-3291079725ec",
       "Name": "MarketSegment",
       "Code": "MarketSegment",
-      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "EntityGuid": "39cf6019-f5f0-40c7-9cf5-8ce6ea80277d",
+      "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "LookupServer"
+      ],
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "NeedPassEntityToLookupEvent": true,
       "PreviousPropertyGuid": "69999bf3-abba-4a92-b888-480fee93ecbf"
     },
     {
@@ -1075,7 +1087,6 @@
       "Name": "BIC",
       "Code": "BIC",
       "IsQuickSearchAllowed": true,
-      "IsRequired": true,
       "Length": 50,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "e1e6a907-7778-44e9-937d-23d469e312f7",

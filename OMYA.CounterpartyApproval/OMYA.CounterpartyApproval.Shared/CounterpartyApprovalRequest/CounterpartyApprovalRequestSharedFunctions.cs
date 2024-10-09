@@ -50,6 +50,12 @@ namespace OMYA.CounterpartyApproval.Shared
       prop.IBAN.IsVisible = nonresident;
       prop.SWIFT.IsRequired = nonresident;
       prop.SWIFT.IsVisible = nonresident;
+      
+      // Поставщик или клиент.
+      prop.MacroSegment.IsRequired = _obj.CounterpartyKind == CounterpartyKind.Supplier;
+      prop.MacroSegment.IsVisible = _obj.CounterpartyKind == CounterpartyKind.Supplier;;
+      prop.MarketSegment.IsRequired = _obj.CounterpartyKind == CounterpartyKind.Client;;
+      prop.MarketSegment.IsVisible = _obj.CounterpartyKind == CounterpartyKind.Client;;
     }
   }
 }
