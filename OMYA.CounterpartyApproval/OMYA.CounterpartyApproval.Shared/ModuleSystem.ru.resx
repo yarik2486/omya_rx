@@ -61,4 +61,34 @@
   <data name="DisplayName" xml:space="preserve">
     <value>Одобрение контрагента</value>
   </data>
+  <data name="CoverTitle" xml:space="preserve">
+    <value>Одобрение контрагента</value>
+  </data>
+  <data name="CoverDescription" xml:space="preserve">
+    <value>Модуль предназначен для процесса одобрения/изменения/блокировки контрагентов.</value>
+  </data>
+  <data name="CoverGroup_CounterpartyApproval" xml:space="preserve">
+    <value>Одобрение контрагента</value>
+  </data>
+  <data name="CoverAction_CreateRequest" xml:space="preserve">
+    <value>Создать заявку</value>
+  </data>
+  <data name="CoverDescription_CreateRequest" xml:space="preserve">
+    <value>Быстрое создание заявки на одобрение/изменение/блокировку контрагента.</value>
+  </data>
+  <data name="CoverAction_CounterpartyApprovalRequests" xml:space="preserve">
+    <value>Заявки на одобрение контрагента</value>
+  </data>
+  <data name="CoverDescription_CounterpartyApprovalRequests" xml:space="preserve">
+    <value>Реестр всех заявок на одобрение контрагента.</value>
+  </data>
+  <data name="CoverAction_SettingDocumentsList" xml:space="preserve">
+    <value>Настройка списка документов для одобрения контрагента</value>
+  </data>
+  <data name="CoverGroup_Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="CoverDescription_SettingDocumentsList" xml:space="preserve">
+    <value>Справочник настройки списка необходимых документов для одобрения контрагента.</value>
+  </data>
 </root>

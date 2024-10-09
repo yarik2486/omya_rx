@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Заявка на одобрение контрагента</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Заявку на одобрение контрагента</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Заявки на одобрение контрагента</value>
+  </data>
+  <data name="ControlGroup_01dd99f5db49480eb69928488f2653fb" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_406e14dc17444a7f85d8f6eef8abaa3f" xml:space="preserve">
+    <value>Основное</value>
+  </data>
+  <data name="Resource_fc50c88831554ff196e8ff7064894ead" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_fc50c88831554ff196e8ff7064894ead_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ddf41ead829a4a3f8d12d40a52b7440c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_ddf41ead829a4a3f8d12d40a52b7440c_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_MarketSegment" xml:space="preserve">
+    <value>Маркет-сегмент</value>
+  </data>
+  <data name="Property_MacroSegment" xml:space="preserve">
+    <value>Макро-сегмент</value>
+  </data>
+  <data name="Property_LegalName" xml:space="preserve">
+    <value>Юрид. наименование</value>
+  </data>
+  <data name="Property_ShortName" xml:space="preserve">
+    <value>Краткое наименование</value>
+  </data>
+  <data name="ControlGroup_3e9e54f362db4b2d961057d6476534c8" xml:space="preserve">
+    <value>Необходимые документы для одобрения</value>
+  </data>
+  <data name="Resource_09b8c877bb4f4b329a9832d12a8dae24" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_09b8c877bb4f4b329a9832d12a8dae24_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enum_CounterpartyType_StateEnterprise" xml:space="preserve">
+    <value>Государственные предприятия/оплаты госпошлин</value>
+  </data>
+  <data name="Enum_CounterpartyType_Individual" xml:space="preserve">
+    <value>Индивидуальный предприниматель</value>
+  </data>
+  <data name="Enum_CounterpartyType_LLC" xml:space="preserve">
+    <value>ООО/АО</value>
+  </data>
+  <data name="Property_PreparedBy" xml:space="preserve">
+    <value>Ответственный</value>
+  </data>
+  <data name="Property_Nonresident" xml:space="preserve">
+    <value>Нерезидент</value>
+  </data>
+  <data name="Enum_CounterpartyType_ForeignOrg" xml:space="preserve">
+    <value>Иностранная организация</value>
+  </data>
+  <data name="Property_PaymentTerms" xml:space="preserve">
+    <value>Условия оплаты по договору</value>
+  </data>
+  <data name="Enum_CounterpartyKind_Supplier" xml:space="preserve">
+    <value>Поставщик</value>
+  </data>
+  <data name="Property_BusinessUnit" xml:space="preserve">
+    <value>Юридическое лицо ОМИА</value>
+  </data>
+  <data name="ControlGroup_05fe3d44e56a455faeb3840b715c8d05" xml:space="preserve">
+    <value>Результаты согласования</value>
+  </data>
+  <data name="Enum_CounterpartyKind_Client" xml:space="preserve">
+    <value>Клиент</value>
+  </data>
+  <data name="Property_CounterpartyKind" xml:space="preserve">
+    <value>Вид контрагента</value>
+  </data>
+  <data name="ControlGroup_d7582ba019ca49b99d962da4a888f398" xml:space="preserve">
+    <value>Реквизиты контрагента</value>
+  </data>
+  <data name="ControlGroup_d0d8c409272646dfa4605993adfe2ac1" xml:space="preserve">
+    <value>Банковские реквизиты</value>
+  </data>
+  <data name="ControlGroup_1b59afa5214546bd832f775225eb004f" xml:space="preserve">
+    <value>Контактные данные</value>
+  </data>
+  <data name="ControlGroup_28a6d4a8a26a467b8fe6da426092ec4a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_4e1d78fc6f6c4c81bf9aa1fa2031a46b" xml:space="preserve">
+    <value>Дата и номер</value>
+  </data>
+  <data name="Resource_91cff7df37834f868122f6238e9ba7c0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_91cff7df37834f868122f6238e9ba7c0_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_670056d3a80d41c290537ace73f8c3e3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ec742a73eb834925a43ca0a7cf42eae0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_ec742a73eb834925a43ca0a7cf42eae0_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_Homepage" xml:space="preserve">
+    <value>Сайт</value>
+  </data>
+  <data name="Property_Email" xml:space="preserve">
+    <value>Эл. почта</value>
+  </data>
+  <data name="Property_Currency" xml:space="preserve">
+    <value>Валюта платежа</value>
+  </data>
+  <data name="Property_Phones" xml:space="preserve">
+    <value>Телефоны</value>
+  </data>
+  <data name="Property_PostalAddress" xml:space="preserve">
+    <value>Почтовый адрес</value>
+  </data>
+  <data name="Property_LegalAddress" xml:space="preserve">
+    <value>Юридический адрес</value>
+  </data>
+  <data name="Property_Region" xml:space="preserve">
+    <value>Регион</value>
+  </data>
+  <data name="Property_City" xml:space="preserve">
+    <value>Населенный пункт</value>
+  </data>
+  <data name="Property_DeliveryTerms" xml:space="preserve">
+    <value>Условия поставки</value>
+  </data>
+  <data name="ControlGroup_1b194ce3c44048879f0d1cdc4303c583" xml:space="preserve">
+    <value>Жизненный цикл</value>
+  </data>
+  <data name="Property_CounterpartyType" xml:space="preserve">
+    <value>Тип контрагента</value>
+  </data>
+  <data name="Property_TaxNumber" xml:space="preserve">
+    <value>Налоговый номер</value>
+  </data>
+  <data name="Property_NCEO" xml:space="preserve">
+    <value>ОКПО</value>
+  </data>
+  <data name="Property_TRRC" xml:space="preserve">
+    <value>КПП</value>
+  </data>
+  <data name="Property_TIN" xml:space="preserve">
+    <value>ИНН</value>
+  </data>
+  <data name="Property_NCEA" xml:space="preserve">
+    <value>ОКВЭД</value>
+  </data>
+  <data name="Property_CompanyRegistrationNumber" xml:space="preserve">
+    <value>Регистрационный номер</value>
+  </data>
+  <data name="Property_PSRN" xml:space="preserve">
+    <value>ОГРН</value>
+  </data>
+  <data name="Property_Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Enum_Status_Draft" xml:space="preserve">
+    <value>Черновик</value>
+  </data>
+  <data name="Property_Account" xml:space="preserve">
+    <value>Номер счета</value>
+  </data>
+  <data name="Property_Bank" xml:space="preserve">
+    <value>Банк</value>
+  </data>
+  <data name="Property_CurrentAccount" xml:space="preserve">
+    <value>Расчетный счет</value>
+  </data>
+  <data name="Property_CorrespondentAccount" xml:space="preserve">
+    <value>Корреспондентский счет</value>
+  </data>
+  <data name="Property_BIC" xml:space="preserve">
+    <value>БИК</value>
+  </data>
+  <data name="Property_BankAddress" xml:space="preserve">
+    <value>Адрес Банка</value>
+  </data>
+  <data name="Property_SWIFT" xml:space="preserve">
+    <value>SWIFT</value>
+  </data>
+  <data name="Property_DocumentsForApproval" xml:space="preserve">
+    <value>Необходимые документы для одобрения</value>
+  </data>
+  <data name="Property_ApprovalResults" xml:space="preserve">
+    <value>Результаты согласования</value>
+  </data>
+  <data name="Property_Counterparty" xml:space="preserve">
+    <value>Контрагент</value>
+  </data>
+  <data name="Enum_Status_OnApproval" xml:space="preserve">
+    <value>На согласовании</value>
+  </data>
+  <data name="Enum_Status_OnRework" xml:space="preserve">
+    <value>На доработке</value>
+  </data>
+  <data name="Enum_Status_Approved" xml:space="preserve">
+    <value>Согласовано</value>
+  </data>
+  <data name="Enum_Status_NotApproved" xml:space="preserve">
+    <value>Не согласовано</value>
+  </data>
+</root>

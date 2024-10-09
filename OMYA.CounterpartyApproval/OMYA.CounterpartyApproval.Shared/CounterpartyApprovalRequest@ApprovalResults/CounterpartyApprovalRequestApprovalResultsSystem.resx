@@ -58,7 +58,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RequestForCounterpartyApproval" xml:space="preserve">
-    <value>Заявка на одобрение контрагента</value>
+  <data name="Property_Approver" xml:space="preserve">
+    <value>Approver</value>
+  </data>
+  <data name="Property_Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Property_Comment" xml:space="preserve">
+    <value>Comment</value>
   </data>
 </root>

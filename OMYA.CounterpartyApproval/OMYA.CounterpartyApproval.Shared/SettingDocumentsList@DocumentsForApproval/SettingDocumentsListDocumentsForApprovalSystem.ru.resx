@@ -58,7 +58,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RequestForCounterpartyApproval" xml:space="preserve">
-    <value>Заявка на одобрение контрагента</value>
+  <data name="Property_DocumentName" xml:space="preserve">
+    <value>Наименование документа</value>
+  </data>
+  <data name="Property_Document" xml:space="preserve">
+    <value>Документ</value>
+  </data>
+  <data name="Property_Absent" xml:space="preserve">
+    <value>Отсутствует</value>
+  </data>
+  <data name="Property_ReasonForAbsence" xml:space="preserve">
+    <value>Причина отсутствия</value>
   </data>
 </root>

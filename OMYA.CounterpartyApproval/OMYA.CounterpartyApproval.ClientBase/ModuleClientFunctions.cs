@@ -9,5 +9,13 @@ namespace OMYA.CounterpartyApproval.Client
   public class ModuleFunctions
   {
 
+    /// <summary>
+    /// Создать заявку.
+    /// </summary>
+    public virtual void CreateRequest()
+    {
+       Sungero.Docflow.IncomingDocumentBases.CreateDocumentWithCreationDialog(CounterpartyApprovalRequests.Info);
+    }
+
   }
 }

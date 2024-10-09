@@ -58,7 +58,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RequestForCounterpartyApproval" xml:space="preserve">
-    <value>Заявка на одобрение контрагента</value>
+  <data name="SettingHasAlready" xml:space="preserve">
+    <value>A setting has already been created for the specified counterparty type.</value>
   </data>
 </root>

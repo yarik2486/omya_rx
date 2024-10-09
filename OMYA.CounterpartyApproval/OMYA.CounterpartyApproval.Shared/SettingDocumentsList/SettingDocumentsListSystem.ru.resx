@@ -58,7 +58,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RequestForCounterpartyApproval" xml:space="preserve">
-    <value>Заявка на одобрение контрагента</value>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Настройка списка документов для одобрения контрагента</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Настройку списка документов для одобрения контрагента</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Настройки списка документов для одобрения контрагента</value>
+  </data>
+  <data name="Enum_CounterpartyType_StateEnterprise" xml:space="preserve">
+    <value>Государственные предприятия/оплаты госпошлин</value>
+  </data>
+  <data name="Enum_CounterpartyType_Individual" xml:space="preserve">
+    <value>Индивидуальный предприниматель</value>
+  </data>
+  <data name="Enum_CounterpartyType_LLC" xml:space="preserve">
+    <value>ООО/АО</value>
+  </data>
+  <data name="Enum_CounterpartyType_ForeignOrg" xml:space="preserve">
+    <value>Иностранная организация</value>
+  </data>
+  <data name="Property_CounterpartyType" xml:space="preserve">
+    <value>Тип контрагента</value>
+  </data>
+  <data name="Property_DocumentsForApproval" xml:space="preserve">
+    <value>Необходимые документы для одобрения</value>
+  </data>
+  <data name="ControlGroup_8bf7fad6331945e4b49d0cd306db3ef9" xml:space="preserve">
+    <value>Необходимые документы для одобрения</value>
   </data>
 </root>

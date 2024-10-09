@@ -62,6 +62,36 @@
     <value>Counterparty approval</value>
   </data>
   <data name="CoverTitle" xml:space="preserve">
-    <value>CounterpartyApproval</value>
+    <value>Counterparty approval</value>
+  </data>
+  <data name="CoverDescription" xml:space="preserve">
+    <value>The module is designed for the process of approving/changing/blocking counterparties.</value>
+  </data>
+  <data name="CoverTab_Tab" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="CoverGroup_CounterpartyApproval" xml:space="preserve">
+    <value>Counterparty approval</value>
+  </data>
+  <data name="CoverAction_CreateRequest" xml:space="preserve">
+    <value>Create a request</value>
+  </data>
+  <data name="CoverDescription_CreateRequest" xml:space="preserve">
+    <value>Quickly create a request for approval/change/blocking of a counterparty.</value>
+  </data>
+  <data name="CoverAction_CounterpartyApprovalRequests" xml:space="preserve">
+    <value>Requests for counterparty approval</value>
+  </data>
+  <data name="CoverDescription_CounterpartyApprovalRequests" xml:space="preserve">
+    <value>Register of all applications for counterparty approval.</value>
+  </data>
+  <data name="CoverGroup_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="CoverAction_SettingDocumentsList" xml:space="preserve">
+    <value>Setting up a list of documents for counterparty approval</value>
+  </data>
+  <data name="CoverDescription_SettingDocumentsList" xml:space="preserve">
+    <value>Handbook for setting up a list of required documents for counterparty approval.</value>
   </data>
 </root>
