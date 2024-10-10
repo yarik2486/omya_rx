@@ -96,6 +96,10 @@
     {
       "ItemId": "39cf6019-f5f0-40c7-9cf5-8ce6ea80277d",
       "PreviousItemId": "ff3ce547-05c5-4f84-8360-8c99b4a467a6"
+    },
+    {
+      "ItemId": "912f2fad-7a77-41ba-ba1a-825b6816f717",
+      "PreviousItemId": "39cf6019-f5f0-40c7-9cf5-8ce6ea80277d"
     }
   ],
   "HandledEvents": [
