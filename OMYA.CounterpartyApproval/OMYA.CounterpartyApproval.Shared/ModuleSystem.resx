@@ -77,21 +77,27 @@
     <value>Create a request</value>
   </data>
   <data name="CoverDescription_CreateRequest" xml:space="preserve">
-    <value>Quickly create a request for approval/change/blocking of a counterparty.</value>
+    <value>Quickly create a request for approval/change/blocking of a counterparty</value>
   </data>
   <data name="CoverAction_CounterpartyApprovalRequests" xml:space="preserve">
     <value>Requests for counterparty approval</value>
   </data>
   <data name="CoverDescription_CounterpartyApprovalRequests" xml:space="preserve">
-    <value>Register of all applications for counterparty approval.</value>
+    <value>Register of all applications for counterparty approval</value>
   </data>
   <data name="CoverGroup_Settings" xml:space="preserve">
     <value>Settings</value>
   </data>
-  <data name="CoverAction_SettingDocumentsList" xml:space="preserve">
-    <value>Setting up a list of documents for counterparty approval</value>
+  <data name="CoverAction_SettingsDocumentsList" xml:space="preserve">
+    <value>Settings up a list of documents for counterparty approval</value>
   </data>
-  <data name="CoverDescription_SettingDocumentsList" xml:space="preserve">
-    <value>Handbook for setting up a list of required documents for counterparty approval.</value>
+  <data name="CoverDescription_SettingsDocumentsList" xml:space="preserve">
+    <value>Handbook for setting up a list of required documents for counterparty approval</value>
+  </data>
+  <data name="CoverAction_Segments" xml:space="preserve">
+    <value>Segments</value>
+  </data>
+  <data name="CoverDescription_Segments" xml:space="preserve">
+    <value>Segment directory</value>
   </data>
 </root>

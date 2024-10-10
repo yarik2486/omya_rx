@@ -10,6 +10,11 @@ namespace OMYA.CounterpartyApproval
   partial class CounterpartyApprovalRequestClientHandlers
   {
 
+    public virtual void CounterpartyKindValueInput(Sungero.Presentation.EnumerationValueInputEventArgs e)
+    {
+      
+    }
+
     public override void Showing(Sungero.Presentation.FormShowingEventArgs e)
     {
       base.Showing(e);
@@ -22,7 +27,6 @@ namespace OMYA.CounterpartyApproval
       prop.PaymentTerms.IsRequired = true;
       prop.ShortName.IsRequired = true;
       prop.LegalName.IsRequired = true;
-      prop.SAPNum.IsRequired = true;
       prop.City.IsRequired = true;
       prop.Region.IsRequired = true;
       prop.LegalAddress.IsRequired = true;

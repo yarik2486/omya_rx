@@ -12,7 +12,7 @@ namespace OMYA.CounterpartyApproval
 
     public override void BeforeSave(Sungero.Domain.BeforeSaveEventArgs e)
     {
-      var setting = SettingDocumentsLists.GetAll(x => Equals(x.CounterpartyType, _obj.CounterpartyType) && x.Status == Status.Active).FirstOrDefault();
+      var setting = SettingDocumentsLists.GetAll(x => x.Id != _obj.Id && Equals(x.CounterpartyType, _obj.CounterpartyType) && x.Status == Status.Active).FirstOrDefault();
       if (setting != null)
       {
         e.AddError(OMYA.CounterpartyApproval.SettingDocumentsLists.Resources.SettingHasAlready);

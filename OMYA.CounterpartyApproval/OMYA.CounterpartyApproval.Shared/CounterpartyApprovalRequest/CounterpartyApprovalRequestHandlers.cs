@@ -10,6 +10,11 @@ namespace OMYA.CounterpartyApproval
   partial class CounterpartyApprovalRequestSharedHandlers
   {
 
+    public virtual void CityChanged(OMYA.CounterpartyApproval.Shared.CounterpartyApprovalRequestCityChangedEventArgs e)
+    {
+      _obj.Region = e.NewValue?.Region;
+    }
+
     public virtual void CounterpartyTypeChanged(Sungero.Domain.Shared.EnumerationPropertyChangedEventArgs e)
     {
       if (e.NewValue != null)

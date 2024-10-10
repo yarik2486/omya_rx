@@ -21,6 +21,14 @@
         "PreviousItemGuid": "38f2374d-4e41-42a1-b8f5-193a363945c9"
       },
       {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "12db81ec-7fb1-45d7-b37a-d66a74175f19",
+        "Name": "Segments",
+        "EntityTypeId": "39cf6019-f5f0-40c7-9cf5-8ce6ea80277d",
+        "GroupId": "ebdd66fb-dd9e-477b-bce8-0383c4957837",
+        "PreviousItemGuid": "87d6e252-68c5-4f80-b398-ba88a1011bb3"
+      },
+      {
         "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
         "NameGuid": "38f2374d-4e41-42a1-b8f5-193a363945c9",
         "Name": "CreateRequest",
@@ -30,7 +38,7 @@
       {
         "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
         "NameGuid": "87d6e252-68c5-4f80-b398-ba88a1011bb3",
-        "Name": "SettingDocumentsList",
+        "Name": "SettingsDocumentsList",
         "EntityTypeId": "ff3ce547-05c5-4f84-8360-8c99b4a467a6",
         "GroupId": "ebdd66fb-dd9e-477b-bce8-0383c4957837"
       }

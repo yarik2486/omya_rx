@@ -74,21 +74,27 @@
     <value>Создать заявку</value>
   </data>
   <data name="CoverDescription_CreateRequest" xml:space="preserve">
-    <value>Быстрое создание заявки на одобрение/изменение/блокировку контрагента.</value>
+    <value>Быстрое создание заявки на одобрение/изменение/блокировку контрагента</value>
   </data>
   <data name="CoverAction_CounterpartyApprovalRequests" xml:space="preserve">
     <value>Заявки на одобрение контрагента</value>
   </data>
   <data name="CoverDescription_CounterpartyApprovalRequests" xml:space="preserve">
-    <value>Реестр всех заявок на одобрение контрагента.</value>
+    <value>Реестр всех заявок на одобрение контрагента</value>
   </data>
-  <data name="CoverAction_SettingDocumentsList" xml:space="preserve">
-    <value>Настройка списка документов для одобрения контрагента</value>
+  <data name="CoverAction_SettingsDocumentsList" xml:space="preserve">
+    <value>Настройки списка документов для одобрения контрагента</value>
   </data>
   <data name="CoverGroup_Settings" xml:space="preserve">
     <value>Настройки</value>
   </data>
-  <data name="CoverDescription_SettingDocumentsList" xml:space="preserve">
-    <value>Справочник настройки списка необходимых документов для одобрения контрагента.</value>
+  <data name="CoverDescription_SettingsDocumentsList" xml:space="preserve">
+    <value>Справочник настройки списка необходимых документов для одобрения контрагента</value>
+  </data>
+  <data name="CoverAction_Segments" xml:space="preserve">
+    <value>Сегменты</value>
+  </data>
+  <data name="CoverDescription_Segments" xml:space="preserve">
+    <value>Справочник сегментов</value>
   </data>
 </root>
