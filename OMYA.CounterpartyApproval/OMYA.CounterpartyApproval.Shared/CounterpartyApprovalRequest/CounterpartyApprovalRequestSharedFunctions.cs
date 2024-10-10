@@ -5,6 +5,7 @@ using Sungero.Core;
 using Sungero.CoreEntities;
 using OMYA.CounterpartyApproval.CounterpartyApprovalRequest;
 using Sungero.Docflow;
+using System.Text.RegularExpressions;
 
 namespace OMYA.CounterpartyApproval.Shared
 {
@@ -112,6 +113,64 @@ namespace OMYA.CounterpartyApproval.Shared
       name = Sungero.Docflow.PublicFunctions.Module.TrimSpecialSymbols(name);
       
       return Sungero.Docflow.PublicFunctions.OfficialDocument.AddClosingQuote(name, _obj);
+    }
+    
+    /// <summary>
+    /// Проверка введенного ОГРН по количеству символов.
+    /// </summary>
+    /// <param name="psrn">ОГРН.</param>
+    /// <returns>Пустая строка, если длина ОГРН в порядке.
+    /// Иначе текст ошибки.</returns>
+    public static string CheckPsrnLength(string psrn)
+    {
+      if (string.IsNullOrWhiteSpace(psrn))
+        return string.Empty;
+      
+      // ОГРН должен состоять только из цифр.
+      psrn = psrn.Trim();
+      if (!Regex.IsMatch(psrn, @"^\d*$"))
+        return Sungero.Parties.CompanyBases.Resources.NotOnlyDigitsPsrn;
+      
+      return System.Text.RegularExpressions.Regex.IsMatch(psrn, @"(^\d{13}$)|(^\d{15}$)")
+        ? string.Empty
+        : Sungero.Parties.CompanyBases.Resources.IncorrecPsrnLength;
+    }
+    
+    /// <summary>
+    /// Проверка введенного ОКПО по количеству символов.
+    /// </summary>
+    /// <param name="nceo">ОКПО.</param>
+    /// <returns>Пустая строка, если длина ОКПО в порядке.
+    /// Иначе текст ошибки.</returns>
+    public static string CheckNceoLength(string nceo)
+    {
+      if (string.IsNullOrWhiteSpace(nceo))
+        return string.Empty;
+      
+      nceo = nceo.Trim();
+      return System.Text.RegularExpressions.Regex.IsMatch(nceo, @"(^\d{8}$)|(^\d{10}$)|(^\d{14}$)")
+        ? string.Empty
+        : Sungero.Parties.CompanyBases.Resources.IncorrecNceoLength;
+    }
+    
+    /// <summary>
+    /// Проверка КПП на валидность.
+    /// </summary>
+    /// <param name="trrc">Строка с КПП.</param>
+    /// <returns>Текст ошибки. Пустая строка для верного КПП.</returns>
+    public static string CheckTRRC(string trrc)
+    {
+      if (string.IsNullOrWhiteSpace(trrc))
+        return string.Empty;
+      
+      // КПП должен состоять только из цифр.
+      trrc = trrc.Trim();
+      if (!Regex.IsMatch(trrc, @"^\d*$"))
+        return Sungero.Parties.CompanyBases.Resources.NotOnlyDigitsTrrc;
+      
+      return System.Text.RegularExpressions.Regex.IsMatch(trrc, @"(^\d{9}$)")
+        ? string.Empty
+        : Sungero.Parties.CompanyBases.Resources.IncorrectTrrcLength;
     }
   }
 }

@@ -10,9 +10,26 @@ namespace OMYA.CounterpartyApproval
   partial class CounterpartyApprovalRequestSharedHandlers
   {
 
+    public virtual void LegalAddressChanged(Sungero.Domain.Shared.StringPropertyChangedEventArgs e)
+    {
+      // Заполнить почтовый адрес в соответствии с юрид. адресом.
+      if (!string.IsNullOrWhiteSpace(e.NewValue) &&
+          (string.IsNullOrWhiteSpace(_obj.PostalAddress) || _obj.PostalAddress == e.OldValue))
+        _obj.PostalAddress = e.NewValue;
+    }
+
+    public virtual void RegionChanged(OMYA.CounterpartyApproval.Shared.CounterpartyApprovalRequestRegionChangedEventArgs e)
+    {
+      // Очистить город при смене региона.
+      if (!Equals(e.NewValue, e.OldValue) && _obj.City != null && !_obj.City.Region.Equals(e.NewValue))
+        _obj.City = null;
+    }
+
     public virtual void CityChanged(OMYA.CounterpartyApproval.Shared.CounterpartyApprovalRequestCityChangedEventArgs e)
     {
-      _obj.Region = e.NewValue?.Region;
+      // Установить регион в соответствии с городом.
+      if (e.NewValue != null)
+        _obj.Region = e.NewValue.Region;
     }
 
     public virtual void CounterpartyTypeChanged(Sungero.Domain.Shared.EnumerationPropertyChangedEventArgs e)

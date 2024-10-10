@@ -273,10 +273,10 @@
           "Name": "CounterpartyDetails",
           "ColumnDefinitions": [
             {
-              "Percentage": 49.35
+              "Percentage": 50.14
             },
             {
-              "Percentage": 49.08
+              "Percentage": 49.86
             }
           ],
           "ColumnNumber": 0,
@@ -940,6 +940,9 @@
       "NameGuid": "16720ce1-f757-4cb3-861f-ebb68cbe23dd",
       "Name": "TIN",
       "Code": "TIN",
+      "HandledEvents": [
+        "ValueInputClient"
+      ],
       "Length": 50,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "fd03dbe5-14e7-49c4-819f-b31e18edf7ff"
@@ -949,6 +952,9 @@
       "NameGuid": "42343bb3-687a-4f13-b4a5-5114da2cdea5",
       "Name": "TRRC",
       "Code": "TRRC",
+      "HandledEvents": [
+        "ValueInputClient"
+      ],
       "Length": 50,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "16720ce1-f757-4cb3-861f-ebb68cbe23dd"
@@ -958,6 +964,9 @@
       "NameGuid": "da36ab00-efd9-4c51-b348-66d520fd825d",
       "Name": "PSRN",
       "Code": "PSRN",
+      "HandledEvents": [
+        "ValueInputClient"
+      ],
       "Length": 50,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "42343bb3-687a-4f13-b4a5-5114da2cdea5"
@@ -967,6 +976,9 @@
       "NameGuid": "62577a85-9299-46df-ba3e-df49a1383a1a",
       "Name": "NCEO",
       "Code": "NCEO",
+      "HandledEvents": [
+        "ValueInputClient"
+      ],
       "Length": 50,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "da36ab00-efd9-4c51-b348-66d520fd825d"
@@ -1030,9 +1042,11 @@
       "EntityGuid": "3a0c21f8-aa88-429c-891f-56c24d56fcef",
       "FlatListInStandaloneLookup": true,
       "HandledEvents": [
-        "ChangedShared"
+        "ChangedShared",
+        "LookupServer"
       ],
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "NeedPassEntityToLookupEvent": true,
       "PreviousPropertyGuid": "663a7896-2379-4123-b093-8ce6f5f0c7a4",
       "Versions": []
     },
@@ -1044,6 +1058,9 @@
       "Code": "Region",
       "EntityGuid": "4efe2fa9-b1d1-4b47-b366-4128fe0a391c",
       "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "ChangedShared"
+      ],
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
       "PreviousPropertyGuid": "1271e5b3-8f46-4eed-be30-217644d28fd2",
       "Versions": []
@@ -1054,6 +1071,9 @@
       "Name": "LegalAddress",
       "CanBeSearch": false,
       "Code": "LegalAddress",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
       "Length": 500,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "398937dd-7262-4693-bdcb-7d8d8dd0e3d6",
@@ -1084,6 +1104,9 @@
       "NameGuid": "4047c1b5-1b36-4a04-8165-0e5b2bb0194f",
       "Name": "Email",
       "Code": "Email",
+      "HandledEvents": [
+        "ValueInputClient"
+      ],
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "f1963915-9999-40b4-ad8f-e004b0c2bb8f",
       "Versions": []
@@ -1102,6 +1125,9 @@
       "NameGuid": "20874f2c-5f26-4294-988a-b1cefb861c08",
       "Name": "Account",
       "Code": "Account",
+      "HandledEvents": [
+        "ValueInputClient"
+      ],
       "Length": 34,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "81c3fd6c-eee8-4ead-a7b4-258d20961363",

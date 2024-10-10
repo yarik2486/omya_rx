@@ -7,6 +7,19 @@ using OMYA.CounterpartyApproval.CounterpartyApprovalRequest;
 
 namespace OMYA.CounterpartyApproval
 {
+  partial class CounterpartyApprovalRequestCityPropertyFilteringServerHandler<T>
+  {
+
+    public virtual IQueryable<T> CityFiltering(IQueryable<T> query, Sungero.Domain.PropertyFilteringEventArgs e)
+    {
+      // Фильтровать населенные пункты по региону.
+      if (_obj.Region != null)
+        query = query.Where(settlement => Equals(settlement.Region, _obj.Region));
+      
+      return query;
+    }
+  }
+
   partial class CounterpartyApprovalRequestMarketSegmentPropertyFilteringServerHandler<T>
   {
 
