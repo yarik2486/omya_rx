@@ -29,6 +29,14 @@
         "PreviousItemGuid": "87d6e252-68c5-4f80-b398-ba88a1011bb3"
       },
       {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "205be861-ebb9-4f54-88e7-ca7277983dbb",
+        "Name": "Checklists",
+        "EntityTypeId": "912f2fad-7a77-41ba-ba1a-825b6816f717",
+        "GroupId": "b04ce3d2-a7d9-41a3-bdf0-c99c51563950",
+        "PreviousItemGuid": "124236ea-df43-495f-807b-4a882de5bf2c"
+      },
+      {
         "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
         "NameGuid": "38f2374d-4e41-42a1-b8f5-193a363945c9",
         "Name": "CreateRequest",
@@ -116,6 +124,15 @@
   ],
   "PublicConstants": [
     {
+      "Name": "ChecklistKind",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"7B6C418B-9EB3-44E4-A0E1-4AA5022DA24B\")"
+    },
+    {
       "Name": "RequestForCounterpartyApprovalKind",
       "ParentClasses": [
         "Module",
@@ -129,7 +146,8 @@
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "OMYA.CounterpartyApproval",
   "ResourcesKeys": [
-    "RequestForCounterpartyApproval"
+    "RequestForCounterpartyApproval",
+    "CounterpartyApprovalChecklistKind"
   ],
   "ServerAssemblyName": "OMYA.CounterpartyApproval.Server",
   "ServerNamespace": "OMYA.CounterpartyApproval.Server",

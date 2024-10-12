@@ -61,4 +61,7 @@
   <data name="RequestForCounterpartyApproval" xml:space="preserve">
     <value>Заявка на одобрение контрагента</value>
   </data>
+  <data name="CounterpartyApprovalChecklistKind" xml:space="preserve">
+    <value>Чек-лист для одобрения контрагента</value>
+  </data>
 </root>

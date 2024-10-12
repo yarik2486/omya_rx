@@ -100,4 +100,10 @@
   <data name="CoverDescription_Segments" xml:space="preserve">
     <value>Segment directory</value>
   </data>
+  <data name="CoverAction_Checklists" xml:space="preserve">
+    <value>Counterparty Approval Checklists</value>
+  </data>
+  <data name="CoverDescription_Checklists" xml:space="preserve">
+    <value>A register of all checklists for counterparty approval</value>
+  </data>
 </root>

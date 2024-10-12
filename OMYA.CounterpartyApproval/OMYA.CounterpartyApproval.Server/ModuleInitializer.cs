@@ -33,8 +33,16 @@ namespace OMYA.CounterpartyApproval.Server
     public static void CreateDocumentTypes()
     {
       InitializationLogger.Debug("Init CounterpartyApproval: Create document types");
+      
+      // Заявка на одобрение контрагента.
       Sungero.Docflow.PublicInitializationFunctions.Module.CreateDocumentType(Resources.RequestForCounterpartyApproval, 
                                                                               CounterpartyApprovalRequest.ClassTypeGuid, 
+                                                                              Sungero.Docflow.DocumentType.DocumentFlow.Inner, 
+                                                                              true);
+      
+      // Чек-лист для одобрения контрагента
+      Sungero.Docflow.PublicInitializationFunctions.Module.CreateDocumentType(Resources.CounterpartyApprovalChecklistKind, 
+                                                                              Checklist.ClassTypeGuid, 
                                                                               Sungero.Docflow.DocumentType.DocumentFlow.Inner, 
                                                                               true);
     }
@@ -56,6 +64,7 @@ namespace OMYA.CounterpartyApproval.Server
         Sungero.Docflow.OfficialDocuments.Info.Actions.SendForDocumentFlow,
         Sungero.Docflow.OfficialDocuments.Info.Actions.SendForAcquaintance };
       
+      // Заявка на одобрение контрагента.
       Sungero.Docflow.PublicInitializationFunctions.Module.CreateDocumentKind(Resources.RequestForCounterpartyApproval,
                                                                               Resources.RequestForCounterpartyApproval,
                                                                               registrable,
@@ -65,6 +74,18 @@ namespace OMYA.CounterpartyApproval.Server
                                                                               CounterpartyApprovalRequest.ClassTypeGuid,
                                                                               actions,
                                                                               Constants.Module.Initialize.RequestForCounterpartyApprovalKind, 
+                                                                              true);
+      
+      // Чек-лист для одобрения контрагента
+      Sungero.Docflow.PublicInitializationFunctions.Module.CreateDocumentKind(Resources.CounterpartyApprovalChecklistKind,
+                                                                              Resources.CounterpartyApprovalChecklistKind,
+                                                                              registrable,
+                                                                              Sungero.Docflow.DocumentType.DocumentFlow.Inner, 
+                                                                              true, 
+                                                                              false,
+                                                                              Checklist.ClassTypeGuid,
+                                                                              actions,
+                                                                              Constants.Module.Initialize.ChecklistKind, 
                                                                               true);
     }
     
@@ -78,6 +99,9 @@ namespace OMYA.CounterpartyApproval.Server
       
       CounterpartyApprovalRequests.AccessRights.Grant(allUsers, DefaultAccessRightsTypes.Create);
       CounterpartyApprovalRequests.AccessRights.Save();
+      
+      Checklists.AccessRights.Grant(allUsers, DefaultAccessRightsTypes.Create);
+      Checklists.AccessRights.Save();
     }
   }
 }

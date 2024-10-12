@@ -58,4 +58,265 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Counterparty Approval Checklist</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Counterparty Approval Checklist</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Counterparty Approval Checklists</value>
+  </data>
+  <data name="ControlGroup_01dd99f5db49480eb69928488f2653fb" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_406e14dc17444a7f85d8f6eef8abaa3f" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="Resource_fc50c88831554ff196e8ff7064894ead" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_fc50c88831554ff196e8ff7064894ead_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_ddf41ead829a4a3f8d12d40a52b7440c" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_ddf41ead829a4a3f8d12d40a52b7440c_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_73a054a800fa415da5a65515a111d7b9" xml:space="preserve">
+    <value>Counterparty information</value>
+  </data>
+  <data name="Enum_EDIOperator_Absent" xml:space="preserve">
+    <value>Absent</value>
+  </data>
+  <data name="Property_AttractingReasons" xml:space="preserve">
+    <value>Please describe the reasons for attracting a new supplier?</value>
+  </data>
+  <data name="Property_SupplierServices" xml:space="preserve">
+    <value>Please describe the services that the supplier will provide to the Omia group of companies?</value>
+  </data>
+  <data name="Property_PreparedBy" xml:space="preserve">
+    <value>Prepared by</value>
+  </data>
+  <data name="Property_BusinessUnit" xml:space="preserve">
+    <value>Business unit</value>
+  </data>
+  <data name="Resource_09b8c877bb4f4b329a9832d12a8dae24" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_09b8c877bb4f4b329a9832d12a8dae24_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Enum_EDIOperator_Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Enum_EDIOperator_Diadoc" xml:space="preserve">
+    <value>SED Diadoc</value>
+  </data>
+  <data name="Resource_dcab7ecffaed4bd68e0fa391e95f08dc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_dcab7ecffaed4bd68e0fa391e95f08dc_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_EDIOperator" xml:space="preserve">
+    <value>EDI operator</value>
+  </data>
+  <data name="Property_CompanyOwners" xml:space="preserve">
+    <value>Ultimate owners of the company (individuals)</value>
+  </data>
+  <data name="Property_PrimaryContact" xml:space="preserve">
+    <value>Primary Contact</value>
+  </data>
+  <data name="Property_Homepage" xml:space="preserve">
+    <value>Homepage</value>
+  </data>
+  <data name="Property_LeadingDocument" xml:space="preserve">
+    <value>Leading document</value>
+  </data>
+  <data name="Property_JobTitle" xml:space="preserve">
+    <value>Job title</value>
+  </data>
+  <data name="Property_PSRN" xml:space="preserve">
+    <value>PSRN</value>
+  </data>
+  <data name="Property_TIN" xml:space="preserve">
+    <value>TIN</value>
+  </data>
+  <data name="Property_InitiatorEmail" xml:space="preserve">
+    <value>Initiator's email address</value>
+  </data>
+  <data name="Property_FoundationDate" xml:space="preserve">
+    <value>Date of foundation</value>
+  </data>
+  <data name="Property_FullNameCompany" xml:space="preserve">
+    <value>Full name of the contractor (indicating the legal form)</value>
+  </data>
+  <data name="ControlGroup_28a6d4a8a26a467b8fe6da426092ec4a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_4e1d78fc6f6c4c81bf9aa1fa2031a46b" xml:space="preserve">
+    <value>Date and number</value>
+  </data>
+  <data name="Resource_91cff7df37834f868122f6238e9ba7c0" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_91cff7df37834f868122f6238e9ba7c0_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_670056d3a80d41c290537ace73f8c3e3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_CEOLeast5Companies" xml:space="preserve">
+    <value>Is the supplier's CEO also the CEO of at least 5 other companies?</value>
+  </data>
+  <data name="Enum_HaveWebsite_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Enum_HaveWebsite_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Property_HaveWebsite" xml:space="preserve">
+    <value>Does the supplier have a working website?</value>
+  </data>
+  <data name="Enum_DocumentsReceivedFromSupplier_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Enum_SupplierRegistered18Months_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Enum_SupplierRegistered18Months_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Property_SupplierRegistered18Months" xml:space="preserve">
+    <value>Has the supplier been registered for more than 18 months?</value>
+  </data>
+  <data name="Enum_SupplierRegistered_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Enum_SupplierRegistered_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Enum_DocumentsReceivedFromSupplier_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ControlGroup_1b194ce3c44048879f0d1cdc4303c583" xml:space="preserve">
+    <value>Lifecycle</value>
+  </data>
+  <data name="Resource_e300028a5e1f485d806917e121bb9ba9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_958f0f3e7cbb462998cc633ac6adfd08" xml:space="preserve">
+    <value>General questions</value>
+  </data>
+  <data name="Property_LicensedActivities" xml:space="preserve">
+    <value>Are the services that the supplier will provide to the Omia Group of Companies related to licensed activities? (if "Yes", please provide the license number and a copy of it)</value>
+  </data>
+  <data name="Enum_LicensedActivities_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Property_HowSupplierFound" xml:space="preserve">
+    <value>Please indicate how the supplier was found</value>
+  </data>
+  <data name="Property_MonthlyPurchase" xml:space="preserve">
+    <value>Please indicate the expected monthly purchase volume (in rubles) from the supplier?</value>
+  </data>
+  <data name="Property_UseSubcontracting" xml:space="preserve">
+    <value>Does the supplier plan to use subcontracting in providing services to the Omia Group?</value>
+  </data>
+  <data name="Enum_LicensedActivities_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Property_SupplierRegistered" xml:space="preserve">
+    <value>Is the potential supplier registered as a legal entity/individual entrepreneur in accordance with the law?</value>
+  </data>
+  <data name="Property_DocumentsReceivedFromSupplier" xml:space="preserve">
+    <value>Have all documents specified in the Regulation on verification of counterparty reliability been received from the supplier? If not, please provide reasons</value>
+  </data>
+  <data name="Enum_CEOLeast5Companies_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Enum_CEOLeast5Companies_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Property_ResultsCheckTurnover" xml:space="preserve">
+    <value>Based on the results of the check of the ratio of the supplier's turnover (annual revenue) and the contract price, will the supplier be able to fulfill the contract with the Omia group of companies?</value>
+  </data>
+  <data name="Enum_ResultsCheckTurnover_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Enum_ResultsCheckTurnover_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Property_SupplierHasPersonnel" xml:space="preserve">
+    <value>The supplier has the necessary personnel and resources to fulfill the contract (own or leased fixed assets, availability of personnel)</value>
+  </data>
+  <data name="Enum_SupplierHasPersonnel_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Enum_SupplierHasPersonnel_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Property_CheckHeadCount" xml:space="preserve">
+    <value>Check that revenue and average headcount are not "zero"</value>
+  </data>
+  <data name="Enum_CheckHeadCount_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Enum_CheckHeadCount_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Property_IdentifiedRiskFactors" xml:space="preserve">
+    <value>When screening a potential supplier, were any of the following risk factors identified:</value>
+  </data>
+  <data name="Enum_IdentifiedRiskFactors_FewPersonAsset" xml:space="preserve">
+    <value>too few personnel/assets to carry out the procurement</value>
+  </data>
+  <data name="Enum_IdentifiedRiskFactors_ChangeLegal" xml:space="preserve">
+    <value>change of legal entities without reason</value>
+  </data>
+  <data name="Enum_IdentifiedRiskFactors_Underpricing" xml:space="preserve">
+    <value>underpricing (without business justification)</value>
+  </data>
+  <data name="Enum_IdentifiedRiskFactors_NotCommunicate" xml:space="preserve">
+    <value>did not communicate with the director/authorized persons of the supplier</value>
+  </data>
+  <data name="Enum_IdentifiedRiskFactors_NoOtherClients" xml:space="preserve">
+    <value>there are no other clients except Omia</value>
+  </data>
+  <data name="ControlGroup_7a51af9629494f4d8881e280bbe87b40" xml:space="preserve">
+    <value>Trustworthiness check</value>
+  </data>
+  <data name="Property_CollectionOfReviews" xml:space="preserve">
+    <value>Collection of reviews, recommendations on the supplier's activities, advertising on the Internet and in professional publications was successfully completed</value>
+  </data>
+  <data name="Enum_CollectionOfReviews_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Enum_CollectionOfReviews_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Property_ContactDetailsSaved" xml:space="preserve">
+    <value>Contact details of persons with whom communication takes place when concluding an agreement are saved</value>
+  </data>
+  <data name="Enum_ContactDetailsSaved_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Enum_ContactDetailsSaved_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Property_ResultsSentToManager" xml:space="preserve">
+    <value>The results of the audit have been sent to the tax manager by email</value>
+  </data>
+  <data name="Enum_ResultsSentToManager_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Enum_ResultsSentToManager_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ControlGroup_22f52883272b4a7f9a5899386cb13cc4" xml:space="preserve">
+    <value>Documenting the inspection</value>
+  </data>
 </root>

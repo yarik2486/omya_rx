@@ -97,4 +97,10 @@
   <data name="CoverDescription_Segments" xml:space="preserve">
     <value>Справочник сегментов</value>
   </data>
+  <data name="CoverAction_Checklists" xml:space="preserve">
+    <value>Чек-листы для одобрения контрагента</value>
+  </data>
+  <data name="CoverDescription_Checklists" xml:space="preserve">
+    <value>Реестр всех чек-листов на одобрение контрагента</value>
+  </data>
 </root>

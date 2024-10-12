@@ -61,4 +61,7 @@
   <data name="RequestForCounterpartyApproval" xml:space="preserve">
     <value>Request for counterparty approval</value>
   </data>
+  <data name="CounterpartyApprovalChecklistKind" xml:space="preserve">
+    <value>Counterparty Approval Checklist</value>
+  </data>
 </root>

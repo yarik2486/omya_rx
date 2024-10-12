@@ -86,7 +86,6 @@ namespace OMYA.CounterpartyApproval
       prop.PostalAddress.IsRequired = true;
       prop.Phones.IsRequired = true;
       prop.Email.IsRequired = true;
-      prop.Homepage.IsRequired = true;
       prop.Account.IsRequired = true;
       prop.CurrentAccount.IsRequired = true;
       prop.Bank.IsRequired = true;
