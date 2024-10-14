@@ -68,7 +68,7 @@
     <value>Cancel</value>
   </data>
   <data name="Action_CancelOMYAConfirmationMessage" xml:space="preserve">
-    <value />
+    <value>Are you sure you want to stop coordinating the counterparty approval request?</value>
   </data>
   <data name="Action_CancelOMYAConfirmationDescription" xml:space="preserve">
     <value />

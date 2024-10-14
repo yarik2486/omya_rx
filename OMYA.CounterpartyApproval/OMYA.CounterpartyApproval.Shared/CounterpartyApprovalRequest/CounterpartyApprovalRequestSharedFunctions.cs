@@ -172,5 +172,22 @@ namespace OMYA.CounterpartyApproval.Shared
         ? string.Empty
         : Sungero.Parties.CompanyBases.Resources.IncorrectTrrcLength;
     }
+    
+    /// <summary>
+    /// Обновить статус согласования документа.
+    /// </summary>
+    /// <param name="newState">Новый статус.</param>
+    /// <param name="taskId">ИД задачи на согласование или null, если задача не указана.</param>
+    public override void UpdateDocumentApprovalState(Nullable<Enumeration> newState, Nullable<long> taskId)
+    {
+      base.UpdateDocumentApprovalState(newState, taskId);
+      
+      if (newState == InternalApprovalState.OnApproval)
+        _obj.Status = Status.OnApproval;
+      else if (newState == InternalApprovalState.OnRework)
+        _obj.Status = Status.OnRework;
+      else if (newState == InternalApprovalState.Aborted)
+        _obj.Status = Status.NotApproved;
+    }
   }
 }

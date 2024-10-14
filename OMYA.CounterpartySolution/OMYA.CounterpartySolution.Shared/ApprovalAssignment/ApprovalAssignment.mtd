@@ -10,10 +10,52 @@
       "ActionArea": "Card",
       "GenerateHandler": true,
       "LargeIconName": "Action_ActionOMYA_large_471e5b64c0204c548b84f999c652ed49.png",
+      "NeedConfirmation": true,
       "SmallIconName": "Action_ActionOMYA_small_471e5b64c0204c548b84f999c652ed49.png"
     }
   ],
   "AssociatedGuid": "2c721b2f-0165-4895-8206-1624eac2a62c",
+  "AttachmentGroups": [
+    {
+      "NameGuid": "852b3e7d-f178-47d3-8fad-a64021065cfd",
+      "Name": "AddendaGroup",
+      "Constraints": [],
+      "IsAncestorMetadata": true,
+      "IsAssociatedEntityGroup": true,
+      "Overridden": [
+        "Title",
+        "Description"
+      ],
+      "Versions": []
+    },
+    {
+      "NameGuid": "bd87e6b5-e247-485a-93bf-52f24a64af5a",
+      "Name": "OtherGroup",
+      "Constraints": [],
+      "IsAncestorMetadata": true,
+      "IsAssociatedEntityGroup": true,
+      "Overridden": [
+        "Title",
+        "Description"
+      ],
+      "Versions": []
+    },
+    {
+      "NameGuid": "08e1ef90-521f-41a1-a13f-c6f175007e54",
+      "Name": "DocumentGroup",
+      "CanDeleteTaskFamilyAttachments": true,
+      "Constraints": [],
+      "IsAncestorMetadata": true,
+      "IsAssociatedEntityGroup": true,
+      "IsEnabled": false,
+      "IsRequired": true,
+      "Overridden": [
+        "Title",
+        "Description"
+      ],
+      "Versions": []
+    }
+  ],
   "BaseGuid": "daf1900f-e66b-4368-b724-a073266145d7",
   "CanBeNavigationPropertyType": true,
   "CreationAreaMetadata": {

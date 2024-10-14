@@ -2,7 +2,22 @@
   "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
   "NameGuid": "9d41af2d-c2a8-43c8-9d43-8cff54dbf817",
   "Name": "CounterpartyApproval",
-  "AsyncHandlers": [],
+  "AsyncHandlers": [
+    {
+      "NameGuid": "71c7e413-b2b2-471f-8182-56c120a7f0a6",
+      "Name": "CancelTask",
+      "DelayPeriod": 5,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "Parameters": [
+        {
+          "NameGuid": "225b6a15-71ab-45dd-b2b8-eeafcb2b4127",
+          "Name": "TaskId",
+          "ParameterType": "LongInteger"
+        }
+      ]
+    }
+  ],
   "ClientAssemblyName": "OMYA.CounterpartyApproval.Client",
   "ClientBaseAssemblyName": "OMYA.CounterpartyApproval.ClientBase",
   "ClientBaseNamespace": "OMYA.CounterpartyApproval.ClientBase",

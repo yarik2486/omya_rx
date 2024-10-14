@@ -62,7 +62,8 @@ namespace OMYA.CounterpartyApproval.Server
         Sungero.Docflow.OfficialDocuments.Info.Actions.SendActionItem,
         Sungero.Docflow.OfficialDocuments.Info.Actions.SendForFreeApproval,
         Sungero.Docflow.OfficialDocuments.Info.Actions.SendForDocumentFlow,
-        Sungero.Docflow.OfficialDocuments.Info.Actions.SendForAcquaintance };
+        Sungero.Docflow.OfficialDocuments.Info.Actions.SendForAcquaintance,
+        Sungero.Docflow.OfficialDocuments.Info.Actions.SendForApproval };
       
       // Заявка на одобрение контрагента.
       Sungero.Docflow.PublicInitializationFunctions.Module.CreateDocumentKind(Resources.RequestForCounterpartyApproval,

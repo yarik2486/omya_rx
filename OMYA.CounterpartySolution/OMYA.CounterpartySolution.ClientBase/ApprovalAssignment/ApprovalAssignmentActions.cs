@@ -11,12 +11,17 @@ namespace OMYA.CounterpartySolution.Client
   {
     public virtual void CancelOMYA(Sungero.Domain.Client.ExecuteActionArgs e)
     {
+      e.CloseFormAfterAction = true;
       
+      var cancelTask = CounterpartyApproval.AsyncHandlers.CancelTask.Create();
+      cancelTask.TaskId = _obj.Task.Id;
+      cancelTask.ExecuteAsync();
     }
 
     public virtual bool CanCancelOMYA(Sungero.Domain.Client.CanExecuteActionArgs e)
     {
-      return true;
+      var isCounterpartyApprovalRequest = CounterpartyApproval.CounterpartyApprovalRequests.Is(_obj.DocumentGroup.OfficialDocuments.FirstOrDefault());
+      return _obj.Status == Status.InProcess && isCounterpartyApprovalRequest;
     }
 
   }

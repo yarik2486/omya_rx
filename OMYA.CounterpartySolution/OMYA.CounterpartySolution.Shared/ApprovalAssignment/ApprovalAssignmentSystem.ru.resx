@@ -67,4 +67,7 @@
   <data name="Action_CancelOMYADescription" xml:space="preserve">
     <value>При нажатии на кнопку задача на согласование по регламенту прекращается.</value>
   </data>
+  <data name="Action_CancelOMYAConfirmationMessage" xml:space="preserve">
+    <value>Вы действительно хотите прекратить согласование заявки на одобрение контрагента?</value>
+  </data>
 </root>

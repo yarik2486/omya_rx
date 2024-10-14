@@ -106,4 +106,7 @@
   <data name="CoverDescription_Checklists" xml:space="preserve">
     <value>A register of all checklists for counterparty approval</value>
   </data>
+  <data name="AsyncHandler_Description_71c7e413b2b2471f818256c120a7f0a6" xml:space="preserve">
+    <value>Terminate task</value>
+  </data>
 </root>

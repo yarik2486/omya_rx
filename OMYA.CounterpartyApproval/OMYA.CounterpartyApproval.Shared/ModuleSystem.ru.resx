@@ -103,4 +103,7 @@
   <data name="CoverDescription_Checklists" xml:space="preserve">
     <value>Реестр всех чек-листов на одобрение контрагента</value>
   </data>
+  <data name="AsyncHandler_Description_71c7e413b2b2471f818256c120a7f0a6" xml:space="preserve">
+    <value>Прекратить задачу</value>
+  </data>
 </root>
