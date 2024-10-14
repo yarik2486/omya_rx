@@ -17,7 +17,6 @@ namespace OMYA.CounterpartySolution
       var prop = _obj.State.Properties;
       prop.CounterpartyTypeOMYA.IsRequired = true;
       prop.CounterpartyKindOMYA.IsRequired = true;
-      prop.LastUpdatedDateOMYA.IsRequired = true;
     }
 
     public override void Refresh(Sungero.Presentation.FormRefreshEventArgs e)
