@@ -64,4 +64,7 @@
   <data name="CounterpartyApprovalChecklistKind" xml:space="preserve">
     <value>Counterparty Approval Checklist</value>
   </data>
+  <data name="MasterDataSpecialistName" xml:space="preserve">
+    <value>Master Data Specialist</value>
+  </data>
 </root>

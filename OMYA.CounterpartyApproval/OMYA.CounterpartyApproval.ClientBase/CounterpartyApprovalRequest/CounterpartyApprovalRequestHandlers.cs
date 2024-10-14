@@ -92,6 +92,21 @@ namespace OMYA.CounterpartyApproval
       prop.BankAddress.IsRequired = true;
       prop.DocumentsForApproval.IsRequired = true;
       prop.DocumentsForApproval.Properties.DocumentName.IsRequired = true;
+      
+      // Для роли "Специалист по мастер-данным".
+      var isMasterDataSpecialist = PublicFunctions.Module.IncludedInMasterDataSpecialist();
+      prop.SAPNum.IsEnabled = isMasterDataSpecialist;
+      prop.Account.IsEnabled = isMasterDataSpecialist;
+      prop.CurrentAccount.IsEnabled = isMasterDataSpecialist;
+      prop.CorrespondentAccount.IsEnabled = isMasterDataSpecialist;
+      prop.Bank.IsEnabled = isMasterDataSpecialist;
+      prop.BankAddress.IsEnabled = isMasterDataSpecialist;
+      prop.BIC.IsEnabled = isMasterDataSpecialist;
+      prop.IBAN.IsEnabled = isMasterDataSpecialist;
+      prop.SWIFT.IsEnabled = isMasterDataSpecialist;
+      
+      if (!isMasterDataSpecialist)
+        e.HideAction(_obj.Info.Actions.CreateCompany);
     }
 
   }

@@ -148,6 +148,15 @@
       "Value": "new System.Guid(\"7B6C418B-9EB3-44E4-A0E1-4AA5022DA24B\")"
     },
     {
+      "Name": "MasterDataSpecialist",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"B39244B8-3337-440A-A931-E866A6D053E6\")"
+    },
+    {
       "Name": "RequestForCounterpartyApprovalKind",
       "ParentClasses": [
         "Module",
@@ -157,12 +166,20 @@
       "Value": "new System.Guid(\"BC8CF578-733A-46CD-B604-3263D069847F\")"
     }
   ],
+  "PublicFunctions": [
+    {
+      "Name": "IncludedInMasterDataSpecialist",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    }
+  ],
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "OMYA.CounterpartyApproval",
   "ResourcesKeys": [
     "RequestForCounterpartyApproval",
-    "CounterpartyApprovalChecklistKind"
+    "CounterpartyApprovalChecklistKind",
+    "MasterDataSpecialistName"
   ],
   "ServerAssemblyName": "OMYA.CounterpartyApproval.Server",
   "ServerNamespace": "OMYA.CounterpartyApproval.Server",

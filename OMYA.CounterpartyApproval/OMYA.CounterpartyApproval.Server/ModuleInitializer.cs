@@ -16,6 +16,7 @@ namespace OMYA.CounterpartyApproval.Server
     {
       CreateDocumentTypes();
       CreateDocumentKinds();
+      CreateRoles();
       
       // Выдача прав всем пользователям.
       var allUsers = Roles.AllUsers;
@@ -103,6 +104,16 @@ namespace OMYA.CounterpartyApproval.Server
       
       Checklists.AccessRights.Grant(allUsers, DefaultAccessRightsTypes.Create);
       Checklists.AccessRights.Save();
+    }
+    
+    /// <summary>
+    /// Создать предопределенные роли.
+    /// </summary>
+    public static void CreateRoles()
+    {
+      InitializationLogger.Debug("Init CounterpartyApproval: Create Default Roles");
+      
+      Sungero.Docflow.PublicInitializationFunctions.Module.CreateRole(Resources.MasterDataSpecialistName, Resources.MasterDataSpecialistName, Constants.Module.Initialize.MasterDataSpecialist);
     }
   }
 }

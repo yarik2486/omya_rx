@@ -41,6 +41,19 @@ namespace OMYA.CounterpartySolution
       prop.CompanyRegistrationNumberOMYA.IsVisible = nonresident;
       prop.TaxNumberOMYA.IsRequired = nonresident;
       prop.TaxNumberOMYA.IsVisible = nonresident;
+      
+      // Для роли "Специалист по мастер-данным".
+      var isMasterDataSpecialist = OMYA.CounterpartyApproval.PublicFunctions.Module.IncludedInMasterDataSpecialist();
+      prop.ApprovalStatusOMYA.IsEnabled = isMasterDataSpecialist;
+      prop.SAPNumOMYA.IsEnabled = isMasterDataSpecialist;
+      prop.Account.IsEnabled = isMasterDataSpecialist;
+      prop.CurrentAccountOMYA.IsEnabled = isMasterDataSpecialist;
+      prop.CorrespondentAccountOMYA.IsEnabled = isMasterDataSpecialist;
+      prop.Bank.IsEnabled = isMasterDataSpecialist;
+      prop.BankAddressOMYA.IsEnabled = isMasterDataSpecialist;
+      prop.BICOMYA.IsEnabled = isMasterDataSpecialist;
+      prop.IBANOMYA.IsEnabled = isMasterDataSpecialist;
+      prop.SWIFTOMYA.IsEnabled = isMasterDataSpecialist;
     }
 
   }
