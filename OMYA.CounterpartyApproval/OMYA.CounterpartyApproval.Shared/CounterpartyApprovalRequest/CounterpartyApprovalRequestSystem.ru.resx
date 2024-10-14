@@ -281,6 +281,15 @@
     <value>Создать чек-лист</value>
   </data>
   <data name="Action_CreateChecklistDescription" xml:space="preserve">
-    <value>При нажатии на кнопку создается карточка документа с типом «Чек-лист» и видом «Чек-лист для одобрения контрагента»</value>
+    <value>При нажатии на кнопку создается карточка документа с типом «Чек-лист» и видом «Чек-лист для одобрения контрагента».</value>
+  </data>
+  <data name="Action_CreateCompany" xml:space="preserve">
+    <value>Создать контрагента</value>
+  </data>
+  <data name="Action_CreateCompanyHint" xml:space="preserve">
+    <value>Создать контрагента</value>
+  </data>
+  <data name="Action_CreateCompanyDescription" xml:space="preserve">
+    <value>При нажатии на кнопку формируется карточка организации по данным из заявки на одобрение контрагента.</value>
   </data>
 </root>

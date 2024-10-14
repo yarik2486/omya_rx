@@ -11,6 +11,14 @@
       "GenerateHandler": true,
       "LargeIconName": "Action_CreateChecklist_large_db3529f1b137448a8efc6fdf860f2c15.png",
       "SmallIconName": "Action_CreateChecklist_small_db3529f1b137448a8efc6fdf860f2c15.png"
+    },
+    {
+      "NameGuid": "0a2157d9-f424-4d0d-96a6-3212fd853aff",
+      "Name": "CreateCompany",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_CreateCompany_large_0a2157d9f4244d0d96a63212fd853aff.png",
+      "SmallIconName": "Action_CreateCompany_small_0a2157d9f4244d0d96a63212fd853aff.png"
     }
   ],
   "BaseGuid": "ce3e34ed-7be2-4426-a951-d5a70f966650",
@@ -1298,6 +1306,15 @@
         "ActionGuid": "db3529f1-b137-448a-8efc-6fdf860f2c15",
         "ButtonSize": "Large",
         "Index": 2,
+        "ParentGuid": "2ed94346-ba89-4c52-9815-d18010d3a2ae"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "dfabf017-5fae-4f22-a136-e9ca3754feed",
+        "Name": "CreateCompany",
+        "ActionGuid": "0a2157d9-f424-4d0d-96a6-3212fd853aff",
+        "ButtonSize": "Large",
+        "Index": 3,
         "ParentGuid": "2ed94346-ba89-4c52-9815-d18010d3a2ae"
       }
     ],
