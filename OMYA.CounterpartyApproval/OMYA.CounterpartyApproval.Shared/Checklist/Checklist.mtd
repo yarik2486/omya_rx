@@ -30,11 +30,20 @@
           "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
           "NameGuid": "03fde417-8254-4f08-950c-d543871033a8",
           "Name": "MainGroup",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 69.24
+            },
+            {
+              "Percentage": 29.8
+            }
+          ],
           "IsAncestorMetadata": true,
           "Overridden": [
             "Controls",
             "SharedNestedGroupsAlignment",
-            "CanChangeSubGroupsWidth"
+            "CanChangeSubGroupsWidth",
+            "ColumnDefinitions"
           ],
           "Versions": []
         },

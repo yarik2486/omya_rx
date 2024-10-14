@@ -1159,7 +1159,7 @@
       "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
       "NameGuid": "e1e6a907-7778-44e9-937d-23d469e312f7",
       "Name": "CorrespondentAccount",
-      "Code": "CorrespondentA",
+      "Code": "CorrespAccount",
       "Length": 34,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "9fc71348-feaa-451d-8a20-291d37eca5de",
