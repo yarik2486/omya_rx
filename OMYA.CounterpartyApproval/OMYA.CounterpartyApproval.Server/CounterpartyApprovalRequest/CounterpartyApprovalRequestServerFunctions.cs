@@ -10,5 +10,14 @@ namespace OMYA.CounterpartyApproval.Server
   partial class CounterpartyApprovalRequestFunctions
   {
 
+    /// <summary>
+    /// Создать чек-лист.
+    /// </summary>
+    /// <returns>Чек-лист.</returns>
+    [Remote]
+    public static IChecklist CreateChecklist()
+    {
+      return Checklists.Create();
+    }
   }
 }

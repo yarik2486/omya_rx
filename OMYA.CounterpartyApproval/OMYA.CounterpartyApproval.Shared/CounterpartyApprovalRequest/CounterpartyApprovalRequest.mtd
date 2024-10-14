@@ -3,6 +3,16 @@
   "NameGuid": "bb2e947a-d482-439b-88ce-3a4746ebdaef",
   "Name": "CounterpartyApprovalRequest",
   "AccessRightsMode": "Both",
+  "Actions": [
+    {
+      "NameGuid": "db3529f1-b137-448a-8efc-6fdf860f2c15",
+      "Name": "CreateChecklist",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_CreateChecklist_large_db3529f1b137448a8efc6fdf860f2c15.png",
+      "SmallIconName": "Action_CreateChecklist_small_db3529f1b137448a8efc6fdf860f2c15.png"
+    }
+  ],
   "BaseGuid": "ce3e34ed-7be2-4426-a951-d5a70f966650",
   "CanBeNavigationPropertyType": true,
   "CreationAreaMetadata": {
@@ -1280,7 +1290,17 @@
     "NameGuid": "b025a821-6fe0-4470-8725-8a094f5e11b3",
     "Name": "RibbonCard",
     "Categories": [],
-    "Elements": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "ef22ef20-bca1-481e-a7bd-fe8ea4262cfd",
+        "Name": "ActionButton",
+        "ActionGuid": "db3529f1-b137-448a-8efc-6fdf860f2c15",
+        "ButtonSize": "Large",
+        "Index": 2,
+        "ParentGuid": "2ed94346-ba89-4c52-9815-d18010d3a2ae"
+      }
+    ],
     "Groups": [],
     "IsAncestorMetadata": true,
     "Pages": [],

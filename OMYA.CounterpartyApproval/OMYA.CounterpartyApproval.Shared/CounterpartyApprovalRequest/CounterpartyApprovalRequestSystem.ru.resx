@@ -274,4 +274,13 @@
   <data name="Enum_Status_NotApproved" xml:space="preserve">
     <value>Не согласовано</value>
   </data>
+  <data name="Action_CreateChecklist" xml:space="preserve">
+    <value>Создать чек-лист</value>
+  </data>
+  <data name="Action_CreateChecklistHint" xml:space="preserve">
+    <value>Создать чек-лист</value>
+  </data>
+  <data name="Action_CreateChecklistDescription" xml:space="preserve">
+    <value>При нажатии на кнопку создается карточка документа с типом «Чек-лист» и видом «Чек-лист для одобрения контрагента»</value>
+  </data>
 </root>

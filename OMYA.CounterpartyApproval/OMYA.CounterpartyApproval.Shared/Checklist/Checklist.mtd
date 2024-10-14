@@ -725,13 +725,17 @@
       "NameGuid": "aae1f6ae-d090-4c5a-963e-44c8b79dc92b",
       "Name": "LeadingDocument",
       "EntityGuid": "ce3e34ed-7be2-4426-a951-d5a70f966650",
+      "HandledEvents": [
+        "ChangedShared"
+      ],
       "IsAncestorMetadata": true,
       "Overridden": [
         "EntityGuid",
         "IsEnabled",
         "IsShowedInList",
         "CanBeSearch",
-        "IsVisibility"
+        "IsVisibility",
+        "HandledEvents"
       ],
       "Versions": []
     },
