@@ -7,6 +7,15 @@ using OMYA.CounterpartyApproval.CounterpartyApprovalRequest;
 
 namespace OMYA.CounterpartyApproval
 {
+  partial class CounterpartyApprovalRequestDocumentsForApprovalDocumentPropertyFilteringServerHandler<T>
+  {
+
+    public virtual IQueryable<T> DocumentsForApprovalDocumentFiltering(IQueryable<T> query, Sungero.Domain.PropertyFilteringEventArgs e)
+    {
+      return query.Where(x => Equals(x.LeadingDocument, _root));
+    }
+  }
+
   partial class CounterpartyApprovalRequestCityPropertyFilteringServerHandler<T>
   {
 

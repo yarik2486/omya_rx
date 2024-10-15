@@ -49,8 +49,13 @@
       "Code": "Document",
       "EntityGuid": "ce3e34ed-7be2-4426-a951-d5a70f966650",
       "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "LookupServer"
+      ],
       "IsSortingAllowed": false,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
+      "NeedPassEntityToLookupEvent": true,
+      "OnlyRootEntityUsedInChildLookupEvent": true,
       "PreviousPropertyGuid": "86ec07e3-b497-4c68-b5f9-1de83f6dbe6f"
     },
     {
