@@ -182,9 +182,7 @@ namespace OMYA.CounterpartyApproval.Shared
     {
       base.UpdateDocumentApprovalState(newState, taskId);
       
-      if (newState == InternalApprovalState.OnApproval)
-        _obj.Status = Status.OnApproval;
-      else if (newState == InternalApprovalState.OnRework)
+      if (newState == InternalApprovalState.OnRework)
         _obj.Status = Status.OnRework;
       else if (newState == InternalApprovalState.Aborted)
         _obj.Status = Status.NotApproved;

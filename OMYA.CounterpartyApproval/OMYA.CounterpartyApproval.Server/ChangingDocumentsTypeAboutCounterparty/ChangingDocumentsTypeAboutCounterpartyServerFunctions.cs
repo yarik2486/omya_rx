@@ -40,6 +40,13 @@ namespace OMYA.CounterpartyApproval.Server
         var relations = request.Relations.GetRelatedDocuments();
         foreach (var relation in relations)
         {
+          var lockInfo = Locks.GetLockInfo(relation);
+          if (lockInfo.IsLocked)
+          {
+            Logger.DebugFormat("ChangingDocumentsTypeAboutCounterparty. Document with Id {0} locked {1}.", document.Id, lockInfo.OwnerName);
+            return this.GetRetryResult(string.Format(Sungero.Docflow.ApprovalConvertPdfStages.Resources.ConvertPdfLockError, relation.Name, relation.Id, lockInfo.OwnerName));
+          }
+      
           if (!CounterpartyDocuments.Is(relation))
           {
             var convertedDocument = CounterpartyDocuments.As(relation.ConvertTo(CounterpartyDocuments.Info));

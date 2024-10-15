@@ -25,6 +25,9 @@
     "IsAncestorMetadata": true,
     "Versions": []
   },
+  "HandledEvents": [
+    "BeforeStartServer"
+  ],
   "IconResourcesKeys": [],
   "IsCreateVersionsOnLayerForbidden": true,
   "IsVisibleThreadText": true,

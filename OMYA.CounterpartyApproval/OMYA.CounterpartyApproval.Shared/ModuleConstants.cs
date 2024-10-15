@@ -20,5 +20,9 @@ namespace OMYA.CounterpartyApproval.Constants
        [Sungero.Core.Public]
        public static readonly Guid MasterDataSpecialist = Guid.Parse("B39244B8-3337-440A-A931-E866A6D053E6");
      }
+     
+     // Guid типа документа "Заявка на одобрение контрагента".
+     [Sungero.Core.Public]
+     public const string CounterpartyApprovalRequestTypeGuid = "bb2e947a-d482-439b-88ce-3a4746ebdaef";
   }
 }
