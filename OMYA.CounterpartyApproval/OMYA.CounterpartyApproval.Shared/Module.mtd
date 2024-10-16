@@ -16,6 +16,36 @@
           "ParameterType": "LongInteger"
         }
       ]
+    },
+    {
+      "NameGuid": "c108698e-eaf0-4f25-a730-b6f16596e2b1",
+      "Name": "AddApprovalResult",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "MaxRetryCount": 50,
+      "Parameters": [
+        {
+          "NameGuid": "5a6e72cb-5f3b-4798-806e-b47278d25fab",
+          "Name": "Comment",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "70de41ac-95f4-445d-80db-b75afac80a3d",
+          "Name": "Result",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "c74f04db-c7d9-4e42-b79f-8fdabc0f29e9",
+          "Name": "DocumentId",
+          "ParameterType": "LongInteger"
+        },
+        {
+          "NameGuid": "dc157db6-85c3-4ef3-acc6-6feddffb88a2",
+          "Name": "ApproverId",
+          "ParameterType": "LongInteger"
+        }
+      ]
     }
   ],
   "ClientAssemblyName": "OMYA.CounterpartyApproval.Client",
@@ -204,6 +234,33 @@
     }
   ],
   "PublicFunctions": [
+    {
+      "Name": "AddApprovalResult",
+      "Parameters": [
+        {
+          "Name": "documentId",
+          "ParameterType": "global::System.Int64",
+          "ParameterTypeFullName": "System.Int64"
+        },
+        {
+          "Name": "approverId",
+          "ParameterType": "global::System.Int64",
+          "ParameterTypeFullName": "System.Int64"
+        },
+        {
+          "Name": "result",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "comment",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    },
     {
       "Name": "IncludedInMasterDataSpecialist",
       "ReturnType": "global::System.Boolean",

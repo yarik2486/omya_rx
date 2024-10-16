@@ -14,7 +14,8 @@ namespace OMYA.CounterpartyApproval.Client
     /// </summary>
     public virtual void CreateRequest()
     {
-       Sungero.Docflow.IncomingDocumentBases.CreateDocumentWithCreationDialog(CounterpartyApprovalRequests.Info);
+      Sungero.Docflow.IncomingDocumentBases.CreateDocumentWithCreationDialog(CounterpartyApprovalRequests.Info,
+                                                                             Sungero.Docflow.CounterpartyDocuments.Info);
     }
 
   }

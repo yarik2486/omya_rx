@@ -58,4 +58,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ApprovedResult" xml:space="preserve">
+    <value>Согласовано</value>
+  </data>
+  <data name="ForwardResult" xml:space="preserve">
+    <value>Переадресовать</value>
+  </data>
+  <data name="ForRevisionResult" xml:space="preserve">
+    <value>На доработку</value>
+  </data>
+  <data name="Aborted" xml:space="preserve">
+    <value>Прекращено</value>
+  </data>
 </root>

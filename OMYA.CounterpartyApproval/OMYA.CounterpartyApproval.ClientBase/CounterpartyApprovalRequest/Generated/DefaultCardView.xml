@@ -30,7 +30,7 @@
             <property name="Name">CounterpartyApprovalRequest_DocumentsForApproval_DocumentName</property>
             <property name="FieldName">DocumentName</property>
             <property name="VisibleIndex">0</property>
-            <property name="Width">234</property>
+            <property name="Width">227</property>
             <property name="ActualWidth">32*</property>
           </property>
           <property name="Item2" isnull="true" iskey="true">
@@ -38,7 +38,7 @@
             <property name="Name">CounterpartyApprovalRequest_DocumentsForApproval_Document</property>
             <property name="FieldName">Document</property>
             <property name="VisibleIndex">1</property>
-            <property name="Width">153</property>
+            <property name="Width">149</property>
             <property name="ActualWidth">21*</property>
           </property>
           <property name="Item3" isnull="true" iskey="true">
@@ -46,7 +46,7 @@
             <property name="Name">CounterpartyApprovalRequest_DocumentsForApproval_Absent</property>
             <property name="FieldName">Absent</property>
             <property name="VisibleIndex">2</property>
-            <property name="Width">110</property>
+            <property name="Width">106</property>
             <property name="ActualWidth">15*</property>
           </property>
           <property name="Item4" isnull="true" iskey="true">
@@ -54,7 +54,7 @@
             <property name="Name">CounterpartyApprovalRequest_DocumentsForApproval_ReasonForAbsence</property>
             <property name="FieldName">ReasonForAbsence</property>
             <property name="VisibleIndex">3</property>
-            <property name="Width">204</property>
+            <property name="Width">199</property>
             <property name="ActualWidth">28*</property>
           </property>
         </property>
@@ -91,24 +91,24 @@
             <property name="Name">CounterpartyApprovalRequest_ApprovalResults_Approver</property>
             <property name="FieldName">Approver</property>
             <property name="VisibleIndex">0</property>
-            <property name="Width">102</property>
-            <property name="ActualWidth">14*</property>
+            <property name="Width">234</property>
+            <property name="ActualWidth">33*</property>
           </property>
           <property name="Item2" isnull="true" iskey="true">
             <property name="Visible">true</property>
             <property name="Name">CounterpartyApprovalRequest_ApprovalResults_Result</property>
             <property name="FieldName">Result</property>
             <property name="VisibleIndex">1</property>
-            <property name="Width">73</property>
-            <property name="ActualWidth">10*</property>
+            <property name="Width">220</property>
+            <property name="ActualWidth">31*</property>
           </property>
           <property name="Item3" isnull="true" iskey="true">
             <property name="Visible">true</property>
             <property name="Name">CounterpartyApprovalRequest_ApprovalResults_Comment</property>
             <property name="FieldName">Comment</property>
             <property name="VisibleIndex">2</property>
-            <property name="Width">95</property>
-            <property name="ActualWidth">13*</property>
+            <property name="Width">241</property>
+            <property name="ActualWidth">34*</property>
           </property>
         </property>
         <property name="GroupSummarySortInfo" iskey="true" value="0" />

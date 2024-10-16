@@ -62,6 +62,7 @@
       "Code": "Comment",
       "IsEnabled": false,
       "IsSortingAllowed": false,
+      "Length": 1000,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "63d690ae-702c-4415-a4e9-62157e068883"
     }

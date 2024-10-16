@@ -19,5 +19,23 @@ namespace OMYA.CounterpartyApproval.Server
       var role = Roles.GetAll(x => x.Sid == Constants.Module.Initialize.MasterDataSpecialist).FirstOrDefault();
       return Users.Current.IncludedIn(Roles.Administrators) || Users.Current.IncludedIn(role);
     }
+    
+    /// <summary>
+    /// Добавить результат согласования в заявку на одобрение контрагента.
+    /// </summary>
+    /// <param name="documentId">ИД документа.</param>
+    /// <param name="approverId">ИД согласующего.</param>
+    /// <param name="result">Результат согласования.</param>
+    /// <param name="comment">Комментарий.</param>
+    [Public]
+    public void AddApprovalResult(long documentId, long approverId, string result, string comment)
+    {
+      var addApprovalResult = OMYA.CounterpartyApproval.AsyncHandlers.AddApprovalResult.Create();
+      addApprovalResult.DocumentId = documentId;
+      addApprovalResult.ApproverId = approverId;
+      addApprovalResult.Result = result;
+      addApprovalResult.Comment = comment;
+      addApprovalResult.ExecuteAsync();
+    }
   }
 }
