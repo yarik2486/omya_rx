@@ -54,6 +54,8 @@ namespace OMYA.CounterpartySolution
       prop.BICOMYA.IsEnabled = isMasterDataSpecialist;
       prop.IBANOMYA.IsEnabled = isMasterDataSpecialist;
       prop.SWIFTOMYA.IsEnabled = isMasterDataSpecialist;
+      prop.LastUpdatedDateOMYA.IsEnabled = isMasterDataSpecialist;
+      prop.LastUpdatedDateOMYA.IsRequired = isMasterDataSpecialist;
     }
 
   }

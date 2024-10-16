@@ -106,4 +106,10 @@
   <data name="AsyncHandler_Description_71c7e413b2b2471f818256c120a7f0a6" xml:space="preserve">
     <value>Прекратить задачу</value>
   </data>
+  <data name="JobDisplayName_501c5d25e0964e2ca38ee98847f5e301" xml:space="preserve">
+    <value>Одобрение контрагента. Обновление сведений</value>
+  </data>
+  <data name="JobDescription_501c5d25e0964e2ca38ee98847f5e301" xml:space="preserve">
+    <value>Фоновый процесс проверяет у организаций последнюю дату обновления. Если данные устарели, то ответственному из заявки на одобрение формируется задание на проверку и обновления сведений контрагента.</value>
+  </data>
 </root>

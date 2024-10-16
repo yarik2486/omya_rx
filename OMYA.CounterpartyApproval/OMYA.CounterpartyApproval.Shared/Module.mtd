@@ -135,6 +135,14 @@
     {
       "ItemId": "a65db736-269a-40bd-ad84-9795b3e825d6",
       "PreviousItemId": "30dcffdd-82f8-4087-b3b0-c017cedb3a49"
+    },
+    {
+      "ItemId": "8d3a3e43-0b0d-4dbd-be68-6bad5eae3e63",
+      "PreviousItemId": "a65db736-269a-40bd-ad84-9795b3e825d6"
+    },
+    {
+      "ItemId": "8ebae833-03df-4d27-8741-11c900ead36c",
+      "PreviousItemId": "8d3a3e43-0b0d-4dbd-be68-6bad5eae3e63"
     }
   ],
   "HandledEvents": [
@@ -146,6 +154,15 @@
   "InterfaceNamespace": "OMYA.CounterpartyApproval",
   "IsolatedAssemblyName": "OMYA.CounterpartyApproval.Isolated",
   "IsolatedNamespace": "OMYA.CounterpartyApproval.Isolated",
+  "Jobs": [
+    {
+      "NameGuid": "501c5d25-e096-4e2c-a38e-e98847f5e301",
+      "Name": "UpdatingInformation",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T05:30:00"
+    }
+  ],
   "Overridden": [
     "IsVisible"
   ],
@@ -199,7 +216,8 @@
   "ResourcesKeys": [
     "RequestForCounterpartyApproval",
     "CounterpartyApprovalChecklistKind",
-    "MasterDataSpecialistName"
+    "MasterDataSpecialistName",
+    "CheckTheCounterpartyDetails"
   ],
   "ServerAssemblyName": "OMYA.CounterpartyApproval.Server",
   "ServerNamespace": "OMYA.CounterpartyApproval.Server",

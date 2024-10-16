@@ -67,4 +67,7 @@
   <data name="MasterDataSpecialistName" xml:space="preserve">
     <value>Master Data Specialist</value>
   </data>
+  <data name="CheckTheCounterpartyDetails" xml:space="preserve">
+    <value>Check the counterparty details</value>
+  </data>
 </root>

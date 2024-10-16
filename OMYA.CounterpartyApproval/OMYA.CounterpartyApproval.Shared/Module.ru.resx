@@ -67,4 +67,7 @@
   <data name="MasterDataSpecialistName" xml:space="preserve">
     <value>Специалист по мастер-данным</value>
   </data>
+  <data name="CheckTheCounterpartyDetails" xml:space="preserve">
+    <value>Проверьте реквизиты контрагента</value>
+  </data>
 </root>
