@@ -58,4 +58,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="NotContainsDocument" xml:space="preserve">
+    <value>Не вложен документ.</value>
+  </data>
+  <data name="DocumentNotRequest" xml:space="preserve">
+    <value>Документ не является заявкой на одобрение контрагента.</value>
+  </data>
+  <data name="NoCounterpartyInRequest" xml:space="preserve">
+    <value>Отсутствует контрагент в заявке на одобрение контрагента.</value>
+  </data>
 </root>

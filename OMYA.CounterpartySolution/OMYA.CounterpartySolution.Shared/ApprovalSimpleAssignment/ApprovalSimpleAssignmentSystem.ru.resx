@@ -58,4 +58,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Action_SendInvitationOMYA" xml:space="preserve">
+    <value>Отправить приглашение</value>
+  </data>
+  <data name="Action_SendInvitationOMYAHint" xml:space="preserve">
+    <value>Отправить приглашение</value>
+  </data>
+  <data name="Action_SendInvitationOMYADescription" xml:space="preserve">
+    <value>Отправить контрагенту приглашение к электронному обмену документами.</value>
+  </data>
 </root>
