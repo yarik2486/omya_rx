@@ -23,7 +23,7 @@ namespace OMYA.CounterpartySolution.Server
         .Where(s => s.Stage.StageType == stageType)
         .FirstOrDefault(s => s.Number == _obj.StageNumber);
       
-      return ApprovalStages.As(stage);
+      return ApprovalStages.As(stage?.Stage);
     }
   }
 }

@@ -52,7 +52,17 @@
     "NameGuid": "b6f235d8-01f0-40dc-b902-4daf76685eae",
     "Name": "RibbonCard",
     "Categories": [],
-    "Elements": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "17ef92a1-f55f-4b04-b29a-1873f6cbfc5f",
+        "Name": "SendInvitationOMYA",
+        "ActionGuid": "7f7f9fe8-55aa-4082-ac45-a4fd0b34e7bf",
+        "ButtonSize": "Large",
+        "Index": 2,
+        "ParentGuid": "ac82503a-7a47-49d0-b90c-9bb512c4559c"
+      }
+    ],
     "Groups": [],
     "IsAncestorMetadata": true,
     "Pages": [],
