@@ -10,6 +10,20 @@ namespace OMYA.CounterpartyApproval
   partial class CounterpartyApprovalRequestSharedHandlers
   {
 
+    public override void InternalApprovalStateChanged(Sungero.Domain.Shared.EnumerationPropertyChangedEventArgs e)
+    {
+      base.InternalApprovalStateChanged(e);
+      
+      Functions.CounterpartyApprovalRequest.UpdateStatus(_obj, _obj.LifeCycleState, e.NewValue);
+    }
+
+    public override void LifeCycleStateChanged(Sungero.Domain.Shared.EnumerationPropertyChangedEventArgs e)
+    {
+      base.LifeCycleStateChanged(e);
+      
+      Functions.CounterpartyApprovalRequest.UpdateStatus(_obj, e.NewValue, _obj.InternalApprovalState);
+    }
+
     public virtual void LegalAddressChanged(Sungero.Domain.Shared.StringPropertyChangedEventArgs e)
     {
       // Заполнить почтовый адрес в соответствии с юрид. адресом.
@@ -49,35 +63,6 @@ namespace OMYA.CounterpartyApproval
             documentsForApproval.ReasonForAbsence = item.ReasonForAbsence;
           }
         }
-      }
-    }
-
-    public virtual void StatusChanged(Sungero.Domain.Shared.EnumerationPropertyChangedEventArgs e)
-    {
-      if (e.NewValue == Status.Draft) // Черновик.
-      {
-        _obj.LifeCycleState = LifeCycleState.Draft; // В разработке.
-        _obj.InternalApprovalState = null;
-      }
-      else if (e.NewValue == Status.OnApproval) // На согласовании.
-      {
-        _obj.LifeCycleState = LifeCycleState.Draft; // В разработке.
-        _obj.InternalApprovalState = InternalApprovalState.OnApproval; // На согласовании.
-      }
-      else if (e.NewValue == Status.OnRework) // На доработке.
-      {
-        _obj.LifeCycleState = LifeCycleState.Draft; // В разработке.
-        _obj.InternalApprovalState = InternalApprovalState.OnRework; // На доработке.
-      }
-      else if (e.NewValue == Status.Approved) // Согласовано.
-      {
-        _obj.LifeCycleState = LifeCycleState.Active; // Действующий.
-        _obj.InternalApprovalState = InternalApprovalState.OnApproval; // На согласовании.
-      }
-      else if (e.NewValue == Status.NotApproved) // Не согласовано.
-      {
-        _obj.LifeCycleState = LifeCycleState.Draft; // В разработке.
-        _obj.InternalApprovalState = InternalApprovalState.Aborted; // Прекращено.
       }
     }
 

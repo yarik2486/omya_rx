@@ -187,5 +187,43 @@ namespace OMYA.CounterpartyApproval.Shared
       else if (newState == InternalApprovalState.Aborted)
         _obj.Status = Status.NotApproved;
     }
+    
+    /// <summary>
+    /// Изменить статус запроса.
+    /// </summary>
+    /// <param name="lifeCycleState">Состояние.</param>
+    /// <param name="internalApprovalState">Согласование.</param>
+    public void UpdateStatus(Nullable<Enumeration> lifeCycleState, Nullable<Enumeration> internalApprovalState)
+    {
+      // Состояние - в разработке, Согласование - не заполнено. 
+      if (lifeCycleState == LifeCycleState.Draft && internalApprovalState == null) 
+      {
+        _obj.Status = Status.Draft; // Черновик.
+      }
+      
+      // Состояние - в разработке, Согласование - на согласовании. 
+      else if (lifeCycleState == LifeCycleState.Draft && internalApprovalState == InternalApprovalState.OnApproval) 
+      {
+         _obj.Status = Status.OnApproval; // На согласовании.
+      }
+      
+      // Состояние - в разработке, Согласование - на доработке. 
+      else if (lifeCycleState == LifeCycleState.Draft && internalApprovalState == InternalApprovalState.OnRework)
+      {
+        _obj.Status = Status.OnRework; // На доработке.
+      }
+      
+      // Состояние - действующий, Согласование - на согласовании. 
+      else if (lifeCycleState == LifeCycleState.Active && internalApprovalState == InternalApprovalState.OnApproval)
+      {
+        _obj.Status = Status.Approved; // Согласовано.
+      }
+      
+      // Состояние - в разработке, Согласование - прекращено. 
+      else if (lifeCycleState == LifeCycleState.Draft && internalApprovalState == InternalApprovalState.Aborted)
+      {
+        _obj.Status = Status.NotApproved; // Не согласовано.
+      }
+    }
   }
 }

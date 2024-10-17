@@ -55,7 +55,6 @@ namespace OMYA.CounterpartyApproval
       base.Created(e);
       
       _obj.Nonresident = false;
-      _obj.Status = Status.Draft;
     }
   }
 

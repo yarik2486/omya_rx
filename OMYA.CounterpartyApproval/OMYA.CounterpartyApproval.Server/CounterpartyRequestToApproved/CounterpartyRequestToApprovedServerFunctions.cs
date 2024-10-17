@@ -44,6 +44,7 @@ namespace OMYA.CounterpartyApproval.Server
         
       try
       {
+        request.LifeCycleState = OMYA.CounterpartyApproval.CounterpartyApprovalRequest.LifeCycleState.Active;
         request.Status = OMYA.CounterpartyApproval.CounterpartyApprovalRequest.Status.Approved;
         request.Save();
       }

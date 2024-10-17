@@ -22,6 +22,7 @@ namespace OMYA.CounterpartySolution
       {
         var request = CounterpartyApproval.CounterpartyApprovalRequests.As(document);
         request.Status = CounterpartyApproval.CounterpartyApprovalRequest.Status.OnApproval;
+        request.LifeCycleState = CounterpartyApproval.CounterpartyApprovalRequest.LifeCycleState.Draft;
       }
     }
   }

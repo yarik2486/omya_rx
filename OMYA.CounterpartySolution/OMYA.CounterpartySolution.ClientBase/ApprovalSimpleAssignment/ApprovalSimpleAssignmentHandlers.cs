@@ -14,14 +14,19 @@ namespace OMYA.CounterpartySolution
     {
       base.Showing(e);
       
-      var stage = Functions.ApprovalSimpleAssignment.Remote.GetStage(_obj, Sungero.Docflow.ApprovalStage.StageType.SimpleAgr);
-      
-      // Для роли "Специалист по мастер-данным".
-      var isMasterDataSpecialist = OMYA.CounterpartyApproval.PublicFunctions.Module.IncludedInMasterDataSpecialist();
-      var isStepForSendingCounterparty = stage != null && stage.StepForSendingCounterpartyOMYA == true && isMasterDataSpecialist;
-      if (!isStepForSendingCounterparty)
+      // Отображение кнопки "Отправить приглашение".
+      var document = _obj.DocumentGroup.OfficialDocuments.FirstOrDefault();
+      if (CounterpartyApproval.CounterpartyApprovalRequests.Is(document))
       {
-        e.HideAction(_obj.Info.Actions.SendInvitationOMYA);
+        var stage = Functions.ApprovalSimpleAssignment.Remote.GetStage(_obj, Sungero.Docflow.ApprovalStage.StageType.SimpleAgr);
+        
+        // Для роли "Специалист по мастер-данным".
+        var isMasterDataSpecialist = OMYA.CounterpartyApproval.PublicFunctions.Module.IncludedInMasterDataSpecialist();
+        var isStepForSendingCounterparty = stage != null && stage.StepForSendingCounterpartyOMYA == true && isMasterDataSpecialist;
+        if (!isStepForSendingCounterparty)
+        {
+          e.HideAction(_obj.Info.Actions.SendInvitationOMYA);
+        }
       }
     }
 
