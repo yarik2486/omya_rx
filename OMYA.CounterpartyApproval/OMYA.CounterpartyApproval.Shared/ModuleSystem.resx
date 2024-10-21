@@ -118,4 +118,7 @@
   <data name="AsyncHandler_Description_c108698eeaf04f25a730b6f16596e2b1" xml:space="preserve">
     <value>Add the approval result to the counterparty approval request</value>
   </data>
+  <data name="AsyncHandler_Description_5f0b7d7225db4e9cabf1a13f7d5edce3" xml:space="preserve">
+    <value>Assign approval status to counterparty regarding document</value>
+  </data>
 </root>

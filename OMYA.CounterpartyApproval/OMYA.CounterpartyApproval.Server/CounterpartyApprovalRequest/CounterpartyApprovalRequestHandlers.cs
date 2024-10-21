@@ -50,6 +50,20 @@ namespace OMYA.CounterpartyApproval
   partial class CounterpartyApprovalRequestServerHandlers
   {
 
+    public override void BeforeSave(Sungero.Domain.BeforeSaveEventArgs e)
+    {
+      base.BeforeSave(e);
+      
+      // Обновить статус согласования контрагента.
+      if (_obj.Counterparty != null && _obj.State.Properties.Status.IsChanged)
+      {
+        var setApprovalStatusForCompany = AsyncHandlers.SetApprovalStatusForCompany.Create();
+        setApprovalStatusForCompany.CompanyId = _obj.Counterparty.Id;
+        setApprovalStatusForCompany.DocumentId = _obj.Id;
+        setApprovalStatusForCompany.ExecuteAsync();
+      }
+    }
+
     public override void Created(Sungero.Domain.CreatedEventArgs e)
     {
       base.Created(e);

@@ -46,6 +46,26 @@
           "ParameterType": "LongInteger"
         }
       ]
+    },
+    {
+      "NameGuid": "5f0b7d72-25db-4e9c-abf1-a13f7d5edce3",
+      "Name": "SetApprovalStatusForCompany",
+      "DelayPeriod": 15,
+      "DelayStrategy": "RegularDelayStrategy",
+      "IsHandlerGenerated": true,
+      "MaxRetryCount": 50,
+      "Parameters": [
+        {
+          "NameGuid": "6244b864-8508-4e63-8aab-8718c7d12b77",
+          "Name": "DocumentId",
+          "ParameterType": "LongInteger"
+        },
+        {
+          "NameGuid": "d294c36b-c29b-4082-ab71-de79cd096b43",
+          "Name": "CompanyId",
+          "ParameterType": "LongInteger"
+        }
+      ]
     }
   ],
   "ClientAssemblyName": "OMYA.CounterpartyApproval.Client",

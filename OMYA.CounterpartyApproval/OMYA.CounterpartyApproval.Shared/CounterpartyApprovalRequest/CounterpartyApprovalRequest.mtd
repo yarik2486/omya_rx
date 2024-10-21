@@ -800,7 +800,8 @@
   ],
   "HandledEvents": [
     "CreatedServer",
-    "ShowingClient"
+    "ShowingClient",
+    "BeforeSaveServer"
   ],
   "IconResourcesKeys": [],
   "IntegrationServiceName": "CounterpartyApprovalCounterpartyApprovalRequest",
