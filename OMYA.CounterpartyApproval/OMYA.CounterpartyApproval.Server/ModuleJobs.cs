@@ -18,6 +18,7 @@ namespace OMYA.CounterpartyApproval.Server
       Logger.Debug("UpdatingInformation. Start");
       
       var requests = CounterpartyApprovalRequests.GetAll(x => x.Counterparty != null &&
+                                                         !Equals(Companies.As(x.Counterparty).CounterpartyTypeOMYA, OMYA.CounterpartySolution.Company.CounterpartyTypeOMYA.StateEnterprise) &&
                                                          Companies.As(x.Counterparty).LastUpdatedDateOMYA.HasValue &&
                                                          Companies.As(x.Counterparty).LastUpdatedDateOMYA.Value < Calendar.Today.AddYears(-2));
       

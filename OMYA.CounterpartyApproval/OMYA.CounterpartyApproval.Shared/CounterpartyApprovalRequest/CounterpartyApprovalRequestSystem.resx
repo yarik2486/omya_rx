@@ -310,4 +310,19 @@
   <data name="Action_CreateCompanyConfirmationDescription" xml:space="preserve">
     <value />
   </data>
+  <data name="Action_FillFromService" xml:space="preserve">
+    <value>Fill in by PSRN / TIN</value>
+  </data>
+  <data name="Action_FillFromServiceDescription" xml:space="preserve">
+    <value>Fill in counterparty details automatically by its PSRN according to Unified State Register of Legal Entities and Entrepreneurs. If PSRN is not specified, counterparty search is carried out by TIN or name.</value>
+  </data>
+  <data name="Action_FillFromServiceHint" xml:space="preserve">
+    <value>Fill in Automatically by PSRN / TIN</value>
+  </data>
+  <data name="Action_FillFromServiceConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_FillFromServiceConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
 </root>

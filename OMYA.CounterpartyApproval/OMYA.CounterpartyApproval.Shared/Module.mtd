@@ -193,6 +193,13 @@
       "StartAt": "1753-01-01T05:30:00"
     }
   ],
+  "Libraries": [
+    {
+      "NameGuid": "cd7c2f44-a437-4565-a93c-d27979ef1c01",
+      "Name": "CompanyData",
+      "Scope": "Server"
+    }
+  ],
   "Overridden": [
     "IsVisible"
   ],

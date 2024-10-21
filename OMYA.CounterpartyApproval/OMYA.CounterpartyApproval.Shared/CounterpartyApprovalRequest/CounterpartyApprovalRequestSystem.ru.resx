@@ -292,4 +292,13 @@
   <data name="Action_CreateCompanyDescription" xml:space="preserve">
     <value>При нажатии на кнопку формируется карточка организации по данным из заявки на одобрение контрагента.</value>
   </data>
+  <data name="Action_FillFromService" xml:space="preserve">
+    <value>Заполнить по ОГРН / ИНН</value>
+  </data>
+  <data name="Action_FillFromServiceHint" xml:space="preserve">
+    <value>Заполнить автоматически по ОГРН / ИНН</value>
+  </data>
+  <data name="Action_FillFromServiceDescription" xml:space="preserve">
+    <value>Автоматическое заполнение реквизитов контрагента по ОГРН из ЕГРЮЛ/ЕГРИП. Если ОГРН не заполнен, поиск контрагента осуществляется по ИНН или наименованию.</value>
+  </data>
 </root>

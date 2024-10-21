@@ -6,5 +6,6 @@ namespace OMYA.CounterpartyApproval.Constants
   public static class CounterpartyApprovalRequest
   {
 
+    public const string ActiveCounterpartyStateInService = "Действующее";
   }
 }

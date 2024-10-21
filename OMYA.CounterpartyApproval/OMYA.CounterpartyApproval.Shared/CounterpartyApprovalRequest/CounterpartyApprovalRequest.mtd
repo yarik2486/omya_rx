@@ -19,6 +19,14 @@
       "GenerateHandler": true,
       "LargeIconName": "Action_CreateCompany_large_0a2157d9f4244d0d96a63212fd853aff.png",
       "SmallIconName": "Action_CreateCompany_small_0a2157d9f4244d0d96a63212fd853aff.png"
+    },
+    {
+      "NameGuid": "dfdf45cf-19e5-4ef5-b54d-3341c580468d",
+      "Name": "FillFromService",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_FillFromService_large_dfdf45cf19e54ef5b54d3341c580468d.png",
+      "SmallIconName": "Action_FillFromService_small_dfdf45cf19e54ef5b54d3341c580468d.png"
     }
   ],
   "BaseGuid": "ce3e34ed-7be2-4426-a951-d5a70f966650",
@@ -1339,6 +1347,15 @@
         "ButtonSize": "Large",
         "Index": 3,
         "ParentGuid": "2ed94346-ba89-4c52-9815-d18010d3a2ae"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "26274e19-0152-4875-9cde-412297915440",
+        "Name": "FillFromService",
+        "ActionGuid": "dfdf45cf-19e5-4ef5-b54d-3341c580468d",
+        "ButtonSize": "Large",
+        "Index": 51,
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
       }
     ],
     "Groups": [],

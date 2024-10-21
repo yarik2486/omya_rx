@@ -37,5 +37,22 @@ namespace OMYA.CounterpartyApproval.Server
       addApprovalResult.Comment = comment;
       addApprovalResult.ExecuteAsync();
     }
+    
+    /// <summary>
+    /// Получить адрес нашего сервиса заполнения контрагентов.
+    /// </summary>
+    /// <returns>Адрес сервера, или пустую строку, если его нет.</returns>
+    [Remote]
+    public string GetCompanyDataServiceURL()
+    {
+      var key = Sungero.Docflow.PublicConstants.Module.CompanyDataServiceKey;
+      var command = string.Format(Queries.Module.SelectCompanyDataService, key);
+      var commandExecutionResult = Sungero.Docflow.PublicFunctions.Module.ExecuteScalarSQLCommand(command);
+      var serviceUrl = string.Empty;
+      if (!(commandExecutionResult is DBNull) && commandExecutionResult != null)
+        serviceUrl = commandExecutionResult.ToString();
+      
+      return serviceUrl;
+    }
   }
 }
