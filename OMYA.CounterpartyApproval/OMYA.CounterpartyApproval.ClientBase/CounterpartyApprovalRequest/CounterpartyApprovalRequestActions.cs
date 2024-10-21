@@ -98,9 +98,19 @@ namespace OMYA.CounterpartyApproval.Client
 
     public virtual void CreateChecklist(Sungero.Domain.Client.ExecuteActionArgs e)
     {
+      _obj.Save();
       var checklist = Functions.CounterpartyApprovalRequest.Remote.CreateChecklist();
       checklist.LeadingDocument = _obj;
       checklist.ShowModal();
+      
+      if (!checklist.State.IsInserted)
+      {
+        var item = _obj.DocumentsForApproval.AddNew();
+        item.DocumentName = OMYA.CounterpartyApproval.CounterpartyApprovalRequests.Resources.ChecklistName;
+        item.Document = checklist;
+        
+        _obj.Save();
+      }
     }
 
     public virtual bool CanCreateChecklist(Sungero.Domain.Client.CanExecuteActionArgs e)

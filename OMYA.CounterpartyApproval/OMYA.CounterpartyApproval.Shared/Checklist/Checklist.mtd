@@ -32,10 +32,10 @@
           "Name": "MainGroup",
           "ColumnDefinitions": [
             {
-              "Percentage": 69.24
+              "Percentage": 69.91
             },
             {
-              "Percentage": 29.8
+              "Percentage": 30.09
             }
           ],
           "IsAncestorMetadata": true,
@@ -713,7 +713,8 @@
   ],
   "HandledEvents": [
     "CreatedServer",
-    "ShowingClient"
+    "ShowingClient",
+    "BeforeSaveServer"
   ],
   "IconResourcesKeys": [],
   "IntegrationServiceName": "CounterpartyApprovalChecklist",

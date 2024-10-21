@@ -1324,7 +1324,9 @@
     }
   ],
   "PublicStructures": [],
-  "ResourcesKeys": [],
+  "ResourcesKeys": [
+    "ChecklistName"
+  ],
   "RibbonCardMetadata": {
     "NameGuid": "b025a821-6fe0-4470-8725-8a094f5e11b3",
     "Name": "RibbonCard",
