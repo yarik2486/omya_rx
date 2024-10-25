@@ -61,4 +61,7 @@
   <data name="Enum_ConditionType_CheckEDIOMYA" xml:space="preserve">
     <value>Checking the field "EDI Operator"</value>
   </data>
+  <data name="Enum_ConditionType_CheckCPDataType" xml:space="preserve">
+    <value>Checking data type for change</value>
+  </data>
 </root>

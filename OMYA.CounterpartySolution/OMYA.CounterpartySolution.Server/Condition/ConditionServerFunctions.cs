@@ -16,6 +16,8 @@ namespace OMYA.CounterpartySolution.Server
       {
         if (_obj.ConditionType == ConditionType.CheckEDIOMYA)
           return OMYA.CounterpartySolution.Conditions.Resources.CheckEDO;
+        if (_obj.ConditionType == ConditionType.CheckCPDataType)
+          return OMYA.CounterpartySolution.Conditions.Resources.CheckCPDataTypeName;
       }
       
       return base.GetConditionName();

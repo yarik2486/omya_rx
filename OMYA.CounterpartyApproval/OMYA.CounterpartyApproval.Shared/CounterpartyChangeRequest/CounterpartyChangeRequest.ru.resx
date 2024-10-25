@@ -58,19 +58,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RequestForCounterpartyApproval" xml:space="preserve">
-    <value>Заявка на одобрение контрагента</value>
-  </data>
-  <data name="CounterpartyApprovalChecklistKind" xml:space="preserve">
-    <value>Чек-лист для одобрения контрагента</value>
-  </data>
-  <data name="MasterDataSpecialistName" xml:space="preserve">
-    <value>Специалист по мастер-данным</value>
-  </data>
-  <data name="CheckTheCounterpartyDetails" xml:space="preserve">
-    <value>Проверьте реквизиты контрагента</value>
-  </data>
-  <data name="CounterpartyChangeRequestKind" xml:space="preserve">
-    <value>Заявка на изменение реквизитов контрагента</value>
+  <data name="SelectTypeDataChange" xml:space="preserve">
+    <value>Необходимо выбрать тип данных на изменение.</value>
   </data>
 </root>

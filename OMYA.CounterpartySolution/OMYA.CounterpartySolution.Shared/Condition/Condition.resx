@@ -67,4 +67,10 @@
   <data name="CheckEDINote" xml:space="preserve">
     <value>This condition checks whether the value "SED Diadoc" is specified in the "EDO Operator" field in the checklist card associated with the counterparty approval request.</value>
   </data>
+  <data name="CheckCPDataNote" xml:space="preserve">
+    <value>Checks the completion of the “Bank details” field in the application card for changing the counterparty.</value>
+  </data>
+  <data name="CheckCPDataTypeName" xml:space="preserve">
+    <value>Checking data type for change</value>
+  </data>
 </root>

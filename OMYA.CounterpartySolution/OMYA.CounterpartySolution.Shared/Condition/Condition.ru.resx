@@ -67,4 +67,10 @@
   <data name="CheckEDINote" xml:space="preserve">
     <value>Данное условие проверяет, указано ли значение «СЭД Диадок» в поле «Оператор ЭДО» в карточке чек-листа, связанного с заявкой на одобрение контрагента.</value>
   </data>
+  <data name="CheckCPDataNote" xml:space="preserve">
+    <value>Проверяет заполнение признака «Банковские реквизиты» в карточке заявки на изменение контрагента.</value>
+  </data>
+  <data name="CheckCPDataTypeName" xml:space="preserve">
+    <value>Проверка типа данных на изменение</value>
+  </data>
 </root>

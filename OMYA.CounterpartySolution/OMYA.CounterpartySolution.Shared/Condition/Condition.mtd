@@ -32,6 +32,11 @@
           "NameGuid": "a1437756-2340-42cb-b0a6-9b59cd0fb96b",
           "Name": "CheckEDIOMYA",
           "Code": "CheckEDO"
+        },
+        {
+          "NameGuid": "62d7ecb6-dc13-4050-a015-a9cc14ca5753",
+          "Name": "CheckCPDataType",
+          "Code": "CheckCPDataType"
         }
       ],
       "HandledEvents": [
@@ -104,7 +109,9 @@
   "ResourcesKeys": [
     "CheckEDO",
     "NotFoundChecklist",
-    "CheckEDINote"
+    "CheckEDINote",
+    "CheckCPDataNote",
+    "CheckCPDataTypeName"
   ],
   "RibbonCardMetadata": {
     "NameGuid": "3f293a62-0481-4f10-bf59-86f4cb295507",

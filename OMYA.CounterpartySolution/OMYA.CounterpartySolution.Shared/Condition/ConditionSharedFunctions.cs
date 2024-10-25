@@ -22,8 +22,11 @@ namespace OMYA.CounterpartySolution.Shared
     {
       var baseConditions = base.GetSupportedConditions();
       
-      // Служебная записка.
+      // Заявка на одобрение контрагента.
       baseConditions[OMYA.CounterpartyApproval.PublicConstants.Module.CounterpartyApprovalRequestTypeGuid].Add(ConditionType.CheckEDIOMYA);
+      
+      // Заявка на изменение реквизитов контрагента.
+      baseConditions[OMYA.CounterpartyApproval.PublicConstants.Module.CounterpartyChangeRequestTypeGuid].Add(ConditionType.CheckCPDataType);
       
       return baseConditions;
     }
@@ -32,6 +35,8 @@ namespace OMYA.CounterpartySolution.Shared
     {
       if (_obj.ConditionType == ConditionType.CheckEDIOMYA)
         return this.CheckEDO(document);
+      else if (_obj.ConditionType == ConditionType.CheckCPDataType)
+        return this.CheckCPDataType(document);
       
       return base.CheckCondition(document, task);
     }
@@ -47,6 +52,19 @@ namespace OMYA.CounterpartySolution.Shared
       var isEDI = checkList != null && checkList.EDIOperator == OMYA.CounterpartyApproval.Checklist.EDIOperator.Diadoc;
       
       return Sungero.Docflow.Structures.ConditionBase.ConditionResult.Create(isEDI, string.Empty);
+    }
+    
+    /// <summary>
+    /// Проверяет заполнение признака «Банковские реквизиты» в карточке заявки на изменение контрагента.
+    /// </summary>
+    /// <param name="document">Документ.</param>
+    /// <returns>True, если заполнено.</returns>
+    private Sungero.Docflow.Structures.ConditionBase.ConditionResult CheckCPDataType(Sungero.Docflow.IOfficialDocument document)
+    {
+      var counterpartyChangeRequest = CounterpartyApproval.CounterpartyChangeRequests.As(document);
+      var isBankDetails = counterpartyChangeRequest != null && counterpartyChangeRequest.BankDetails == true;
+      
+      return Sungero.Docflow.Structures.ConditionBase.ConditionResult.Create(isBankDetails, string.Empty);
     }
   }
 }

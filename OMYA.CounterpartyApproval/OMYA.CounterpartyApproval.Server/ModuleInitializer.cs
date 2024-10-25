@@ -46,6 +46,12 @@ namespace OMYA.CounterpartyApproval.Server
                                                                               Checklist.ClassTypeGuid, 
                                                                               Sungero.Docflow.DocumentType.DocumentFlow.Inner, 
                                                                               true);
+      
+      // Чек-лист для одобрения контрагента
+      Sungero.Docflow.PublicInitializationFunctions.Module.CreateDocumentType(Resources.CounterpartyChangeRequestKind, 
+                                                                              CounterpartyChangeRequest.ClassTypeGuid, 
+                                                                              Sungero.Docflow.DocumentType.DocumentFlow.Inner, 
+                                                                              true);
     }
     
     /// <summary>
@@ -89,6 +95,18 @@ namespace OMYA.CounterpartyApproval.Server
                                                                               actions,
                                                                               Constants.Module.Initialize.ChecklistKind, 
                                                                               true);
+      
+      // Чек-лист для одобрения контрагента
+      Sungero.Docflow.PublicInitializationFunctions.Module.CreateDocumentKind(Resources.CounterpartyChangeRequestKind,
+                                                                              Resources.CounterpartyChangeRequestKind,
+                                                                              registrable,
+                                                                              Sungero.Docflow.DocumentType.DocumentFlow.Inner, 
+                                                                              true, 
+                                                                              false,
+                                                                              CounterpartyChangeRequest.ClassTypeGuid,
+                                                                              actions,
+                                                                              Constants.Module.Initialize.CounterpartyChangeRequestKind, 
+                                                                              true);
     }
     
     /// <summary>
@@ -104,6 +122,9 @@ namespace OMYA.CounterpartyApproval.Server
       
       Checklists.AccessRights.Grant(allUsers, DefaultAccessRightsTypes.Create);
       Checklists.AccessRights.Save();
+      
+      CounterpartyChangeRequests.AccessRights.Grant(allUsers, DefaultAccessRightsTypes.Create);
+      CounterpartyChangeRequests.AccessRights.Save();
     }
     
     /// <summary>

@@ -121,4 +121,10 @@
   <data name="AsyncHandler_Description_5f0b7d7225db4e9cabf1a13f7d5edce3" xml:space="preserve">
     <value>Assign approval status to counterparty regarding document</value>
   </data>
+  <data name="CoverAction_CounterpartyChangeRequests" xml:space="preserve">
+    <value>Requests for change of counterparty details</value>
+  </data>
+  <data name="CoverDescription_CounterpartyChangeRequests" xml:space="preserve">
+    <value>Register of all applications for counterparty change</value>
+  </data>
 </root>

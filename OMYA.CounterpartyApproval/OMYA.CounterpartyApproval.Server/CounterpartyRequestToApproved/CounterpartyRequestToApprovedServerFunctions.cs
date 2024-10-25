@@ -28,14 +28,7 @@ namespace OMYA.CounterpartyApproval.Server
         return this.GetErrorResult(Sungero.Docflow.Resources.PrimaryDocumentNotFoundError);
       }
       
-      var request = CounterpartyApprovalRequests.As(document);
-      if (request == null)
-      {
-        Logger.ErrorFormat("CounterpartyRequestToApproved. Primary document not request for counterparty approval. task id: {0}, start id: {1}", approvalTask.Id, approvalTask.StartId);
-        return this.GetErrorResult(OMYA.CounterpartyApproval.CreatingCounterpartyForRequests.Resources.DocumentNotRequestCounterpartyApproval);
-      }
-      
-      var lockInfo = Locks.GetLockInfo(request);
+      var lockInfo = Locks.GetLockInfo(document);
       if (lockInfo.IsLocked)
       {
         Logger.DebugFormat("CounterpartyRequestToApproved. Document with Id {0} locked {1}.", document.Id, lockInfo.OwnerName);
@@ -44,9 +37,13 @@ namespace OMYA.CounterpartyApproval.Server
         
       try
       {
-        request.LifeCycleState = OMYA.CounterpartyApproval.CounterpartyApprovalRequest.LifeCycleState.Active;
-        request.Status = OMYA.CounterpartyApproval.CounterpartyApprovalRequest.Status.Approved;
-        request.Save();
+        if (CounterpartyApprovalRequests.Is(document))
+          CounterpartyApprovalRequests.As(document).Status = OMYA.CounterpartyApproval.CounterpartyApprovalRequest.Status.Approved;
+        else if (CounterpartyChangeRequests.Is(document))
+          CounterpartyChangeRequests.As(document).Status = OMYA.CounterpartyApproval.CounterpartyChangeRequest.Status.Approved;
+        
+        document.LifeCycleState = Sungero.Docflow.OfficialDocument.LifeCycleState.Active;
+        document.Save();
       }
       catch (Exception ex)
       {

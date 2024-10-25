@@ -70,4 +70,7 @@
   <data name="CheckTheCounterpartyDetails" xml:space="preserve">
     <value>Check the counterparty details</value>
   </data>
+  <data name="CounterpartyChangeRequestKind" xml:space="preserve">
+    <value>Request for change of counterparty details</value>
+  </data>
 </root>

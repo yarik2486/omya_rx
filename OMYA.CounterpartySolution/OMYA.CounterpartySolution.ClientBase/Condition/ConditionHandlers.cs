@@ -16,6 +16,8 @@ namespace OMYA.CounterpartySolution
       
       if (e.NewValue == ConditionType.CheckEDIOMYA)
         _obj.Note = OMYA.CounterpartySolution.Conditions.Resources.CheckEDINote;
+      else if (e.NewValue == ConditionType.CheckCPDataType)
+        _obj.Note = OMYA.CounterpartySolution.Conditions.Resources.CheckCPDataNote;
       else
         _obj.Note = string.Empty;
     }
