@@ -30,6 +30,12 @@ namespace OMYA.CounterpartySolution
         request.Status = CounterpartyApproval.CounterpartyChangeRequest.Status.OnApproval;
         request.LifeCycleState = CounterpartyApproval.CounterpartyChangeRequest.LifeCycleState.Draft;
       }
+      else if (CounterpartyApproval.CounterpartyBlockingRequests.Is(document))
+      {
+        var request = CounterpartyApproval.CounterpartyBlockingRequests.As(document);
+        request.Status = CounterpartyApproval.CounterpartyBlockingRequest.Status.OnApproval;
+        request.LifeCycleState = CounterpartyApproval.CounterpartyBlockingRequest.LifeCycleState.Draft;
+      }
     }
   }
 

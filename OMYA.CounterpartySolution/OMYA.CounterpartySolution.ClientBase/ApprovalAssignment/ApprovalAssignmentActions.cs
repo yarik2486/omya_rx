@@ -33,7 +33,8 @@ namespace OMYA.CounterpartySolution.Client
     public virtual bool CanCancelOMYA(Sungero.Domain.Client.CanExecuteActionArgs e)
     {
       var document = _obj.DocumentGroup.OfficialDocuments.FirstOrDefault();
-      return _obj.Status == Status.InProcess && (CounterpartyApprovalRequests.Is(document) || CounterpartyChangeRequests.Is(document));
+      return _obj.Status == Status.InProcess && 
+        (CounterpartyApprovalRequests.Is(document) || CounterpartyChangeRequests.Is(document) || CounterpartyBlockingRequests.Is(document));
     }
 
   }

@@ -124,4 +124,10 @@
   <data name="CoverDescription_CounterpartyChangeRequests" xml:space="preserve">
     <value>Реестр всех заявок на изменение контрагента</value>
   </data>
+  <data name="CoverAction_CounterpartyBlockingRequests" xml:space="preserve">
+    <value>Заявки на блокировку контрагента</value>
+  </data>
+  <data name="CoverDescription_CounterpartyBlockingRequests" xml:space="preserve">
+    <value>Реестр всех заявок на блокировку контрагента</value>
+  </data>
 </root>

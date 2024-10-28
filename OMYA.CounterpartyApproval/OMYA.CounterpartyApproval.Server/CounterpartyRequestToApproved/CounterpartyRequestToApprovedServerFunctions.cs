@@ -41,6 +41,8 @@ namespace OMYA.CounterpartyApproval.Server
           CounterpartyApprovalRequests.As(document).Status = OMYA.CounterpartyApproval.CounterpartyApprovalRequest.Status.Approved;
         else if (CounterpartyChangeRequests.Is(document))
           CounterpartyChangeRequests.As(document).Status = OMYA.CounterpartyApproval.CounterpartyChangeRequest.Status.Approved;
+        else if (CounterpartyBlockingRequests.Is(document))
+          CounterpartyBlockingRequests.As(document).Status = OMYA.CounterpartyApproval.CounterpartyBlockingRequest.Status.Approved;
         
         document.LifeCycleState = Sungero.Docflow.OfficialDocument.LifeCycleState.Active;
         document.Save();

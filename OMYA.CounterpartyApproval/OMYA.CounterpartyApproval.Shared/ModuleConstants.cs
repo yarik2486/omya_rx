@@ -18,7 +18,11 @@ namespace OMYA.CounterpartyApproval.Constants
          
        // Вид документа "Заявка на изменение реквизитов контрагента".
        [Sungero.Core.Public]
-       public static readonly Guid CounterpartyChangeRequestKind = Guid.Parse("25B80240-9B75-4859-B989-558196102B4A");
+       public static readonly Guid CounterpartyChangeRequestKind = Guid.Parse("25B80240-9B75-4859-B989-558196102B4A"); 
+       
+       // Вид документа "Заявка на блокировку контрагента".
+       [Sungero.Core.Public]
+       public static readonly Guid CounterpartyBlockingRequestKind = Guid.Parse("40ADD802-B12A-4B3A-94E5-43023D3F2142");
        
        // GUID роли "Специалист по мастер-данным".
        [Sungero.Core.Public]

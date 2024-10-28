@@ -127,4 +127,10 @@
   <data name="CoverDescription_CounterpartyChangeRequests" xml:space="preserve">
     <value>Register of all applications for counterparty change</value>
   </data>
+  <data name="CoverAction_CounterpartyBlockingRequests" xml:space="preserve">
+    <value>Requests for blocking a counterparty</value>
+  </data>
+  <data name="CoverDescription_CounterpartyBlockingRequests" xml:space="preserve">
+    <value>Register of all requests for counterparty blocking</value>
+  </data>
 </root>

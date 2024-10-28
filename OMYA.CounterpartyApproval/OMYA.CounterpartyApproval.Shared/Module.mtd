@@ -107,7 +107,7 @@
         "Name": "Checklists",
         "EntityTypeId": "912f2fad-7a77-41ba-ba1a-825b6816f717",
         "GroupId": "b04ce3d2-a7d9-41a3-bdf0-c99c51563950",
-        "PreviousItemGuid": "085b8763-5040-44be-a708-733f12a05871"
+        "PreviousItemGuid": "9abcc1dc-eeb0-4957-9355-74da728f60eb"
       },
       {
         "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
@@ -122,6 +122,14 @@
         "Name": "SettingsDocumentsList",
         "EntityTypeId": "ff3ce547-05c5-4f84-8360-8c99b4a467a6",
         "GroupId": "ebdd66fb-dd9e-477b-bce8-0383c4957837"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "9abcc1dc-eeb0-4957-9355-74da728f60eb",
+        "Name": "CounterpartyBlockingRequests",
+        "EntityTypeId": "46a5162d-90a9-45b6-8dfa-8036d153cc5e",
+        "GroupId": "b04ce3d2-a7d9-41a3-bdf0-c99c51563950",
+        "PreviousItemGuid": "085b8763-5040-44be-a708-733f12a05871"
       }
     ],
     "Background": null,
@@ -205,6 +213,14 @@
     {
       "ItemId": "889b5ebf-a7c1-4ede-83b4-6e0cd92f8000",
       "PreviousItemId": "8ebae833-03df-4d27-8741-11c900ead36c"
+    },
+    {
+      "ItemId": "46a5162d-90a9-45b6-8dfa-8036d153cc5e",
+      "PreviousItemId": "889b5ebf-a7c1-4ede-83b4-6e0cd92f8000"
+    },
+    {
+      "ItemId": "23677130-fcb9-4e3e-a49d-a90bb8d39c7c",
+      "PreviousItemId": "46a5162d-90a9-45b6-8dfa-8036d153cc5e"
     }
   ],
   "HandledEvents": [
@@ -252,6 +268,15 @@
       ],
       "TypeName": "System.String",
       "Value": "\"bb2e947a-d482-439b-88ce-3a4746ebdaef\""
+    },
+    {
+      "Name": "CounterpartyBlockingRequestKind",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"40ADD802-B12A-4B3A-94E5-43023D3F2142\")"
     },
     {
       "Name": "CounterpartyChangeRequestKind",
@@ -331,7 +356,8 @@
     "CounterpartyApprovalChecklistKind",
     "MasterDataSpecialistName",
     "CheckTheCounterpartyDetails",
-    "CounterpartyChangeRequestKind"
+    "CounterpartyChangeRequestKind",
+    "CounterpartyBlockingRequestKind"
   ],
   "ServerAssemblyName": "OMYA.CounterpartyApproval.Server",
   "ServerNamespace": "OMYA.CounterpartyApproval.Server",
