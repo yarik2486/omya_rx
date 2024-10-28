@@ -16,7 +16,19 @@
   "FilterPanel": {
     "NameGuid": "80d3ce1a-9a72-443a-8b6c-6c6eef0c8d0f",
     "Name": "FilterPanel",
-    "Controls": [],
+    "Controls": [
+      {
+        "$type": "Sungero.Metadata.FilterListItemMetadata, Sungero.Metadata",
+        "NameGuid": "1fcb3ea0-5470-4a83-bc54-a10322f40105",
+        "Name": "Registered",
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "IsSelected"
+        ],
+        "ParentGuid": "80df9537-5493-472c-9bc3-1cd830f57507",
+        "Versions": []
+      }
+    ],
     "IsAncestorMetadata": true,
     "Versions": []
   },
