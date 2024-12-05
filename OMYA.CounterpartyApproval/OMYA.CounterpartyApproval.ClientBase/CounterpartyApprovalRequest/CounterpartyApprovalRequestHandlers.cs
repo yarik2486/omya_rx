@@ -72,6 +72,7 @@ namespace OMYA.CounterpartyApproval
     {
       base.Showing(e);
       
+      var isMasterDataSpecialist = Users.Current.IncludedIn(Constants.Module.Initialize.MasterDataSpecialist);
       var prop = _obj.State.Properties;
       prop.BusinessUnit.IsRequired = true;
       prop.PreparedBy.IsRequired = true;
@@ -86,26 +87,26 @@ namespace OMYA.CounterpartyApproval
       prop.PostalAddress.IsRequired = true;
       prop.Phones.IsRequired = true;
       prop.Email.IsRequired = true;
-      prop.Account.IsRequired = true;
-      prop.CurrentAccount.IsRequired = true;
-      prop.Bank.IsRequired = true;
-      prop.BankAddress.IsRequired = true;
+      prop.Account.IsRequired = isMasterDataSpecialist;
+      prop.CurrentAccount.IsRequired = isMasterDataSpecialist;
+      prop.Bank.IsRequired = isMasterDataSpecialist;
+      prop.BankAddress.IsRequired = isMasterDataSpecialist;
       prop.DocumentsForApproval.IsRequired = true;
       prop.DocumentsForApproval.Properties.DocumentName.IsRequired = true;
       
       // Для роли "Специалист по мастер-данным".
-      var isMasterDataSpecialist = PublicFunctions.Module.IncludedInMasterDataSpecialist();
-      prop.SAPNum.IsEnabled = isMasterDataSpecialist;
-      prop.Account.IsEnabled = isMasterDataSpecialist;
-      prop.CurrentAccount.IsEnabled = isMasterDataSpecialist;
-      prop.CorrespondentAccount.IsEnabled = isMasterDataSpecialist;
-      prop.Bank.IsEnabled = isMasterDataSpecialist;
-      prop.BankAddress.IsEnabled = isMasterDataSpecialist;
-      prop.BIC.IsEnabled = isMasterDataSpecialist;
-      prop.IBAN.IsEnabled = isMasterDataSpecialist;
-      prop.SWIFT.IsEnabled = isMasterDataSpecialist;
+      var isMasterDataSpecOrAdmin = PublicFunctions.Module.IncludedInMasterDataSpecialist();
+      prop.SAPNum.IsEnabled = isMasterDataSpecOrAdmin;
+      prop.Account.IsEnabled = isMasterDataSpecOrAdmin;
+      prop.CurrentAccount.IsEnabled = isMasterDataSpecOrAdmin;
+      prop.CorrespondentAccount.IsEnabled = isMasterDataSpecOrAdmin;
+      prop.Bank.IsEnabled = isMasterDataSpecOrAdmin;
+      prop.BankAddress.IsEnabled = isMasterDataSpecOrAdmin;
+      prop.BIC.IsEnabled = isMasterDataSpecOrAdmin;
+      prop.IBAN.IsEnabled = isMasterDataSpecOrAdmin;
+      prop.SWIFT.IsEnabled = isMasterDataSpecOrAdmin;
       
-      if (!isMasterDataSpecialist)
+      if (!isMasterDataSpecOrAdmin)
         e.HideAction(_obj.Info.Actions.CreateCompany);
     }
 

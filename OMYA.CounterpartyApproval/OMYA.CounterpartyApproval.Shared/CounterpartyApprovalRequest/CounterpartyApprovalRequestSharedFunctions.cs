@@ -44,9 +44,10 @@ namespace OMYA.CounterpartyApproval.Shared
       prop.NCEO.IsVisible = !nonresident;
       prop.NCEA.IsVisible = !nonresident;
       
-      prop.CorrespondentAccount.IsRequired = !nonresident;
+      var isMasterDataSpecialist = Users.Current.IncludedIn(Constants.Module.Initialize.MasterDataSpecialist);
+      prop.CorrespondentAccount.IsRequired = !nonresident && isMasterDataSpecialist;
       prop.CorrespondentAccount.IsVisible = !nonresident;
-      prop.BIC.IsRequired = !nonresident;
+      prop.BIC.IsRequired = !nonresident && isMasterDataSpecialist;
       prop.BIC.IsVisible = !nonresident;
       
       // Нерезидент.
@@ -59,9 +60,9 @@ namespace OMYA.CounterpartyApproval.Shared
       prop.DeliveryTerms.IsRequired = nonresident;
       prop.DeliveryTerms.IsVisible = nonresident;
       
-      prop.IBAN.IsRequired = nonresident;
+      prop.IBAN.IsRequired = nonresident && isMasterDataSpecialist;
       prop.IBAN.IsVisible = nonresident;
-      prop.SWIFT.IsRequired = nonresident;
+      prop.SWIFT.IsRequired = nonresident && isMasterDataSpecialist;
       prop.SWIFT.IsVisible = nonresident;
       
       // Поставщик или клиент.

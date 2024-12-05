@@ -16,6 +16,7 @@ namespace OMYA.CounterpartyApproval
       
       var prop = _obj.State.Properties;
       prop.Counterparty.IsRequired = true;
+      prop.Note.IsRequired = true;
       
       // Для роли "Специалист по мастер-данным".
       var isMasterDataSpecialist = PublicFunctions.Module.IncludedInMasterDataSpecialist();
