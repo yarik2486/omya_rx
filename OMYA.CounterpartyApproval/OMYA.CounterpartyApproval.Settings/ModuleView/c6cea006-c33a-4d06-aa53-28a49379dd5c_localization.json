@@ -1,0 +1,82 @@
+{
+  "Checklists_Description_205be861ebb94f5488e7ca7277983dbb": {
+    "en-US": "A register of all checklists for counterparty approval",
+    "ru-RU": "Реестр всех чек-листов на одобрение контрагента"
+  },
+  "Checklists_Title_205be861ebb94f5488e7ca7277983dbb": {
+    "en-US": "Counterparty Approval Checklists",
+    "ru-RU": "Чек-листы для одобрения контрагента"
+  },
+  "CounterpartyApproval_Title_b04ce3d2a7d941a3bdf0c99c51563950": {
+    "en-US": "Counterparty approval",
+    "ru-RU": "Одобрение контрагента"
+  },
+  "CounterpartyApprovalRequests_Description_124236eadf43495f807b4a882de5bf2c": {
+    "en-US": "Register of all applications for counterparty approval",
+    "ru-RU": "Реестр всех заявок на одобрение контрагента"
+  },
+  "CounterpartyApprovalRequests_Title_124236eadf43495f807b4a882de5bf2c": {
+    "en-US": "Requests for counterparty approval",
+    "ru-RU": "Заявки на одобрение контрагента"
+  },
+  "CounterpartyBlockingRequests_Description_9abcc1dceeb04957935574da728f60eb": {
+    "en-US": "Register of all requests for counterparty blocking",
+    "ru-RU": "Реестр всех заявок на блокировку контрагента"
+  },
+  "CounterpartyBlockingRequests_Title_9abcc1dceeb04957935574da728f60eb": {
+    "en-US": "Requests for blocking a counterparty",
+    "ru-RU": "Заявки на блокировку контрагента"
+  },
+  "CounterpartyChangeRequests_Description_085b8763504044bea708733f12a05871": {
+    "en-US": "Register of all applications for counterparty change",
+    "ru-RU": "Реестр всех заявок на изменение контрагента"
+  },
+  "CounterpartyChangeRequests_Title_085b8763504044bea708733f12a05871": {
+    "en-US": "Requests for change of counterparty details",
+    "ru-RU": "Заявки на изменение реквизитов контрагента"
+  },
+  "CoverHeaderSettings_Description_d1fb06d1d4784999804740a4a40e4fed": {
+    "en-US": "The module is designed for the process of approving/changing/blocking counterparties.",
+    "ru-RU": "Модуль предназначен для процесса одобрения/изменения/блокировки контрагентов."
+  },
+  "CoverHeaderSettings_Title_d1fb06d1d4784999804740a4a40e4fed": {
+    "en-US": "Counterparty approval",
+    "ru-RU": "Одобрение контрагента"
+  },
+  "CreateRequest_Description_38f2374d4e4142a1b8f5193a363945c9": {
+    "en-US": "Quickly create a request for approval/change/blocking of a counterparty",
+    "ru-RU": "Быстрое создание заявки на одобрение/изменение/блокировку контрагента"
+  },
+  "CreateRequest_Title_38f2374d4e4142a1b8f5193a363945c9": {
+    "en-US": "Create a request",
+    "ru-RU": "Создать заявку"
+  },
+  "Description": {},
+  "Name": {
+    "en-US": "Counterparty approval",
+    "ru-RU": "Одобрение контрагента"
+  },
+  "Segments_Description_12db81ec7fb145d7b37ad66a74175f19": {
+    "en-US": "Segment directory",
+    "ru-RU": "Справочник сегментов"
+  },
+  "Segments_Title_12db81ec7fb145d7b37ad66a74175f19": {
+    "en-US": "Segments",
+    "ru-RU": "Сегменты"
+  },
+  "Settings_Title_ebdd66fbdd9e477bbce80383c4957837": {
+    "en-US": "Settings",
+    "ru-RU": "Настройки"
+  },
+  "SettingsDocumentsList_Description_87d6e25268c54f80b398ba88a1011bb3": {
+    "en-US": "Handbook for setting up a list of required documents for counterparty approval",
+    "ru-RU": "Справочник настройки списка необходимых документов для одобрения контрагента"
+  },
+  "SettingsDocumentsList_Title_87d6e25268c54f80b398ba88a1011bb3": {
+    "en-US": "Settings up a list of documents for counterparty approval",
+    "ru-RU": "Настройки списка документов для одобрения контрагента"
+  },
+  "Tab_Title_a7d109d5d65b4b8fb74d928fbc574169": {
+    "en-US": "Tab"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "Uuid": "9d41af2d-c2a8-43c8-9d43-8cff54dbf817",
+  "ModuleNameGuid": "9d41af2d-c2a8-43c8-9d43-8cff54dbf817",
+  "HelpCode": "OMYA_CounterpartyApproval",
+  "Status": "Active",
+  "SortingPriority": "Medium",
+  "StoreAsDefaultSetting": true
+}

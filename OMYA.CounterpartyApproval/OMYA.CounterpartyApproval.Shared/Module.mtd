@@ -232,6 +232,7 @@
   "InterfaceNamespace": "OMYA.CounterpartyApproval",
   "IsolatedAssemblyName": "OMYA.CounterpartyApproval.Isolated",
   "IsolatedNamespace": "OMYA.CounterpartyApproval.Isolated",
+  "IsVisible": false,
   "Jobs": [
     {
       "NameGuid": "501c5d25-e096-4e2c-a38e-e98847f5e301",
