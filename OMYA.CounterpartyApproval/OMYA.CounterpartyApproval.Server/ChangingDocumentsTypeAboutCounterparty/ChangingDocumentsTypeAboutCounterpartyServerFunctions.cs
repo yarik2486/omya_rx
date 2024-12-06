@@ -37,7 +37,7 @@ namespace OMYA.CounterpartyApproval.Server
       
       try
       {
-        var relations = request.Relations.GetRelatedDocuments();
+        var relations = request.Relations.GetRelatedDocuments().Where(x => Sungero.Docflow.Addendums.Is(x));
         foreach (var relation in relations)
         {
           var lockInfo = Locks.GetLockInfo(relation);
