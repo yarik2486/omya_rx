@@ -37,7 +37,7 @@ namespace OMYA.CounterpartyApproval.Shared
       // Резидент.
       prop.TIN.IsRequired = !nonresident;
       prop.TIN.IsVisible = !nonresident;
-      prop.TRRC.IsRequired = !nonresident;
+      prop.TRRC.IsRequired = !nonresident && _obj.CounterpartyType != CounterpartyType.Individual && _obj.CounterpartyType != CounterpartyType.IndividSupplier;
       prop.TRRC.IsVisible = !nonresident;
       prop.PSRN.IsRequired = !nonresident;
       prop.PSRN.IsVisible = !nonresident;
@@ -50,14 +50,15 @@ namespace OMYA.CounterpartyApproval.Shared
       prop.BIC.IsRequired = !nonresident && isMasterDataSpecialist;
       prop.BIC.IsVisible = !nonresident;
       
+      prop.City.IsRequired = !nonresident;
+      prop.Region.IsRequired = !nonresident;
+      prop.LegalAddress.IsRequired = !nonresident;
+      prop.PostalAddress.IsRequired = !nonresident;
+      
       // Нерезидент.
-      prop.CompanyRegistrationNumber.IsRequired = nonresident;
       prop.CompanyRegistrationNumber.IsVisible = nonresident;
-      prop.TaxNumber.IsRequired = nonresident;
       prop.TaxNumber.IsVisible = nonresident;
-      prop.Currency.IsRequired = nonresident;
       prop.Currency.IsVisible = nonresident;
-      prop.DeliveryTerms.IsRequired = nonresident;
       prop.DeliveryTerms.IsVisible = nonresident;
       
       prop.IBAN.IsRequired = nonresident && isMasterDataSpecialist;

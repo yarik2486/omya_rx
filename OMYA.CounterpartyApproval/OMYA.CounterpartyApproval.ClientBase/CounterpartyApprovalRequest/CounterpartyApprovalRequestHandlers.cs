@@ -81,12 +81,6 @@ namespace OMYA.CounterpartyApproval
       prop.PaymentTerms.IsRequired = true;
       prop.ShortName.IsRequired = true;
       prop.LegalName.IsRequired = true;
-      prop.City.IsRequired = true;
-      prop.Region.IsRequired = true;
-      prop.LegalAddress.IsRequired = true;
-      prop.PostalAddress.IsRequired = true;
-      prop.Phones.IsRequired = true;
-      prop.Email.IsRequired = true;
       prop.Account.IsRequired = isMasterDataSpecialist;
       prop.CurrentAccount.IsRequired = isMasterDataSpecialist;
       prop.Bank.IsRequired = isMasterDataSpecialist;

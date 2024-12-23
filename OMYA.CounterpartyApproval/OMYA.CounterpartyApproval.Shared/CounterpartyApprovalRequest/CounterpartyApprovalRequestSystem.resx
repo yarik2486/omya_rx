@@ -107,7 +107,7 @@
     <value />
   </data>
   <data name="Enum_CounterpartyType_LLC" xml:space="preserve">
-    <value>LLC/JSC</value>
+    <value>LLC/JSC (client)</value>
   </data>
   <data name="Property_CounterpartyType" xml:space="preserve">
     <value>Counterparty type</value>
@@ -119,10 +119,10 @@
     <value>Business unit</value>
   </data>
   <data name="Enum_CounterpartyType_StateEnterprise" xml:space="preserve">
-    <value>State enterprises/payment of state duties</value>
+    <value>State enterprises/payment of state duties (client)</value>
   </data>
   <data name="Enum_CounterpartyType_Individual" xml:space="preserve">
-    <value>Individual entrepreneur</value>
+    <value>Individual entrepreneur (client)</value>
   </data>
   <data name="Enum_CounterpartyKind_Client" xml:space="preserve">
     <value>Client</value>
@@ -137,7 +137,7 @@
     <value>Nonresident</value>
   </data>
   <data name="Enum_CounterpartyType_ForeignOrg" xml:space="preserve">
-    <value>Foreign organization</value>
+    <value>Foreign organization (client)</value>
   </data>
   <data name="ControlGroup_d7582ba019ca49b99d962da4a888f398" xml:space="preserve">
     <value>Counterparty details</value>
@@ -324,5 +324,17 @@
   </data>
   <data name="Action_FillFromServiceConfirmationDescription" xml:space="preserve">
     <value />
+  </data>
+  <data name="Enum_CounterpartyType_LLCSupplier" xml:space="preserve">
+    <value>LLC/JSC (supplier)</value>
+  </data>
+  <data name="Enum_CounterpartyType_IndividSupplier" xml:space="preserve">
+    <value>Individual entrepreneur (supplier)</value>
+  </data>
+  <data name="Enum_CounterpartyType_StateEnSupplier" xml:space="preserve">
+    <value>State enterprises/payment of state duties (supplier)</value>
+  </data>
+  <data name="Enum_CounterpartyType_ForeignSupplier" xml:space="preserve">
+    <value>Foreign organization (supplier)</value>
   </data>
 </root>

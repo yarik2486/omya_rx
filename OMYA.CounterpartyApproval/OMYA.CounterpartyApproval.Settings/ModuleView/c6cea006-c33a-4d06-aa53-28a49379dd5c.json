@@ -7,6 +7,28 @@
       "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverHeaderSettings, Sungero.NoCode.Settings.Interfaces",
       "NameGuid": "d1fb06d1-d478-4999-8047-40a4a40e4fed",
       "Name": "CoverHeaderSettings",
+      "LocalizationStrings": [
+        {
+          "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+          "StringCode": "CoverHeaderSettings_Title_d1fb06d1d4784999804740a4a40e4fed",
+          "Hash": null,
+          "LocalizationValues": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "en-US": "Counterparty approval",
+            "ru-RU": "Одобрение контрагента"
+          }
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+          "StringCode": "CoverHeaderSettings_Description_d1fb06d1d4784999804740a4a40e4fed",
+          "Hash": null,
+          "LocalizationValues": {
+            "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+            "en-US": "The module is designed for the process of approving/changing/blocking counterparties.",
+            "ru-RU": "Модуль предназначен для процесса одобрения/изменения/блокировки контрагентов."
+          }
+        }
+      ],
       "IconName": null,
       "Background": null,
       "BackgroundPosition": 1
@@ -15,6 +37,7 @@
       "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverFooterSettings, Sungero.NoCode.Settings.Interfaces",
       "NameGuid": "87c0eddb-1255-4a15-8c62-a9be59a17f2c",
       "Name": "CoverFooterSettings",
+      "LocalizationStrings": [],
       "IconName": null,
       "Background": null,
       "BackgroundPosition": 1
@@ -27,6 +50,17 @@
           "TabId": "a7d109d5-d65b-4b8f-b74d-928fbc574169",
           "NameGuid": "a7d109d5-d65b-4b8f-b74d-928fbc574169",
           "Name": "Tab",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "Tab_Title_a7d109d5d65b4b8fb74d928fbc574169",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Tab"
+              }
+            }
+          ],
           "Index": 0,
           "ParentId": "00000000-0000-0000-0000-000000000000"
         }
@@ -42,6 +76,18 @@
           "IconName": "0382bfe9-36db-4f74-9013-5d0a16f35198.svg",
           "NameGuid": "b04ce3d2-a7d9-41a3-bdf0-c99c51563950",
           "Name": "CounterpartyApproval",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "CounterpartyApproval_Title_b04ce3d2a7d941a3bdf0c99c51563950",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Counterparty approval",
+                "ru-RU": "Одобрение контрагента"
+              }
+            }
+          ],
           "Index": 0,
           "ParentId": "a7d109d5-d65b-4b8f-b74d-928fbc574169"
         },
@@ -52,6 +98,18 @@
           "IconName": "4ea33957-c75a-4c2a-a51b-257ad79fe5e4.svg",
           "NameGuid": "ebdd66fb-dd9e-477b-bce8-0383c4957837",
           "Name": "Settings",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "Settings_Title_ebdd66fbdd9e477bbce80383c4957837",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Settings",
+                "ru-RU": "Настройки"
+              }
+            }
+          ],
           "Index": 1,
           "ParentId": "a7d109d5-d65b-4b8f-b74d-928fbc574169"
         }
@@ -67,6 +125,28 @@
           "ActionId": "38f2374d-4e41-42a1-b8f5-193a363945c9",
           "NameGuid": "38f2374d-4e41-42a1-b8f5-193a363945c9",
           "Name": "CreateRequest",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "CreateRequest_Title_38f2374d4e4142a1b8f5193a363945c9",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Create a request",
+                "ru-RU": "Создать заявку"
+              }
+            },
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "CreateRequest_Description_38f2374d4e4142a1b8f5193a363945c9",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Quickly create a request for approval/change/blocking of a counterparty",
+                "ru-RU": "Быстрое создание заявки на одобрение/изменение/блокировку контрагента"
+              }
+            }
+          ],
           "Index": 0,
           "ParentId": "b04ce3d2-a7d9-41a3-bdf0-c99c51563950"
         },
@@ -76,6 +156,28 @@
           "ActionId": "124236ea-df43-495f-807b-4a882de5bf2c",
           "NameGuid": "124236ea-df43-495f-807b-4a882de5bf2c",
           "Name": "CounterpartyApprovalRequests",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "CounterpartyApprovalRequests_Title_124236eadf43495f807b4a882de5bf2c",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Requests for counterparty approval",
+                "ru-RU": "Заявки на одобрение контрагента"
+              }
+            },
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "CounterpartyApprovalRequests_Description_124236eadf43495f807b4a882de5bf2c",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Register of all applications for counterparty approval",
+                "ru-RU": "Реестр всех заявок на одобрение контрагента"
+              }
+            }
+          ],
           "Index": 1,
           "ParentId": "b04ce3d2-a7d9-41a3-bdf0-c99c51563950"
         },
@@ -85,6 +187,28 @@
           "ActionId": "085b8763-5040-44be-a708-733f12a05871",
           "NameGuid": "085b8763-5040-44be-a708-733f12a05871",
           "Name": "CounterpartyChangeRequests",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "CounterpartyChangeRequests_Title_085b8763504044bea708733f12a05871",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Requests for change of counterparty details",
+                "ru-RU": "Заявки на изменение реквизитов контрагента"
+              }
+            },
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "CounterpartyChangeRequests_Description_085b8763504044bea708733f12a05871",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Register of all applications for counterparty change",
+                "ru-RU": "Реестр всех заявок на изменение контрагента"
+              }
+            }
+          ],
           "Index": 2,
           "ParentId": "b04ce3d2-a7d9-41a3-bdf0-c99c51563950"
         },
@@ -94,6 +218,28 @@
           "ActionId": "9abcc1dc-eeb0-4957-9355-74da728f60eb",
           "NameGuid": "9abcc1dc-eeb0-4957-9355-74da728f60eb",
           "Name": "CounterpartyBlockingRequests",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "CounterpartyBlockingRequests_Title_9abcc1dceeb04957935574da728f60eb",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Requests for blocking a counterparty",
+                "ru-RU": "Заявки на блокировку контрагента"
+              }
+            },
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "CounterpartyBlockingRequests_Description_9abcc1dceeb04957935574da728f60eb",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Register of all requests for counterparty blocking",
+                "ru-RU": "Реестр всех заявок на блокировку контрагента"
+              }
+            }
+          ],
           "Index": 3,
           "ParentId": "b04ce3d2-a7d9-41a3-bdf0-c99c51563950"
         },
@@ -103,6 +249,28 @@
           "ActionId": "205be861-ebb9-4f54-88e7-ca7277983dbb",
           "NameGuid": "205be861-ebb9-4f54-88e7-ca7277983dbb",
           "Name": "Checklists",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "Checklists_Title_205be861ebb94f5488e7ca7277983dbb",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Counterparty Approval Checklists",
+                "ru-RU": "Чек-листы для одобрения контрагента"
+              }
+            },
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "Checklists_Description_205be861ebb94f5488e7ca7277983dbb",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "A register of all checklists for counterparty approval",
+                "ru-RU": "Реестр всех чек-листов на одобрение контрагента"
+              }
+            }
+          ],
           "Index": 4,
           "ParentId": "b04ce3d2-a7d9-41a3-bdf0-c99c51563950"
         },
@@ -112,6 +280,28 @@
           "ActionId": "87d6e252-68c5-4f80-b398-ba88a1011bb3",
           "NameGuid": "87d6e252-68c5-4f80-b398-ba88a1011bb3",
           "Name": "SettingsDocumentsList",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "SettingsDocumentsList_Title_87d6e25268c54f80b398ba88a1011bb3",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Settings up a list of documents for counterparty approval",
+                "ru-RU": "Настройки списка документов для одобрения контрагента"
+              }
+            },
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "SettingsDocumentsList_Description_87d6e25268c54f80b398ba88a1011bb3",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Handbook for setting up a list of required documents for counterparty approval",
+                "ru-RU": "Справочник настройки списка необходимых документов для одобрения контрагента"
+              }
+            }
+          ],
           "Index": 0,
           "ParentId": "ebdd66fb-dd9e-477b-bce8-0383c4957837"
         },
@@ -121,6 +311,28 @@
           "ActionId": "12db81ec-7fb1-45d7-b37a-d66a74175f19",
           "NameGuid": "12db81ec-7fb1-45d7-b37a-d66a74175f19",
           "Name": "Segments",
+          "LocalizationStrings": [
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "Segments_Title_12db81ec7fb145d7b37ad66a74175f19",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Segments",
+                "ru-RU": "Сегменты"
+              }
+            },
+            {
+              "$type": "Sungero.NoCode.Settings.Models.SettingsLocalizationString, Sungero.NoCode.Settings.Interfaces",
+              "StringCode": "Segments_Description_12db81ec7fb145d7b37ad66a74175f19",
+              "Hash": null,
+              "LocalizationValues": {
+                "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "en-US": "Segment directory",
+                "ru-RU": "Справочник сегментов"
+              }
+            }
+          ],
           "Index": 1,
           "ParentId": "ebdd66fb-dd9e-477b-bce8-0383c4957837"
         }
@@ -144,7 +356,7 @@
     "$values": [
       {
         "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
-        "Uuid": "fdffa6c4-7cb9-45ad-84c2-e69ef0cf4bf3",
+        "Uuid": "169819b3-f342-4e1e-98c9-fcce398208d5",
         "ModuleView": {
           "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
           "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
@@ -152,11 +364,11 @@
         },
         "Number": 1,
         "ItemType": "EntityType",
-        "NameGuid": "ff3ce547-05c5-4f84-8360-8c99b4a467a6"
+        "NameGuid": "bb2e947a-d482-439b-88ce-3a4746ebdaef"
       },
       {
         "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
-        "Uuid": "d528ef10-8ce8-4e1a-bbf4-ab3d4835bbd9",
+        "Uuid": "c3bf9354-6e51-4944-ba20-5235c937801a",
         "ModuleView": {
           "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
           "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
@@ -164,11 +376,11 @@
         },
         "Number": 2,
         "ItemType": "EntityType",
-        "NameGuid": "39cf6019-f5f0-40c7-9cf5-8ce6ea80277d"
+        "NameGuid": "889b5ebf-a7c1-4ede-83b4-6e0cd92f8000"
       },
       {
         "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
-        "Uuid": "0b48a413-3e88-4f2d-ae7f-d4beda6d3587",
+        "Uuid": "5eb6af54-860b-4e41-86a8-b3cefd3ed5fa",
         "ModuleView": {
           "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
           "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
@@ -176,11 +388,11 @@
         },
         "Number": 3,
         "ItemType": "EntityType",
-        "NameGuid": "ef0835c3-7889-4a35-8fe1-99530f2c8ab8"
+        "NameGuid": "46a5162d-90a9-45b6-8dfa-8036d153cc5e"
       },
       {
         "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
-        "Uuid": "6e80dd53-1089-4618-bb25-6bb082882e61",
+        "Uuid": "90ccdbda-01d6-4006-9de9-ce5a4f57a0d0",
         "ModuleView": {
           "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
           "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
@@ -188,31 +400,7 @@
         },
         "Number": 4,
         "ItemType": "EntityType",
-        "NameGuid": "30dcffdd-82f8-4087-b3b0-c017cedb3a49"
-      },
-      {
-        "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
-        "Uuid": "d414822b-d982-4fa9-9f02-d5010d8bb21e",
-        "ModuleView": {
-          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
-          "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
-          "Identifier": "c6cea006-c33a-4d06-aa53-28a49379dd5c"
-        },
-        "Number": 5,
-        "ItemType": "EntityType",
-        "NameGuid": "a65db736-269a-40bd-ad84-9795b3e825d6"
-      },
-      {
-        "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
-        "Uuid": "c120fd59-cab2-463b-a008-caa3375237cd",
-        "ModuleView": {
-          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
-          "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
-          "Identifier": "c6cea006-c33a-4d06-aa53-28a49379dd5c"
-        },
-        "Number": 6,
-        "ItemType": "EntityType",
-        "NameGuid": "23677130-fcb9-4e3e-a49d-a90bb8d39c7c"
+        "NameGuid": "912f2fad-7a77-41ba-ba1a-825b6816f717"
       }
     ]
   },

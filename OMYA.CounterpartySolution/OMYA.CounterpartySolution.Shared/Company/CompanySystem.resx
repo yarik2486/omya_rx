@@ -58,20 +58,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Property_CounterpartyTypeOMYA" xml:space="preserve">
-    <value>Counterparty type</value>
-  </data>
-  <data name="Enum_CounterpartyTypeOMYA_LLC" xml:space="preserve">
-    <value>LLC/JSC</value>
-  </data>
-  <data name="Enum_CounterpartyTypeOMYA_StateEnterprise" xml:space="preserve">
-    <value>State enterprises/payment of state duties</value>
+  <data name="Enum_CounterpartyTypeOMYA_ForeignOrg" xml:space="preserve">
+    <value>Foreign organization (client)</value>
   </data>
   <data name="Enum_CounterpartyTypeOMYA_Individual" xml:space="preserve">
-    <value>Individual entrepreneur</value>
+    <value>Individual entrepreneur (client)</value>
   </data>
-  <data name="Enum_CounterpartyTypeOMYA_ForeignOrg" xml:space="preserve">
-    <value>Foreign organization</value>
+  <data name="Enum_CounterpartyTypeOMYA_LLC" xml:space="preserve">
+    <value>LLC/JSC (client)</value>
+  </data>
+  <data name="Enum_CounterpartyTypeOMYA_StateEnterprise" xml:space="preserve">
+    <value>State enterprises/payment of state duties (client)</value>
+  </data>
+  <data name="Property_CounterpartyTypeOMYA" xml:space="preserve">
+    <value>Counterparty type</value>
   </data>
   <data name="Property_CounterpartyKindOMYA" xml:space="preserve">
     <value>Counterparty kind</value>
@@ -261,5 +261,17 @@
   </data>
   <data name="Control_2d928d4ac8b54f7e9e05f3df5c18b6d1_EmptyText" xml:space="preserve">
     <value />
+  </data>
+  <data name="Enum_CounterpartyTypeOMYA_LLCSupplier" xml:space="preserve">
+    <value>LLC/JSC (supplier)</value>
+  </data>
+  <data name="Enum_CounterpartyTypeOMYA_IndividSupplier" xml:space="preserve">
+    <value>Individual entrepreneur (supplier)</value>
+  </data>
+  <data name="Enum_CounterpartyTypeOMYA_StateEnSupplier" xml:space="preserve">
+    <value>State enterprises/payment of state duties (supplier)</value>
+  </data>
+  <data name="Enum_CounterpartyTypeOMYA_ForeignSupplier" xml:space="preserve">
+    <value>Foreign organization (supplier)</value>
   </data>
 </root>

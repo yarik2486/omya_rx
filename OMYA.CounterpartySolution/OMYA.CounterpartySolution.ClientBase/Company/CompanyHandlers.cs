@@ -10,6 +10,11 @@ namespace OMYA.CounterpartySolution
   partial class CompanyClientHandlers
   {
 
+    public virtual void CounterpartyTypeOMYAValueInput(Sungero.Presentation.EnumerationValueInputEventArgs e)
+    {
+      
+    }
+
     public override void Showing(Sungero.Presentation.FormShowingEventArgs e)
     {
       base.Showing(e);
@@ -29,7 +34,7 @@ namespace OMYA.CounterpartySolution
       // Резидент.
       prop.TIN.IsRequired = !nonresident;
       prop.TIN.IsVisible = !nonresident;
-      prop.TRRC.IsRequired = !nonresident;
+      prop.TRRC.IsRequired = !nonresident && _obj.CounterpartyTypeOMYA != CounterpartyTypeOMYA.Individual && _obj.CounterpartyTypeOMYA != CounterpartyTypeOMYA.IndividSupplier;
       prop.TRRC.IsVisible = !nonresident;
       prop.PSRN.IsRequired = !nonresident;
       prop.PSRN.IsVisible = !nonresident;
@@ -37,9 +42,7 @@ namespace OMYA.CounterpartySolution
       prop.NCEA.IsVisible = !nonresident;
       
       // Нерезидент.
-      prop.CompanyRegistrationNumberOMYA.IsRequired = nonresident;
       prop.CompanyRegistrationNumberOMYA.IsVisible = nonresident;
-      prop.TaxNumberOMYA.IsRequired = nonresident;
       prop.TaxNumberOMYA.IsVisible = nonresident;
       
       // Для роли "Специалист по мастер-данным".
