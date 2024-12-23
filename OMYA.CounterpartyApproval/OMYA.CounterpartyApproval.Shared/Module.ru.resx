@@ -76,4 +76,7 @@
   <data name="CounterpartyBlockingRequestKind" xml:space="preserve">
     <value>Заявка на блокировку контрагента</value>
   </data>
+  <data name="CounterpartyApprovalChecklistStateEnterprisesKind" xml:space="preserve">
+    <value>Чек-лист для одобрения контрагента (государственные предприятия)</value>
+  </data>
 </root>

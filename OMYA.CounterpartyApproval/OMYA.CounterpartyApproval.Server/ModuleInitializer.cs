@@ -17,6 +17,7 @@ namespace OMYA.CounterpartyApproval.Server
       CreateDocumentTypes();
       CreateDocumentKinds();
       CreateRoles();
+      CreateTemplates();
       
       // Выдача прав всем пользователям.
       var allUsers = Roles.AllUsers;
@@ -102,6 +103,18 @@ namespace OMYA.CounterpartyApproval.Server
                                                                               Constants.Module.Initialize.ChecklistKind, 
                                                                               true);
       
+      // Чек-лист для одобрения контрагента (государственные предприятия).
+      Sungero.Docflow.PublicInitializationFunctions.Module.CreateDocumentKind(Resources.CounterpartyApprovalChecklistStateEnterprisesKind,
+                                                                              Resources.CounterpartyApprovalChecklistStateEnterprisesKind,
+                                                                              registrable,
+                                                                              Sungero.Docflow.DocumentType.DocumentFlow.Inner, 
+                                                                              true, 
+                                                                              false,
+                                                                              Checklist.ClassTypeGuid,
+                                                                              actions,
+                                                                              Constants.Module.Initialize.ChecklistStateEnterprisesKind, 
+                                                                              false);
+      
       // Заявка на изменение реквизитов контрагента.
       Sungero.Docflow.PublicInitializationFunctions.Module.CreateDocumentKind(Resources.CounterpartyChangeRequestKind,
                                                                               Resources.CounterpartyChangeRequestKind,
@@ -156,6 +169,20 @@ namespace OMYA.CounterpartyApproval.Server
       InitializationLogger.Debug("Init CounterpartyApproval: Create Default Roles");
       
       Sungero.Docflow.PublicInitializationFunctions.Module.CreateRole(Resources.MasterDataSpecialistName, Resources.MasterDataSpecialistName, Constants.Module.Initialize.MasterDataSpecialist);
+    }
+    
+    /// <summary>
+    /// Создать шаблоны.
+    /// </summary>
+    public virtual void CreateTemplates()
+    {
+      if (!Sungero.Docflow.DocumentTemplates.GetAll().Where(t => t.Name == Constants.Module.TemplateApplicationFormNonresident).Any())
+      {
+        var template = Sungero.Docflow.DocumentTemplates.Create();
+        template.Name = Constants.Module.TemplateApplicationFormNonresident;
+        template.Status = Sungero.Docflow.DocumentTemplate.Status.Closed;
+        template.Save();
+      }
     }
   }
 }

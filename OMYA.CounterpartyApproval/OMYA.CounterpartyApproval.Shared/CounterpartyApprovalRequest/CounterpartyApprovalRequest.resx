@@ -61,4 +61,7 @@
   <data name="ChecklistName" xml:space="preserve">
     <value>Checklist</value>
   </data>
+  <data name="TemplateFileNotFound" xml:space="preserve">
+    <value>Template file not found.</value>
+  </data>
 </root>

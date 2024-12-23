@@ -10,6 +10,21 @@ namespace OMYA.CounterpartyApproval.Client
 {
   partial class CounterpartyApprovalRequestActions
   {
+    public virtual void ApplicationFormNonresident(Sungero.Domain.Client.ExecuteActionArgs e)
+    {
+      var template = Sungero.Docflow.DocumentTemplates.GetAll(x => x.Name == Constants.Module.TemplateApplicationFormNonresident).FirstOrDefault();
+      
+      if (template != null && template.HasVersions)
+        template.Export();
+      else 
+        Dialogs.ShowMessage(OMYA.CounterpartyApproval.CounterpartyApprovalRequests.Resources.TemplateFileNotFound, MessageType.Error);
+    }
+
+    public virtual bool CanApplicationFormNonresident(Sungero.Domain.Client.CanExecuteActionArgs e)
+    {
+      return _obj.Nonresident == true;
+    }
+
     public virtual void FillFromService(Sungero.Domain.Client.ExecuteActionArgs e)
     {
       if (string.IsNullOrWhiteSpace(_obj.PSRN) && string.IsNullOrWhiteSpace(_obj.TIN) && string.IsNullOrWhiteSpace(_obj.ShortName))
@@ -115,7 +130,7 @@ namespace OMYA.CounterpartyApproval.Client
 
     public virtual bool CanCreateChecklist(Sungero.Domain.Client.CanExecuteActionArgs e)
     {
-      return true;
+      return _obj.Nonresident != true;
     }
 
   }

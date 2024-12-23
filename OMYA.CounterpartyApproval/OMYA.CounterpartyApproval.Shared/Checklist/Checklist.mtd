@@ -253,19 +253,6 @@
           "Settings": []
         },
         {
-          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
-          "NameGuid": "e9b8daa9-7015-40af-a0a3-329ddfd844c9",
-          "Name": "InitiatorsEmail",
-          "ColumnNumber": 0,
-          "ColumnSpan": 1,
-          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
-          "ParentGuid": "406e14dc-1744-4a7f-85d8-f6eef8abaa3f",
-          "PropertyGuid": "1e38c216-acfc-4129-938d-e827f01b0637",
-          "RowNumber": 6,
-          "RowSpan": 1,
-          "Settings": []
-        },
-        {
           "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
           "NameGuid": "73a054a8-00fa-415d-a5a6-5515a111d7b9",
           "Name": "CounterpartyInformation",
@@ -494,22 +481,13 @@
           "Name": "UseSubcontracting",
           "ColumnNumber": 0,
           "ColumnSpan": 1,
-          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.TextEditorToTextBinder",
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "HeaderLocation": "Top",
           "ParentGuid": "958f0f3e-7cbb-4629-98cc-633ac6adfd08",
           "PropertyGuid": "e28f2062-5b00-423a-9189-6965683fefa7",
           "RowNumber": 4,
           "RowSpan": 1,
-          "Settings": [
-            {
-              "Name": "Height",
-              "Value": 50
-            },
-            {
-              "Name": "NeedAutosize",
-              "Value": true
-            }
-          ]
+          "Settings": []
         },
         {
           "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
@@ -735,6 +713,19 @@
   "Properties": [
     {
       "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "91ac0e49-10fc-45a2-848a-0541e7fdd7cd",
+      "Name": "DocumentKind",
+      "HandledEvents": [
+        "ValueInputClient"
+      ],
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "HandledEvents"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
       "NameGuid": "aae1f6ae-d090-4c5a-963e-44c8b79dc92b",
       "Name": "LeadingDocument",
       "EntityGuid": "ce3e34ed-7be2-4426-a951-d5a70f966650",
@@ -918,11 +909,23 @@
       "PreviousPropertyGuid": "3e65ff13-9f41-4093-8e64-dacb6eaae5a6"
     },
     {
-      "$type": "Sungero.Metadata.TextPropertyMetadata, Sungero.Metadata",
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
       "NameGuid": "e28f2062-5b00-423a-9189-6965683fefa7",
       "Name": "UseSubcontracting",
       "Code": "UseSubcontract",
-      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToTextBinder",
+      "DirectValues": [
+        {
+          "NameGuid": "8d6efc8f-ac7d-45b9-99b6-9ebe6bab066c",
+          "Name": "Yes",
+          "Code": "Yes"
+        },
+        {
+          "NameGuid": "53a05df3-7835-4986-9a1c-c9f2857166f0",
+          "Name": "No",
+          "Code": "No"
+        }
+      ],
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
       "PreviousPropertyGuid": "5e3241c9-b481-41db-a144-7e49d4f98e2e"
     },
     {
@@ -1143,6 +1146,11 @@
           "NameGuid": "bb184de1-a4d9-4501-ad86-6aa30bd5f2cd",
           "Name": "NoOtherClients",
           "Code": "NoOtherClients"
+        },
+        {
+          "NameGuid": "7d55a002-b6bd-4fd4-8c37-bd3683f69f4a",
+          "Name": "NoRiskFactors",
+          "Code": "NoRiskFactors"
         }
       ],
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",

@@ -325,4 +325,13 @@
   <data name="ControlGroup_22f52883272b4a7f9a5899386cb13cc4" xml:space="preserve">
     <value>Документирование проверки</value>
   </data>
+  <data name="Enum_IdentifiedRiskFactors_NoRiskFactors" xml:space="preserve">
+    <value>риск-факторов не выявлено</value>
+  </data>
+  <data name="Enum_UseSubcontracting_Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Enum_UseSubcontracting_No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
 </root>

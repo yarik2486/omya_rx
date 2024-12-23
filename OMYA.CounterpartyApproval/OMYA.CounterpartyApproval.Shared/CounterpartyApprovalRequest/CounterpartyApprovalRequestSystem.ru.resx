@@ -313,4 +313,61 @@
   <data name="Enum_CounterpartyType_ForeignSupplier" xml:space="preserve">
     <value>Иностранная организация (поставщик)</value>
   </data>
+  <data name="Enum_PaymentTerms_PaymentInstant" xml:space="preserve">
+    <value>Оплата немедленно</value>
+  </data>
+  <data name="Enum_PaymentTerms_Prepayment" xml:space="preserve">
+    <value>Предоплата</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment20" xml:space="preserve">
+    <value>Постоплата 20 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment7" xml:space="preserve">
+    <value>Постоплата 7 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment10" xml:space="preserve">
+    <value>Постоплата 10 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment15" xml:space="preserve">
+    <value>Постоплата 15 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment14" xml:space="preserve">
+    <value>Постоплата 14 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment21" xml:space="preserve">
+    <value>Постоплата 21 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment30" xml:space="preserve">
+    <value>Постоплата 30 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment40" xml:space="preserve">
+    <value>Постоплата 40 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment45" xml:space="preserve">
+    <value>Постоплата 45 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment60" xml:space="preserve">
+    <value>Постоплата 60 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment75" xml:space="preserve">
+    <value>Постоплата 75 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment50" xml:space="preserve">
+    <value>Постоплата 50 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment90" xml:space="preserve">
+    <value>Постоплата 90 кд</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment120" xml:space="preserve">
+    <value>Постоплата 120 кд</value>
+  </data>
+  <data name="Action_ApplicationFormNonresident" xml:space="preserve">
+    <value>Форма анкеты для нерезидента</value>
+  </data>
+  <data name="Action_ApplicationFormNonresidentHint" xml:space="preserve">
+    <value>Форма анкеты для нерезидента</value>
+  </data>
+  <data name="Action_ApplicationFormNonresidentDescription" xml:space="preserve">
+    <value>Скачать файл шаблон анкеты для нерезидентов.</value>
+  </data>
 </root>

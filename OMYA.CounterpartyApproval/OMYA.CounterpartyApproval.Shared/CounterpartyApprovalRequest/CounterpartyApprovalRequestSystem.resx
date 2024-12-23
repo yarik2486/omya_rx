@@ -337,4 +337,67 @@
   <data name="Enum_CounterpartyType_ForeignSupplier" xml:space="preserve">
     <value>Foreign organization (supplier)</value>
   </data>
+  <data name="Enum_PaymentTerms_PaymentInstant" xml:space="preserve">
+    <value>Payment instantly</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment20" xml:space="preserve">
+    <value>Postpayment 20 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment7" xml:space="preserve">
+    <value>Postpayment 7 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment10" xml:space="preserve">
+    <value>Postpayment 10 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment15" xml:space="preserve">
+    <value>Postpayment 15 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment14" xml:space="preserve">
+    <value>Postpayment 14 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment21" xml:space="preserve">
+    <value>Postpayment 21 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment30" xml:space="preserve">
+    <value>Postpayment 30 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment40" xml:space="preserve">
+    <value>Postpayment 40 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment45" xml:space="preserve">
+    <value>Postpayment 45 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment60" xml:space="preserve">
+    <value>Postpayment 60 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment75" xml:space="preserve">
+    <value>Postpayment 75 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment50" xml:space="preserve">
+    <value>Postpayment 50 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment90" xml:space="preserve">
+    <value>Postpayment 90 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Postpayment120" xml:space="preserve">
+    <value>Postpayment 120 kd</value>
+  </data>
+  <data name="Enum_PaymentTerms_Prepayment" xml:space="preserve">
+    <value>Prepayment</value>
+  </data>
+  <data name="Action_ApplicationFormNonresident" xml:space="preserve">
+    <value>Application form for non-resident</value>
+  </data>
+  <data name="Action_ApplicationFormNonresidentDescription" xml:space="preserve">
+    <value>Download file template questionnaire for non-residents.</value>
+  </data>
+  <data name="Action_ApplicationFormNonresidentHint" xml:space="preserve">
+    <value>Application form for non-resident</value>
+  </data>
+  <data name="Action_ApplicationFormNonresidentConfirmationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Action_ApplicationFormNonresidentConfirmationDescription" xml:space="preserve">
+    <value />
+  </data>
 </root>

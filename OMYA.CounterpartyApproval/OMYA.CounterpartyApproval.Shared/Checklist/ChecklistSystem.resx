@@ -319,4 +319,13 @@
   <data name="ControlGroup_22f52883272b4a7f9a5899386cb13cc4" xml:space="preserve">
     <value>Documenting the inspection</value>
   </data>
+  <data name="Enum_IdentifiedRiskFactors_NoRiskFactors" xml:space="preserve">
+    <value>no risk factors identified</value>
+  </data>
+  <data name="Enum_UseSubcontracting_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Enum_UseSubcontracting_No" xml:space="preserve">
+    <value>No</value>
+  </data>
 </root>

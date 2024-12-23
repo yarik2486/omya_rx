@@ -15,6 +15,10 @@ namespace OMYA.CounterpartyApproval.Constants
        // Вид документа "Чек-лист для одобрения контрагента".
        [Sungero.Core.Public]
        public static readonly Guid ChecklistKind = Guid.Parse("7B6C418B-9EB3-44E4-A0E1-4AA5022DA24B");
+       
+       // Вид документа "Чек-лист для одобрения контрагента (государственные предприятия".
+       [Sungero.Core.Public]
+       public static readonly Guid ChecklistStateEnterprisesKind = Guid.Parse("4DD883B3-31E4-4B6D-8BDF-B8AD6B0ECA7B");
          
        // Вид документа "Заявка на изменение реквизитов контрагента".
        [Sungero.Core.Public]
@@ -36,5 +40,9 @@ namespace OMYA.CounterpartyApproval.Constants
      // Guid типа документа "Заявка на изменение реквизитов контрагента".
      [Sungero.Core.Public]
      public const string CounterpartyChangeRequestTypeGuid = "889b5ebf-a7c1-4ede-83b4-6e0cd92f8000";
+     
+     // Наименование шаблона "Форма анкеты для нерезидента".
+     [Sungero.Core.Public]
+     public const string TemplateApplicationFormNonresident = "Форма анкеты для нерезидента";
   }
 }

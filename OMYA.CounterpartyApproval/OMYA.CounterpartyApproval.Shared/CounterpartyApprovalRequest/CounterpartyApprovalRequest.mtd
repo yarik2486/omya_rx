@@ -27,6 +27,14 @@
       "GenerateHandler": true,
       "LargeIconName": "Action_FillFromService_large_dfdf45cf19e54ef5b54d3341c580468d.png",
       "SmallIconName": "Action_FillFromService_small_dfdf45cf19e54ef5b54d3341c580468d.png"
+    },
+    {
+      "NameGuid": "12ab475f-1f0b-4142-b078-18c280856242",
+      "Name": "ApplicationFormNonresident",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_ApplicationFormNonresident_large_12ab475f1f0b4142b07818c280856242.png",
+      "SmallIconName": "Action_ApplicationFormNonresident_small_12ab475f1f0b4142b07818c280856242.png"
     }
   ],
   "BaseGuid": "ce3e34ed-7be2-4426-a951-d5a70f966650",
@@ -288,7 +296,7 @@
           "Name": "PaymentTerms",
           "ColumnNumber": 0,
           "ColumnSpan": 1,
-          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "ParentGuid": "406e14dc-1744-4a7f-85d8-f6eef8abaa3f",
           "PropertyGuid": "7e27412c-230a-4ec4-9704-007d30052d13",
           "RowNumber": 6,
@@ -970,12 +978,93 @@
       "PreviousPropertyGuid": "e06c248f-f78f-42a9-bdcf-224f45d29357"
     },
     {
-      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
       "NameGuid": "7e27412c-230a-4ec4-9704-007d30052d13",
       "Name": "PaymentTerms",
       "Code": "PaymentTerms",
-      "Length": 1000,
-      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "DirectValues": [
+        {
+          "NameGuid": "4ee1fd2d-33ba-402a-be22-8dae8e5e6442",
+          "Name": "PaymentInstant",
+          "Code": "PaymentInstant"
+        },
+        {
+          "NameGuid": "ddb460b3-8a14-4da5-bec0-c4bce159e83a",
+          "Name": "Postpayment20",
+          "Code": "Postpayment20KD"
+        },
+        {
+          "NameGuid": "1d5c458e-89d9-4e06-9bc4-c6bcdddc8ef5",
+          "Name": "Postpayment7",
+          "Code": "Postpayment7KD"
+        },
+        {
+          "NameGuid": "b894d698-c8cd-400d-bef7-5384de34c3c1",
+          "Name": "Postpayment10",
+          "Code": "Postpayment10KD"
+        },
+        {
+          "NameGuid": "c1a6e29c-1cb3-4fbd-88c3-0458dc77749c",
+          "Name": "Postpayment15",
+          "Code": "Postpayment15KD"
+        },
+        {
+          "NameGuid": "ac69d067-1acd-41bd-9427-41468e7a1938",
+          "Name": "Postpayment14",
+          "Code": "Postpayment14KD"
+        },
+        {
+          "NameGuid": "2f1c003d-5f54-40e7-b593-d6ba433d6785",
+          "Name": "Postpayment21",
+          "Code": "Postpayment21KD"
+        },
+        {
+          "NameGuid": "16133206-119d-48fe-b3fb-120e96e821fd",
+          "Name": "Postpayment30",
+          "Code": "Postpayment30KD"
+        },
+        {
+          "NameGuid": "9ef43fbc-4367-484a-bca1-c5d8d9a3dd5e",
+          "Name": "Postpayment40",
+          "Code": "Postpayment40KD"
+        },
+        {
+          "NameGuid": "ea202831-3073-4144-8751-52ef1673d258",
+          "Name": "Postpayment45",
+          "Code": "Postpayment45KD"
+        },
+        {
+          "NameGuid": "5ae58597-f205-4d40-86aa-131a4c572079",
+          "Name": "Postpayment60",
+          "Code": "Postpayment60KD"
+        },
+        {
+          "NameGuid": "6993b3ad-fb32-4383-bcdf-9e80a437e617",
+          "Name": "Postpayment75",
+          "Code": "Postpayment75KD"
+        },
+        {
+          "NameGuid": "80412c4e-2b93-4a2d-92c7-0f61eaf962be",
+          "Name": "Postpayment50",
+          "Code": "Postpayment50KD"
+        },
+        {
+          "NameGuid": "4133d7ce-d1a9-4a33-becc-135fc1d1ff02",
+          "Name": "Postpayment90",
+          "Code": "Postpayment90KD"
+        },
+        {
+          "NameGuid": "02c07f3e-fa6d-41cd-b228-36e88a8014ac",
+          "Name": "Postpayment120",
+          "Code": "Postpayment120"
+        },
+        {
+          "NameGuid": "38625f5c-d4b1-4c8f-bffa-3583ffef5095",
+          "Name": "Prepayment",
+          "Code": "Prepayment"
+        }
+      ],
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
       "PreviousPropertyGuid": "619d7871-0e4a-45e0-9521-5524c4894347"
     },
     {
@@ -1361,7 +1450,8 @@
   ],
   "PublicStructures": [],
   "ResourcesKeys": [
-    "ChecklistName"
+    "ChecklistName",
+    "TemplateFileNotFound"
   ],
   "RibbonCardMetadata": {
     "NameGuid": "b025a821-6fe0-4470-8725-8a094f5e11b3",
@@ -1370,20 +1460,11 @@
     "Elements": [
       {
         "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
-        "NameGuid": "ef22ef20-bca1-481e-a7bd-fe8ea4262cfd",
-        "Name": "ActionButton",
-        "ActionGuid": "db3529f1-b137-448a-8efc-6fdf860f2c15",
-        "ButtonSize": "Large",
-        "Index": 2,
-        "ParentGuid": "2ed94346-ba89-4c52-9815-d18010d3a2ae"
-      },
-      {
-        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
         "NameGuid": "dfabf017-5fae-4f22-a136-e9ca3754feed",
         "Name": "CreateCompany",
         "ActionGuid": "0a2157d9-f424-4d0d-96a6-3212fd853aff",
         "ButtonSize": "Large",
-        "Index": 3,
+        "Index": 4,
         "ParentGuid": "2ed94346-ba89-4c52-9815-d18010d3a2ae"
       },
       {
@@ -1393,6 +1474,24 @@
         "ActionGuid": "dfdf45cf-19e5-4ef5-b54d-3341c580468d",
         "ButtonSize": "Large",
         "Index": 51,
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "ef22ef20-bca1-481e-a7bd-fe8ea4262cfd",
+        "Name": "ActionButton",
+        "ActionGuid": "db3529f1-b137-448a-8efc-6fdf860f2c15",
+        "ButtonSize": "Large",
+        "Index": 52,
+        "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "ab965aab-8250-4bb9-997b-711a32947e4a",
+        "Name": "ApplicationFormNonresident",
+        "ActionGuid": "12ab475f-1f0b-4142-b078-18c280856242",
+        "ButtonSize": "Large",
+        "Index": 53,
         "ParentGuid": "4f04b1b4-b6b2-424f-a95a-9a6927cfbdb4"
       }
     ],

@@ -263,6 +263,15 @@
       "Value": "new System.Guid(\"7B6C418B-9EB3-44E4-A0E1-4AA5022DA24B\")"
     },
     {
+      "Name": "ChecklistStateEnterprisesKind",
+      "ParentClasses": [
+        "Module",
+        "Initialize"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"4DD883B3-31E4-4B6D-8BDF-B8AD6B0ECA7B\")"
+    },
+    {
       "Name": "CounterpartyApprovalRequestTypeGuid",
       "ParentClasses": [
         "Module"
@@ -313,6 +322,14 @@
       ],
       "TypeName": "System.Guid",
       "Value": "new System.Guid(\"BC8CF578-733A-46CD-B604-3263D069847F\")"
+    },
+    {
+      "Name": "TemplateApplicationFormNonresident",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.String",
+      "Value": "\"Форма анкеты для нерезидента\""
     }
   ],
   "PublicFunctions": [
@@ -358,7 +375,8 @@
     "MasterDataSpecialistName",
     "CheckTheCounterpartyDetails",
     "CounterpartyChangeRequestKind",
-    "CounterpartyBlockingRequestKind"
+    "CounterpartyBlockingRequestKind",
+    "CounterpartyApprovalChecklistStateEnterprisesKind"
   ],
   "ServerAssemblyName": "OMYA.CounterpartyApproval.Server",
   "ServerNamespace": "OMYA.CounterpartyApproval.Server",

@@ -10,6 +10,21 @@ namespace OMYA.CounterpartyApproval
   partial class ChecklistClientHandlers
   {
 
+    public override void DocumentKindValueInput(Sungero.Docflow.Client.OfficialDocumentDocumentKindValueInputEventArgs e)
+    {
+      base.DocumentKindValueInput(e);
+      
+      var checklistStateEnterprisesKind = Sungero.Docflow.PublicFunctions.DocumentKind.GetNativeDocumentKind(Constants.Module.Initialize.ChecklistStateEnterprisesKind);
+      var notChecklistStateEnterprisesKind = !Equals(e.NewValue, checklistStateEnterprisesKind);
+      var prop = _obj.State.Properties;
+      prop.SupplierServices.IsRequired = notChecklistStateEnterprisesKind;
+      prop.AttractingReasons.IsRequired = notChecklistStateEnterprisesKind;
+      prop.MonthlyPurchase.IsRequired = notChecklistStateEnterprisesKind;
+      prop.HowSupplierFound.IsRequired = notChecklistStateEnterprisesKind;
+      prop.UseSubcontracting.IsRequired = notChecklistStateEnterprisesKind;
+      prop.LicensedActivities.IsRequired = notChecklistStateEnterprisesKind;
+    }
+
     public override void Showing(Sungero.Presentation.FormShowingEventArgs e)
     {
       base.Showing(e);
@@ -19,7 +34,6 @@ namespace OMYA.CounterpartyApproval
       prop.PreparedBy.IsRequired = true;
       prop.JobTitle.IsRequired = true;
       prop.BusinessUnit.IsRequired = true;
-      prop.InitiatorEmail.IsRequired = true;
       prop.FullNameCompany.IsRequired = true;
       prop.FoundationDate.IsRequired = true;
       prop.TIN.IsRequired = true;
@@ -27,12 +41,6 @@ namespace OMYA.CounterpartyApproval
       prop.PrimaryContact.IsRequired = true;
       prop.CompanyOwners.IsRequired = true;
       prop.EDIOperator.IsRequired = true;
-      prop.SupplierServices.IsRequired = true;
-      prop.AttractingReasons.IsRequired = true;
-      prop.MonthlyPurchase.IsRequired = true;
-      prop.HowSupplierFound.IsRequired = true;
-      prop.UseSubcontracting.IsRequired = true;
-      prop.LicensedActivities.IsRequired = true;
       prop.DocumentsReceivedFromSupplier.IsRequired = true;
       prop.SupplierRegistered.IsRequired = true;
       prop.SupplierRegistered18Months.IsRequired = true;
@@ -45,6 +53,15 @@ namespace OMYA.CounterpartyApproval
       prop.CollectionOfReviews.IsRequired = true;
       prop.ContactDetailsSaved.IsRequired = true;
       prop.ResultsSentToManager.IsRequired = true;
+      
+      var checklistStateEnterprisesKind = Sungero.Docflow.PublicFunctions.DocumentKind.GetNativeDocumentKind(Constants.Module.Initialize.ChecklistStateEnterprisesKind);
+      var notChecklistStateEnterprisesKind = !Equals(_obj.DocumentKind, checklistStateEnterprisesKind);
+      prop.SupplierServices.IsRequired = notChecklistStateEnterprisesKind;
+      prop.AttractingReasons.IsRequired = notChecklistStateEnterprisesKind;
+      prop.MonthlyPurchase.IsRequired = notChecklistStateEnterprisesKind;
+      prop.HowSupplierFound.IsRequired = notChecklistStateEnterprisesKind;
+      prop.UseSubcontracting.IsRequired = notChecklistStateEnterprisesKind;
+      prop.LicensedActivities.IsRequired = notChecklistStateEnterprisesKind;
     }
 
     public virtual void PSRNValueInput(Sungero.Presentation.StringValueInputEventArgs e)

@@ -61,4 +61,7 @@
   <data name="ChecklistName" xml:space="preserve">
     <value>Чек-лист</value>
   </data>
+  <data name="TemplateFileNotFound" xml:space="preserve">
+    <value>Не найден файл шаблона.</value>
+  </data>
 </root>

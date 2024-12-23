@@ -76,4 +76,7 @@
   <data name="CounterpartyBlockingRequestKind" xml:space="preserve">
     <value>Request for blocking a counterparty</value>
   </data>
+  <data name="CounterpartyApprovalChecklistStateEnterprisesKind" xml:space="preserve">
+    <value>Counterparty Approval Checklist (State-Owned Enterprises)</value>
+  </data>
 </root>
