@@ -70,25 +70,37 @@
   <data name="CollectionDisplayName" xml:space="preserve">
     <value>Settings up a list of documents for counterparty approval</value>
   </data>
-  <data name="Property_CounterpartyType" xml:space="preserve">
-    <value>Counterparty type</value>
-  </data>
-  <data name="Enum_CounterpartyType_LLC" xml:space="preserve">
-    <value>LLC/JSC</value>
-  </data>
-  <data name="Enum_CounterpartyType_StateEnterprise" xml:space="preserve">
-    <value>State enterprises/payment of state duties</value>
+  <data name="Enum_CounterpartyType_ForeignOrg" xml:space="preserve">
+    <value>Foreign organization (client)</value>
   </data>
   <data name="Enum_CounterpartyType_Individual" xml:space="preserve">
-    <value>Individual entrepreneur</value>
+    <value>Individual entrepreneur (client)</value>
   </data>
-  <data name="Enum_CounterpartyType_ForeignOrg" xml:space="preserve">
-    <value>Foreign organization</value>
+  <data name="Enum_CounterpartyType_LLC" xml:space="preserve">
+    <value>LLC/JSC (client)</value>
+  </data>
+  <data name="Enum_CounterpartyType_StateEnterprise" xml:space="preserve">
+    <value>State enterprises/payment of state duties (client)</value>
+  </data>
+  <data name="Property_CounterpartyType" xml:space="preserve">
+    <value>Counterparty type</value>
   </data>
   <data name="Property_DocumentsForApproval" xml:space="preserve">
     <value>Documents required for approval</value>
   </data>
   <data name="ControlGroup_8bf7fad6331945e4b49d0cd306db3ef9" xml:space="preserve">
     <value>Documents required for approval</value>
+  </data>
+  <data name="Enum_CounterpartyType_LLCSupplier" xml:space="preserve">
+    <value>LLC/JSC (supplier)</value>
+  </data>
+  <data name="Enum_CounterpartyType_IndividSupplier" xml:space="preserve">
+    <value>Individual entrepreneur (supplier)</value>
+  </data>
+  <data name="Enum_CounterpartyType_StateEnSupplier" xml:space="preserve">
+    <value>State enterprises/payment of state duties (supplier)</value>
+  </data>
+  <data name="Enum_CounterpartyType_ForeignSupplier" xml:space="preserve">
+    <value>Foreign organization (supplier)</value>
   </data>
 </root>

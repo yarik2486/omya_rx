@@ -50,7 +50,7 @@
           "ColumnSpan": 1,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "ParentGuid": "96844de2-082c-45ba-995b-2faaaa917787",
-          "PropertyGuid": "725f8af5-0a6b-4836-a8e5-0420aa5d2306",
+          "PropertyGuid": "25d958c5-7783-4a75-89c5-4fbe79d323ab",
           "RowNumber": 1,
           "RowSpan": 1,
           "Settings": []
@@ -132,8 +132,19 @@
       "PreviousPropertyGuid": "1dcedc29-5140-4770-ac92-eabc212326a1"
     },
     {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "0e27f28e-bf1f-418e-8a6b-43435b1b2c57",
+      "Name": "DocumentsForApproval",
+      "Code": "SettingDocumen",
+      "EntityGuid": "17bad863-7fba-4cc2-b443-c441d848a592",
+      "IsRequired": true,
+      "IsShowedInList": false,
+      "PreviousPropertyGuid": "25d958c5-7783-4a75-89c5-4fbe79d323ab",
+      "Versions": []
+    },
+    {
       "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
-      "NameGuid": "725f8af5-0a6b-4836-a8e5-0420aa5d2306",
+      "NameGuid": "25d958c5-7783-4a75-89c5-4fbe79d323ab",
       "Name": "CounterpartyType",
       "Code": "CounterpartyTy",
       "DirectValues": [
@@ -156,22 +167,31 @@
           "NameGuid": "425b5c7a-1da0-43e6-8334-ff32a39728cd",
           "Name": "ForeignOrg",
           "Code": "ForeignOrg"
+        },
+        {
+          "NameGuid": "8ab6b9a7-3cd1-429f-81f9-206132c9e930",
+          "Name": "LLCSupplier",
+          "Code": "LLCSupplier"
+        },
+        {
+          "NameGuid": "6b13e7c4-6930-47ed-a1c5-a3f4397ed754",
+          "Name": "IndividSupplier",
+          "Code": "IndividSupplier"
+        },
+        {
+          "NameGuid": "820f28d5-6274-4adf-82a6-9943f161cd65",
+          "Name": "StateEnSupplier",
+          "Code": "StateEnSupplier"
+        },
+        {
+          "NameGuid": "dfa98c14-4e00-496e-9d47-b5e71350e7b9",
+          "Name": "ForeignSupplier",
+          "Code": "ForeignSupplier"
         }
       ],
       "IsRequired": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
       "PreviousPropertyGuid": "8a559cd2-8129-4744-815a-2b7bf449e9cb",
-      "Versions": []
-    },
-    {
-      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
-      "NameGuid": "0e27f28e-bf1f-418e-8a6b-43435b1b2c57",
-      "Name": "DocumentsForApproval",
-      "Code": "SettingDocumen",
-      "EntityGuid": "17bad863-7fba-4cc2-b443-c441d848a592",
-      "IsRequired": true,
-      "IsShowedInList": false,
-      "PreviousPropertyGuid": "725f8af5-0a6b-4836-a8e5-0420aa5d2306",
       "Versions": []
     }
   ],

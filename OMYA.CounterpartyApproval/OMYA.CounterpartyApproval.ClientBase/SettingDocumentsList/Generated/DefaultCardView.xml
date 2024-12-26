@@ -31,7 +31,7 @@
             <property name="Name">SettingDocumentsList_DocumentsForApproval_DocumentName</property>
             <property name="FieldName">DocumentName</property>
             <property name="VisibleIndex">0</property>
-            <property name="Width">418</property>
+            <property name="Width">400</property>
             <property name="ActualWidth">34*</property>
           </property>
           <property name="Item2" isnull="true" iskey="true">
@@ -40,7 +40,7 @@
             <property name="Name">SettingDocumentsList_DocumentsForApproval_Document</property>
             <property name="FieldName">Document</property>
             <property name="VisibleIndex">1</property>
-            <property name="Width">320</property>
+            <property name="Width">306</property>
             <property name="ActualWidth">26*</property>
           </property>
           <property name="Item3" isnull="true" iskey="true">
@@ -49,7 +49,7 @@
             <property name="Name">SettingDocumentsList_DocumentsForApproval_Absent</property>
             <property name="FieldName">Absent</property>
             <property name="VisibleIndex">2</property>
-            <property name="Width">123</property>
+            <property name="Width">118</property>
             <property name="ActualWidth">10*</property>
           </property>
           <property name="Item4" isnull="true" iskey="true">
@@ -58,7 +58,7 @@
             <property name="Name">SettingDocumentsList_DocumentsForApproval_ReasonForAbsence</property>
             <property name="FieldName">ReasonForAbsence</property>
             <property name="VisibleIndex">3</property>
-            <property name="Width">369</property>
+            <property name="Width">353</property>
             <property name="ActualWidth">30*</property>
           </property>
         </property>
