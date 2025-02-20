@@ -10,25 +10,16 @@ namespace OMYA.CounterpartyApproval.Shared
   partial class ChecklistFunctions
   {
 
-    public override void ChangeDocumentPropertiesAccess(bool isEnabled, bool repeatRegister)
+    /// <summary>
+    /// Установить обязательность и видимость свойст.
+    /// </summary>
+    public void SetPropertiesAccess(Sungero.Docflow.IDocumentKind documentKind)
     {
-      base.ChangeDocumentPropertiesAccess(isEnabled, repeatRegister);
-      
       var checklistStateEnterprisesKind = Sungero.Docflow.PublicFunctions.DocumentKind.GetNativeDocumentKind(Constants.Module.Initialize.ChecklistStateEnterprisesKind);
-      var notChecklistStateEnterprisesKind = !Equals(_obj.DocumentKind, checklistStateEnterprisesKind);
+      var notChecklistStateEnterprisesKind = !Equals(documentKind, checklistStateEnterprisesKind);
       
       var prop = _obj.State.Properties;
-      prop.LeadingDocument.IsRequired = true;
-      prop.PreparedBy.IsRequired = true;
-      prop.JobTitle.IsRequired = true;
-      prop.BusinessUnit.IsRequired = true;
-      prop.FullNameCompany.IsRequired = true;
       prop.FoundationDate.IsRequired = notChecklistStateEnterprisesKind;
-      prop.TIN.IsRequired = true;
-      prop.PSRN.IsRequired = true;
-      prop.PrimaryContact.IsRequired = true;
-      prop.CompanyOwners.IsRequired = true;
-      prop.EDIOperator.IsRequired = true;
       prop.DocumentsReceivedFromSupplier.IsRequired = notChecklistStateEnterprisesKind;
       prop.SupplierRegistered.IsRequired = notChecklistStateEnterprisesKind;
       prop.SupplierRegistered18Months.IsRequired = notChecklistStateEnterprisesKind;
@@ -61,6 +52,11 @@ namespace OMYA.CounterpartyApproval.Shared
       prop.CollectionOfReviews.IsVisible = notChecklistStateEnterprisesKind;
       prop.ContactDetailsSaved.IsVisible = notChecklistStateEnterprisesKind;
       prop.FoundationDate.IsVisible = notChecklistStateEnterprisesKind;
+    }
+    
+    public override void ChangeDocumentPropertiesAccess(bool isEnabled, bool repeatRegister)
+    {
+      base.ChangeDocumentPropertiesAccess(isEnabled, repeatRegister);
     }
     
     /// <summary>

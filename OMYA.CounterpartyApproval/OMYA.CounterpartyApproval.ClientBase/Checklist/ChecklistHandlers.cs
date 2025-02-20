@@ -19,8 +19,15 @@ namespace OMYA.CounterpartyApproval
     {
       base.Refresh(e);
       
-      _obj.State.Properties.EDIOperatorOther.IsVisible = _obj.EDIOperator == EDIOperator.Other;
-      _obj.State.Properties.DocumentsReceivedFromSupplierOther.IsVisible = _obj.DocumentsReceivedFromSupplier == DocumentsReceivedFromSupplier.No;
+      var checklistStateEnterprisesKind = Sungero.Docflow.PublicFunctions.DocumentKind.GetNativeDocumentKind(Constants.Module.Initialize.ChecklistStateEnterprisesKind);
+      var notChecklistStateEnterprisesKind = !Equals(_obj.DocumentKind, checklistStateEnterprisesKind);
+      
+      var isEDIOperatorOther = _obj.EDIOperator == EDIOperator.Other;
+      var DocumentsReceivedFromSupplierOther = _obj.DocumentsReceivedFromSupplier == DocumentsReceivedFromSupplier.No && notChecklistStateEnterprisesKind;
+      _obj.State.Properties.EDIOperatorOther.IsVisible = isEDIOperatorOther;
+      _obj.State.Properties.EDIOperatorOther.IsRequired = isEDIOperatorOther;
+      _obj.State.Properties.DocumentsReceivedFromSupplierOther.IsVisible = DocumentsReceivedFromSupplierOther;
+      _obj.State.Properties.DocumentsReceivedFromSupplierOther.IsRequired = DocumentsReceivedFromSupplierOther;
     }
 
     public virtual void EDIOperatorValueInput(Sungero.Presentation.EnumerationValueInputEventArgs e)
@@ -31,11 +38,27 @@ namespace OMYA.CounterpartyApproval
     public override void DocumentKindValueInput(Sungero.Docflow.Client.OfficialDocumentDocumentKindValueInputEventArgs e)
     {
       base.DocumentKindValueInput(e);
+      
+      Functions.Checklist.SetPropertiesAccess(_obj, e.NewValue);
     }
 
     public override void Showing(Sungero.Presentation.FormShowingEventArgs e)
     {
       base.Showing(e);
+      
+      var prop = _obj.State.Properties;
+      prop.LeadingDocument.IsRequired = true;
+      prop.PreparedBy.IsRequired = true;
+      prop.JobTitle.IsRequired = true;
+      prop.BusinessUnit.IsRequired = true;
+      prop.FullNameCompany.IsRequired = true;
+      prop.TIN.IsRequired = true;
+      prop.PSRN.IsRequired = true;
+      prop.PrimaryContact.IsRequired = true;
+      prop.CompanyOwners.IsRequired = true;
+      prop.EDIOperator.IsRequired = true;
+      
+      Functions.Checklist.SetPropertiesAccess(_obj, _obj.DocumentKind);
     }
 
     public virtual void PSRNValueInput(Sungero.Presentation.StringValueInputEventArgs e)
