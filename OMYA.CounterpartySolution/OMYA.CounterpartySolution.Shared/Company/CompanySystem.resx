@@ -68,7 +68,7 @@
     <value>LLC/JSC (client)</value>
   </data>
   <data name="Enum_CounterpartyTypeOMYA_StateEnterprise" xml:space="preserve">
-    <value>State enterprises/payment of state duties (client)</value>
+    <value>State enterprises/payment of state duties</value>
   </data>
   <data name="Property_CounterpartyTypeOMYA" xml:space="preserve">
     <value>Counterparty type</value>
@@ -267,9 +267,6 @@
   </data>
   <data name="Enum_CounterpartyTypeOMYA_IndividSupplier" xml:space="preserve">
     <value>Individual entrepreneur (supplier)</value>
-  </data>
-  <data name="Enum_CounterpartyTypeOMYA_StateEnSupplier" xml:space="preserve">
-    <value>State enterprises/payment of state duties (supplier)</value>
   </data>
   <data name="Enum_CounterpartyTypeOMYA_ForeignSupplier" xml:space="preserve">
     <value>Foreign organization (supplier)</value>

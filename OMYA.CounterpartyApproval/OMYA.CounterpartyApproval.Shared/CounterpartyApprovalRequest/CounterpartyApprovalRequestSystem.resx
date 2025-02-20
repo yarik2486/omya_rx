@@ -119,7 +119,7 @@
     <value>Business unit</value>
   </data>
   <data name="Enum_CounterpartyType_StateEnterprise" xml:space="preserve">
-    <value>State enterprises/payment of state duties (client)</value>
+    <value>State enterprises/payment of state duties</value>
   </data>
   <data name="Enum_CounterpartyType_Individual" xml:space="preserve">
     <value>Individual entrepreneur (client)</value>
@@ -330,9 +330,6 @@
   </data>
   <data name="Enum_CounterpartyType_IndividSupplier" xml:space="preserve">
     <value>Individual entrepreneur (supplier)</value>
-  </data>
-  <data name="Enum_CounterpartyType_StateEnSupplier" xml:space="preserve">
-    <value>State enterprises/payment of state duties (supplier)</value>
   </data>
   <data name="Enum_CounterpartyType_ForeignSupplier" xml:space="preserve">
     <value>Foreign organization (supplier)</value>

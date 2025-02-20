@@ -328,4 +328,10 @@
   <data name="Enum_UseSubcontracting_No" xml:space="preserve">
     <value>No</value>
   </data>
+  <data name="Property_EDIOperatorOther" xml:space="preserve">
+    <value>Specify another</value>
+  </data>
+  <data name="Property_DocumentsReceivedFromSupplierOther" xml:space="preserve">
+    <value>Please indicate the reason</value>
+  </data>
 </root>

@@ -927,11 +927,6 @@
           "Code": "IndividSupplier"
         },
         {
-          "NameGuid": "820f28d5-6274-4adf-82a6-9943f161cd65",
-          "Name": "StateEnSupplier",
-          "Code": "StateEnSupplier"
-        },
-        {
           "NameGuid": "dfa98c14-4e00-496e-9d47-b5e71350e7b9",
           "Name": "ForeignSupplier",
           "Code": "ForeignSupplier"

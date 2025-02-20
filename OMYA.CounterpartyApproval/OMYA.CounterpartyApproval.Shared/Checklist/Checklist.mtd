@@ -256,6 +256,14 @@
           "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
           "NameGuid": "73a054a8-00fa-415d-a5a6-5515a111d7b9",
           "Name": "CounterpartyInformation",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 56.21
+            },
+            {
+              "Percentage": 42.31
+            }
+          ],
           "ColumnNumber": 0,
           "ColumnSpan": 1,
           "GroupType": "WithTitleNoBorder",
@@ -268,7 +276,7 @@
           "NameGuid": "75179899-947a-480c-bb44-a72610992ffe",
           "Name": "FoundationDate",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DateTimeEditorToDateTimeBinder",
           "ParentGuid": "73a054a8-00fa-415d-a5a6-5515a111d7b9",
           "PropertyGuid": "f957bb5c-acd0-404a-9045-62c5c8da6560",
@@ -281,7 +289,7 @@
           "NameGuid": "08df33bd-781c-4fd4-909d-a4695ff1b4bf",
           "Name": "FullNameCompany",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
           "HeaderLocation": "Top",
           "ParentGuid": "73a054a8-00fa-415d-a5a6-5515a111d7b9",
@@ -295,7 +303,7 @@
           "NameGuid": "394bcae3-f2df-4cc8-9498-33f49f124508",
           "Name": "TIN",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
           "ParentGuid": "73a054a8-00fa-415d-a5a6-5515a111d7b9",
           "PropertyGuid": "89764c1b-282f-4d20-a161-0ffaa838278d",
@@ -308,7 +316,7 @@
           "NameGuid": "c87f9a17-667b-4615-acd3-aafc68cfc4ad",
           "Name": "PSRN",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
           "ParentGuid": "73a054a8-00fa-415d-a5a6-5515a111d7b9",
           "PropertyGuid": "2f59d27c-8050-4403-ba16-01e38df4f049",
@@ -321,7 +329,7 @@
           "NameGuid": "24e86001-3486-4cfe-8473-dbe8593ddb13",
           "Name": "Homepage",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
           "ParentGuid": "73a054a8-00fa-415d-a5a6-5515a111d7b9",
           "PropertyGuid": "7583791c-5c9e-4b2d-82fd-2047b4dac090",
@@ -347,7 +355,7 @@
           "NameGuid": "cc960506-bce0-4c2d-8b36-abc77522316f",
           "Name": "CompanyOwners",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
           "ParentGuid": "73a054a8-00fa-415d-a5a6-5515a111d7b9",
           "PropertyGuid": "db371b11-6b26-4168-9164-506e368d95ad",
@@ -360,7 +368,7 @@
           "NameGuid": "5deb1313-1c65-43d6-8046-9a11af641c68",
           "Name": "PrimaryContact",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
           "ParentGuid": "73a054a8-00fa-415d-a5a6-5515a111d7b9",
           "PropertyGuid": "d4789c00-eb8f-4386-befa-032c99c29985",
@@ -507,6 +515,14 @@
           "$type": "Sungero.Metadata.ControlGroupMetadata, Sungero.Metadata",
           "NameGuid": "7a51af96-2949-4f4d-8881-e280bbe87b40",
           "Name": "CheckTrustworthiness",
+          "ColumnDefinitions": [
+            {
+              "Percentage": 50.0
+            },
+            {
+              "Percentage": 50.0
+            }
+          ],
           "ColumnNumber": 0,
           "ColumnSpan": 1,
           "GroupType": "WithTitleNoBorder",
@@ -533,7 +549,7 @@
           "NameGuid": "200fe27f-c6f3-4c78-b61d-b31872c5e4ef",
           "Name": "SupplierRegistered",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "HeaderLocation": "Top",
           "ParentGuid": "7a51af96-2949-4f4d-8881-e280bbe87b40",
@@ -547,7 +563,7 @@
           "NameGuid": "f2f5d91b-67af-4f41-829e-6402e2e702a0",
           "Name": "SupplierRegistered18Months",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "HeaderLocation": "Top",
           "ParentGuid": "7a51af96-2949-4f4d-8881-e280bbe87b40",
@@ -561,7 +577,7 @@
           "NameGuid": "782583a7-38cf-4f59-9023-db98350c61b2",
           "Name": "HaveWebsite",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "HeaderLocation": "Top",
           "ParentGuid": "7a51af96-2949-4f4d-8881-e280bbe87b40",
@@ -575,7 +591,7 @@
           "NameGuid": "15cff486-3e87-4bf8-b140-b844ebb574f0",
           "Name": "CEOLeast5Companies",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "HeaderLocation": "Top",
           "ParentGuid": "7a51af96-2949-4f4d-8881-e280bbe87b40",
@@ -589,7 +605,7 @@
           "NameGuid": "a529f84c-ed88-47d3-b44f-831673b9e820",
           "Name": "ResultsCheckTurnover",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "HeaderLocation": "Top",
           "ParentGuid": "7a51af96-2949-4f4d-8881-e280bbe87b40",
@@ -603,7 +619,7 @@
           "NameGuid": "ef846305-ae91-46cd-a8e1-1e504b9bb18a",
           "Name": "SupplierHasPersonnel",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "HeaderLocation": "Top",
           "ParentGuid": "7a51af96-2949-4f4d-8881-e280bbe87b40",
@@ -617,7 +633,7 @@
           "NameGuid": "fc35cc1d-a75f-4b47-998b-8d15732b7d59",
           "Name": "CheckHeadcount",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "HeaderLocation": "Top",
           "ParentGuid": "7a51af96-2949-4f4d-8881-e280bbe87b40",
@@ -631,7 +647,7 @@
           "NameGuid": "17636a30-64be-4f2e-8b61-ead38714452e",
           "Name": "IdentifiedRiskFactors",
           "ColumnNumber": 0,
-          "ColumnSpan": 1,
+          "ColumnSpan": 2,
           "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
           "HeaderLocation": "Top",
           "ParentGuid": "7a51af96-2949-4f4d-8881-e280bbe87b40",
@@ -681,15 +697,28 @@
         },
         {
           "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
-          "NameGuid": "1516dd7e-6dd9-4c7b-bcf9-6bdefb72572a",
-          "Name": "ResultsSentToManager",
-          "ColumnNumber": 0,
+          "NameGuid": "5ee630f3-1248-43fc-bb9c-1219e5df0afa",
+          "Name": "EDIOperatorOther",
+          "ColumnNumber": 1,
           "ColumnSpan": 1,
-          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+          "ParentGuid": "73a054a8-00fa-415d-a5a6-5515a111d7b9",
+          "PropertyGuid": "f9ba38b3-3af2-48e0-a904-35857f5c1315",
+          "RowNumber": 7,
+          "RowSpan": 1,
+          "Settings": []
+        },
+        {
+          "$type": "Sungero.Metadata.ControlMetadata, Sungero.Metadata",
+          "NameGuid": "399eb65f-9a36-4a3d-b0b1-941451eeebc6",
+          "Name": "DocumentsReceivedFromSupplierOther",
+          "ColumnNumber": 1,
+          "ColumnSpan": 1,
+          "DataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
           "HeaderLocation": "Top",
-          "ParentGuid": "22f52883-272b-4a7f-9a58-99386cb13cc4",
-          "PropertyGuid": "7f0aa0c4-1ff3-4e4c-86ae-ee8ad38000d0",
-          "RowNumber": 2,
+          "ParentGuid": "7a51af96-2949-4f4d-8881-e280bbe87b40",
+          "PropertyGuid": "320e798a-fee0-44c7-9b02-9f95d6a422e3",
+          "RowNumber": 0,
           "RowSpan": 1,
           "Settings": []
         }
@@ -704,7 +733,8 @@
   "HandledEvents": [
     "CreatedServer",
     "ShowingClient",
-    "BeforeSaveServer"
+    "BeforeSaveServer",
+    "RefreshClient"
   ],
   "IconResourcesKeys": [],
   "IntegrationServiceName": "CounterpartyApprovalChecklist",
@@ -873,6 +903,9 @@
           "Code": "Absent"
         }
       ],
+      "HandledEvents": [
+        "ValueInputClient"
+      ],
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
       "PreviousPropertyGuid": "db371b11-6b26-4168-9164-506e368d95ad"
     },
@@ -964,6 +997,9 @@
           "Name": "No",
           "Code": "No"
         }
+      ],
+      "HandledEvents": [
+        "ValueInputClient"
       ],
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
       "PreviousPropertyGuid": "298226f1-90ef-449d-b466-a6c3638060eb",
@@ -1218,6 +1254,23 @@
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
       "PreviousPropertyGuid": "1c9b1c4f-0b66-4f46-a399-ce0f3c6dd132",
       "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "f9ba38b3-3af2-48e0-a904-35857f5c1315",
+      "Name": "EDIOperatorOther",
+      "Code": "EDIOperatorOth",
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "7f0aa0c4-1ff3-4e4c-86ae-ee8ad38000d0"
+    },
+    {
+      "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "320e798a-fee0-44c7-9b02-9f95d6a422e3",
+      "Name": "DocumentsReceivedFromSupplierOther",
+      "Code": "DocsReceivedOt",
+      "Length": 1000,
+      "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
+      "PreviousPropertyGuid": "f9ba38b3-3af2-48e0-a904-35857f5c1315"
     }
   ],
   "PublicStructures": [],

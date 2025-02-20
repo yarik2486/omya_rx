@@ -10,6 +10,59 @@ namespace OMYA.CounterpartyApproval.Shared
   partial class ChecklistFunctions
   {
 
+    public override void ChangeDocumentPropertiesAccess(bool isEnabled, bool repeatRegister)
+    {
+      base.ChangeDocumentPropertiesAccess(isEnabled, repeatRegister);
+      
+      var checklistStateEnterprisesKind = Sungero.Docflow.PublicFunctions.DocumentKind.GetNativeDocumentKind(Constants.Module.Initialize.ChecklistStateEnterprisesKind);
+      var notChecklistStateEnterprisesKind = !Equals(_obj.DocumentKind, checklistStateEnterprisesKind);
+      
+      var prop = _obj.State.Properties;
+      prop.LeadingDocument.IsRequired = true;
+      prop.PreparedBy.IsRequired = true;
+      prop.JobTitle.IsRequired = true;
+      prop.BusinessUnit.IsRequired = true;
+      prop.FullNameCompany.IsRequired = true;
+      prop.FoundationDate.IsRequired = notChecklistStateEnterprisesKind;
+      prop.TIN.IsRequired = true;
+      prop.PSRN.IsRequired = true;
+      prop.PrimaryContact.IsRequired = true;
+      prop.CompanyOwners.IsRequired = true;
+      prop.EDIOperator.IsRequired = true;
+      prop.DocumentsReceivedFromSupplier.IsRequired = notChecklistStateEnterprisesKind;
+      prop.SupplierRegistered.IsRequired = notChecklistStateEnterprisesKind;
+      prop.SupplierRegistered18Months.IsRequired = notChecklistStateEnterprisesKind;
+      prop.HaveWebsite.IsRequired = notChecklistStateEnterprisesKind;
+      prop.CEOLeast5Companies.IsRequired = notChecklistStateEnterprisesKind;
+      prop.ResultsCheckTurnover.IsRequired = notChecklistStateEnterprisesKind;
+      prop.SupplierHasPersonnel.IsRequired = notChecklistStateEnterprisesKind;
+      prop.CheckHeadCount.IsRequired = notChecklistStateEnterprisesKind;
+      prop.IdentifiedRiskFactors.IsRequired = notChecklistStateEnterprisesKind;
+      prop.CollectionOfReviews.IsRequired = notChecklistStateEnterprisesKind;
+      prop.ContactDetailsSaved.IsRequired = notChecklistStateEnterprisesKind;
+      
+      prop.SupplierServices.IsRequired = notChecklistStateEnterprisesKind;
+      prop.AttractingReasons.IsRequired = notChecklistStateEnterprisesKind;
+      prop.MonthlyPurchase.IsRequired = notChecklistStateEnterprisesKind;
+      prop.HowSupplierFound.IsRequired = notChecklistStateEnterprisesKind;
+      prop.UseSubcontracting.IsRequired = notChecklistStateEnterprisesKind;
+      prop.LicensedActivities.IsRequired = notChecklistStateEnterprisesKind;
+      
+      prop.DocumentsReceivedFromSupplier.IsVisible = notChecklistStateEnterprisesKind;
+      prop.DocumentsReceivedFromSupplierOther.IsVisible = notChecklistStateEnterprisesKind;
+      prop.SupplierRegistered.IsVisible = notChecklistStateEnterprisesKind;
+      prop.SupplierRegistered18Months.IsVisible = notChecklistStateEnterprisesKind;
+      prop.HaveWebsite.IsVisible = notChecklistStateEnterprisesKind;
+      prop.CEOLeast5Companies.IsVisible = notChecklistStateEnterprisesKind;
+      prop.ResultsCheckTurnover.IsVisible = notChecklistStateEnterprisesKind;
+      prop.SupplierHasPersonnel.IsVisible = notChecklistStateEnterprisesKind;
+      prop.CheckHeadCount.IsVisible = notChecklistStateEnterprisesKind;
+      prop.IdentifiedRiskFactors.IsVisible = notChecklistStateEnterprisesKind;
+      prop.CollectionOfReviews.IsVisible = notChecklistStateEnterprisesKind;
+      prop.ContactDetailsSaved.IsVisible = notChecklistStateEnterprisesKind;
+      prop.FoundationDate.IsVisible = notChecklistStateEnterprisesKind;
+    }
+    
     /// <summary>
     /// Установить обязательность свойств в зависимости от заполненных данных.
     /// </summary>

@@ -16,7 +16,7 @@ namespace OMYA.CounterpartyApproval.Constants
        [Sungero.Core.Public]
        public static readonly Guid ChecklistKind = Guid.Parse("7B6C418B-9EB3-44E4-A0E1-4AA5022DA24B");
        
-       // Вид документа "Чек-лист для одобрения контрагента (государственные предприятия".
+       // Вид документа "Чек-лист для одобрения контрагента (государственные предприятия)".
        [Sungero.Core.Public]
        public static readonly Guid ChecklistStateEnterprisesKind = Guid.Parse("4DD883B3-31E4-4B6D-8BDF-B8AD6B0ECA7B");
          
