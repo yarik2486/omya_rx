@@ -258,10 +258,10 @@
           "Name": "CounterpartyInformation",
           "ColumnDefinitions": [
             {
-              "Percentage": 56.21
+              "Percentage": 57.05
             },
             {
-              "Percentage": 42.31
+              "Percentage": 42.95
             }
           ],
           "ColumnNumber": 0,

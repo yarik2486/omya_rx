@@ -39,6 +39,11 @@ namespace OMYA.CounterpartyApproval.Shared
       prop.UseSubcontracting.IsRequired = notChecklistStateEnterprisesKind;
       prop.LicensedActivities.IsRequired = notChecklistStateEnterprisesKind;
       
+      prop.AttractingReasons.IsVisible = notChecklistStateEnterprisesKind;
+      prop.MonthlyPurchase.IsVisible = notChecklistStateEnterprisesKind;
+      prop.HowSupplierFound.IsVisible = notChecklistStateEnterprisesKind;
+      prop.UseSubcontracting.IsVisible = notChecklistStateEnterprisesKind;
+      
       prop.DocumentsReceivedFromSupplier.IsVisible = notChecklistStateEnterprisesKind;
       prop.DocumentsReceivedFromSupplierOther.IsVisible = notChecklistStateEnterprisesKind;
       prop.SupplierRegistered.IsVisible = notChecklistStateEnterprisesKind;
